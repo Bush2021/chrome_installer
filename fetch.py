@@ -84,8 +84,8 @@ def decode(text):
     package_size = int(package_node.get('size'))
     package_sha1 = package_node.get('hash')
     package_sha1 = base64.b64decode(package_sha1)
-    package_sha1 = package_sha1.hex().upper()
-    package_sha256 = package_node.get('hash_sha256').upper()
+    package_sha1 = package_sha1.hex()
+    package_sha256 = package_node.get('hash_sha256')
 
     url_nodes = root.findall('.//url')
 
