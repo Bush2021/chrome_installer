@@ -107,14 +107,14 @@ def save_md():
         f.write(f'{datetime.now(timezone.utc)}\n')
         f.write('\n')
         for k, v in results.items():
-            f.write(f'# {k}\n')
-            f.write(f'version:{v["version"]}\n')
-            f.write(f'size:{v["size"]}\n')
-            f.write(f'sha1:{v["sha1"]}\n')
-            f.write(f'sha256:{v["sha256"]}\n')
+            f.write(f'# {k.replace("_", " ")}\n')
+            f.write(f'version:{v["version"]} \n')
+            f.write(f'size:{v["size"]} \n')
+            f.write(f'sha1:{v["sha1"]} \n')
+            f.write(f'sha256:{v["sha256"]} \n')
             for url in v["urls"]:
                 if url.startswith("https://dl."):
-                    f.write(f'download:[{url}]({url})\n')
+                    f.write(f'download:[{url}]({url}) \n')
 
             f.write('\n')
 
