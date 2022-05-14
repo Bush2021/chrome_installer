@@ -96,10 +96,23 @@ def decode(text):
     return {"version":manifest_version, "size":package_size, "sha1":package_sha1, "sha256":package_sha256, "urls":url_prefixes}
 
 results = {}
+
+def version_tuple(v):
+    return tuple(map(int, (v.split("."))))
+
+def load_json():
+    global results
+    with open('data.json', 'r') as f:
+        results = json.load(f)
+
 def fetch():
     for k, v in info.items():
-        t = post(**v)
-        results[k] = decode(t)
+        res = post(**v)
+        data = decode(res)
+        if version_tuple(data['version']) <= version_tuple(results[k]['version']):
+            print("ignore", k, data['version'])
+            continue
+        results[k] = data
 
 def save_md():
     with open('readme.md', 'w') as f:
@@ -121,8 +134,12 @@ def save_md():
 def save_json():
     with open('data.json', 'w') as f:
         json.dump(results, f, indent=4)
+    for k, v in results.items():
+        with open(f'{k}.json', 'w') as f:
+            json.dump(v, f, indent=4)
 
 def main():
+    load_json()
     fetch()
     save_md()
     save_json()
