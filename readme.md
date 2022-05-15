@@ -1,5 +1,5 @@
 # Automatic Generated Time
-2022-05-15 00:35:54.616152+00:00
+2022-05-15 01:12:39.747537+00:00
 
 ## win stable x86
 version:101.0.4951.67  
@@ -9,11 +9,11 @@ sha256:A562F088EB66259EACD57D1C6E1F29FDD26F470661223639DE5932F819AA2E87
 download:[https://dl.google.com/release2/chrome/bfhx7c47wivyu6dycwznz5fa44_101.0.4951.67/101.0.4951.67_chrome_installer.exe](https://dl.google.com/release2/chrome/bfhx7c47wivyu6dycwznz5fa44_101.0.4951.67/101.0.4951.67_chrome_installer.exe)  
 
 ## win stable x64
-version:101.0.4951.54  
-size:84198560  
-sha1:84ACAB3F9C940F014A0D2E4A08F5A4D409D98309  
-sha256:C96F1F924B53BB0A05CD67801744944C18A4E7E2AF2EB6F7359937CBF1777B66  
-download:[https://dl.google.com/release2/chrome/adpjwjv7dq7sdrfx4yxmznkg64ba_101.0.4951.54/101.0.4951.54_chrome_installer.exe](https://dl.google.com/release2/chrome/adpjwjv7dq7sdrfx4yxmznkg64ba_101.0.4951.54/101.0.4951.54_chrome_installer.exe)  
+version:101.0.4951.67  
+size:84213920  
+sha1:7fb90df972dd6f29d4a0ad735868bb5d62ea09c5  
+sha256:745e094d55fe6ae3d26c193d4dc4e361771162af84d3c6a5aeab6ed8af2f9346  
+download:[https://dl.google.com/release2/chrome/hfvvqpfakqpzffvakfx3nkhr74_101.0.4951.67/101.0.4951.67_chrome_installer.exe](https://dl.google.com/release2/chrome/hfvvqpfakqpzffvakfx3nkhr74_101.0.4951.67/101.0.4951.67_chrome_installer.exe)  
 
 ## win beta x86
 version:102.0.5005.49  
