@@ -1,5 +1,5 @@
 # Automatic Generated Time
-2022-05-15 01:12:39.747537+00:00
+2022-05-15 01:19:26.898364+00:00
 
 ## win stable x86
 version:101.0.4951.67  
@@ -51,11 +51,11 @@ sha256:d5cefef1661b685f3a21cc1d42992340ac81ac0cbf113fc45a1185c38fc60094
 download:[https://dl.google.com/release2/chrome/cnpdtdb72wvpnd4oiubfyeamem_104.0.5062.0/104.0.5062.0_chrome_installer.exe](https://dl.google.com/release2/chrome/cnpdtdb72wvpnd4oiubfyeamem_104.0.5062.0/104.0.5062.0_chrome_installer.exe)  
 
 ## win canary x64
-version:104.0.5062.0  
-size:85157536  
-sha1:2c0e477dbaad1a38536028362316f1d632869301  
-sha256:c3f9a05dda44bd281192a5ee3c4b83367725433fcec8fe1172e1dafdef8489db  
-download:[https://dl.google.com/release2/chrome/acgn5hq6cbch7lkttrt5lfs3jnia_104.0.5062.0/104.0.5062.0_chrome_installer.exe](https://dl.google.com/release2/chrome/acgn5hq6cbch7lkttrt5lfs3jnia_104.0.5062.0/104.0.5062.0_chrome_installer.exe)  
+version:104.0.5062.1  
+size:81961632  
+sha1:a2e1cb33a47321c198eb73e2bc14c12d4efe8d7b  
+sha256:67dd99777776f76c0c4527c9db46317f6f8f0f84852ab54eeeb4667b67c11f4f  
+download:[https://dl.google.com/release2/chrome/acex376tjt5f6ytfe7akt53266na_104.0.5062.1/104.0.5062.1_chrome_installer.exe](https://dl.google.com/release2/chrome/acex376tjt5f6ytfe7akt53266na_104.0.5062.1/104.0.5062.1_chrome_installer.exe)  
 
 ## mac stable
 version:101.0.4951.64  
