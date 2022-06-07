@@ -109,10 +109,19 @@ def fetch():
     for k, v in info.items():
         res = post(**v)
         data = decode(res)
-        if version_tuple(data['version']) <= version_tuple(results[k]['version']):
+        if version_tuple(data['version']) < version_tuple(results[k]['version']):
             print("ignore", k, data['version'])
             continue
         results[k] = data
+
+suffixes = ['B', 'KB', 'MB', 'GB', 'TB', 'PB']
+def humansize(nbytes):
+    i = 0
+    while nbytes >= 1024 and i < len(suffixes)-1:
+        nbytes /= 1024.
+        i += 1
+    f = ('%.2f' % nbytes).rstrip('0').rstrip('.')
+    return '%s %s' % (f, suffixes[i])
 
 def save_md():
     with open('readme.md', 'w') as f:
@@ -121,13 +130,13 @@ def save_md():
         f.write('\n')
         for k, v in results.items():
             f.write(f'## {k.replace("_", " ")}\n')
-            f.write(f'version:{v["version"]}  \n')
-            f.write(f'size:{v["size"]}  \n')
-            f.write(f'sha1:{v["sha1"]}  \n')
-            f.write(f'sha256:{v["sha256"]}  \n')
+            f.write(f'**version**:{v["version"]}  \n')
+            f.write(f'**size**:{humansize(v["size"])}  \n')
+            f.write(f'**sha1**:{v["sha1"]}  \n')
+            f.write(f'**sha256**:{v["sha256"]}  \n')
             for url in v["urls"]:
                 if url.startswith("https://dl."):
-                    f.write(f'download:[{url}]({url})  \n')
+                    f.write(f'**download**:[{url}]({url})  \n')
 
             f.write('\n')
 
