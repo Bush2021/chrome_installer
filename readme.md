@@ -1,5 +1,5 @@
 # Automatic Generated Time
-2022-07-10 20:11:50.906992+00:00
+2022-07-11 20:14:01.062374+00:00
 
 ## win stable x86
 **version**:103.0.5060.114  
@@ -44,18 +44,18 @@
 **download**:[https://dl.google.com/release2/chrome/pnimipoynwhusq2657m6rdwhzq_105.0.5148.2/105.0.5148.2_chrome_installer.exe](https://dl.google.com/release2/chrome/pnimipoynwhusq2657m6rdwhzq_105.0.5148.2/105.0.5148.2_chrome_installer.exe)  
 
 ## win canary x86
-**version**:105.0.5172.0  
-**size**:81.82 MB  
-**sha1**:d0888f1c09673b4399418da1ec8ae006c222a9d0  
-**sha256**:42cca8b5cd1cc8e939a79b9b52c45648af68c21f32d6eb7d78a9bf6415d69d4c  
-**download**:[https://dl.google.com/release2/chrome/aduz5iu7gv6i4vx2dt6ya7wr5afq_105.0.5172.0/105.0.5172.0_chrome_installer.exe](https://dl.google.com/release2/chrome/aduz5iu7gv6i4vx2dt6ya7wr5afq_105.0.5172.0/105.0.5172.0_chrome_installer.exe)  
+**version**:105.0.5174.0  
+**size**:81.78 MB  
+**sha1**:408ffb00569882570db00d78a7ac7510b8538b5a  
+**sha256**:470bb2caa9f9019c048344e82d9934d82e657e5c744ca67448f3e91ac7798ecf  
+**download**:[https://dl.google.com/release2/chrome/acsipkgjnwlbjyew7h47lic4cl2a_105.0.5174.0/105.0.5174.0_chrome_installer.exe](https://dl.google.com/release2/chrome/acsipkgjnwlbjyew7h47lic4cl2a_105.0.5174.0/105.0.5174.0_chrome_installer.exe)  
 
 ## win canary x64
-**version**:105.0.5172.0  
-**size**:85.56 MB  
-**sha1**:a67672d700d174fd3a53dd288e9d8ec1d3098b0e  
-**sha256**:92581187d3ab9254fe6fe2ad12d57fe935b5962892af80d14f133dc09be274a2  
-**download**:[https://dl.google.com/release2/chrome/adf76bqnfyltw75uh7uqrfnvjwqq_105.0.5172.0/105.0.5172.0_chrome_installer.exe](https://dl.google.com/release2/chrome/adf76bqnfyltw75uh7uqrfnvjwqq_105.0.5172.0/105.0.5172.0_chrome_installer.exe)  
+**version**:105.0.5174.0  
+**size**:85.42 MB  
+**sha1**:a1a10691b651dc918b11d4eddf47d9a0dff2d703  
+**sha256**:10f92df5783017b89a77150dbc9388c6fdb0138aec17b5400ebd15e989c36d44  
+**download**:[https://dl.google.com/release2/chrome/acqthe54kgs73yd2227zqdsczk7q_105.0.5174.0/105.0.5174.0_chrome_installer.exe](https://dl.google.com/release2/chrome/acqthe54kgs73yd2227zqdsczk7q_105.0.5174.0/105.0.5174.0_chrome_installer.exe)  
 
 ## mac stable
 **version**:103.0.5060.114  
@@ -79,9 +79,9 @@
 **download**:[https://dl.google.com/release2/chrome/joopsg6ls2xzzr5d5axqkck2vu_103.0.5060.114/GoogleChrome-103.0.5060.114.dmg](https://dl.google.com/release2/chrome/joopsg6ls2xzzr5d5axqkck2vu_103.0.5060.114/GoogleChrome-103.0.5060.114.dmg)  
 
 ## mac canary
-**version**:105.0.5171.0  
-**size**:192.32 MB  
-**sha1**:5739e5f23f973eaa5ce989b88e50644e5934dacc  
-**sha256**:158899a8d834c50082b5fdc9eda59f1d7dd85e81c0f0bc16ec22466b8f3e7c94  
-**download**:[https://dl.google.com/release2/chrome/oz6h2skfmektm72tc77ukwrex4_105.0.5171.0/GoogleChromeCanary-105.0.5171.0.dmg](https://dl.google.com/release2/chrome/oz6h2skfmektm72tc77ukwrex4_105.0.5171.0/GoogleChromeCanary-105.0.5171.0.dmg)  
+**version**:105.0.5173.0  
+**size**:192.37 MB  
+**sha1**:114125d4aec77bdc5b0304e9e5cdb53450f08b49  
+**sha256**:47c10248bdfa27d0f6b483df417f96c62eae1b5f5861e891015b56ab073bf311  
+**download**:[https://dl.google.com/release2/chrome/ad5vcecueuh42zb5wnn3hpq7xkfq_105.0.5173.0/GoogleChromeCanary-105.0.5173.0.dmg](https://dl.google.com/release2/chrome/ad5vcecueuh42zb5wnn3hpq7xkfq_105.0.5173.0/GoogleChromeCanary-105.0.5173.0.dmg)  
 
