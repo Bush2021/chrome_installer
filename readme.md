@@ -1,5 +1,5 @@
 # Automatic Generated Time
-2022-10-29 20:10:55.920038+00:00
+2022-10-30 20:11:22.343469+00:00
 
 ## win stable x86
 **version**:107.0.5304.87  
@@ -44,18 +44,18 @@
 **download**:[https://dl.google.com/release2/chrome/adczsggpd6urv5cf3wjq43rbuxla_108.0.5359.19/108.0.5359.19_chrome_installer.exe](https://dl.google.com/release2/chrome/adczsggpd6urv5cf3wjq43rbuxla_108.0.5359.19/108.0.5359.19_chrome_installer.exe)  
 
 ## win canary x86
-**version**:109.0.5389.0  
-**size**:85.21 MB  
-**sha1**:937391734165be44e0fe097cb1ceb08e8b2e1c50  
-**sha256**:d0a07c84cc9fdd52dbf44afb8f88d47b734b58207c306e39af7f76eae3dede64  
-**download**:[https://dl.google.com/release2/chrome/acjtx4od3ngwlja4to6x3qdn6p2a_109.0.5389.0/109.0.5389.0_chrome_installer.exe](https://dl.google.com/release2/chrome/acjtx4od3ngwlja4to6x3qdn6p2a_109.0.5389.0/109.0.5389.0_chrome_installer.exe)  
+**version**:109.0.5391.0  
+**size**:85.07 MB  
+**sha1**:ec321bbe8f782fe4d8f5629f78010c14e6ba3a53  
+**sha256**:517e3b829973a000c769ce8d5d1cdecde74fe05c8345f208de67a3364f5b5666  
+**download**:[https://dl.google.com/release2/chrome/adpdsajycmfe2bblrwinq2p6tadq_109.0.5391.0/109.0.5391.0_chrome_installer.exe](https://dl.google.com/release2/chrome/adpdsajycmfe2bblrwinq2p6tadq_109.0.5391.0/109.0.5391.0_chrome_installer.exe)  
 
 ## win canary x64
-**version**:109.0.5389.0  
+**version**:109.0.5391.0  
 **size**:88.7 MB  
-**sha1**:2b2adc4aa5cd31506fae362bb3affd950d06a241  
-**sha256**:685ffaf500415fa6c4a89c5b3e8c66ea44d235d1198c92f426bffa3410daabbf  
-**download**:[https://dl.google.com/release2/chrome/gwqqhjw2bc7o2ucgi6hzlbalym_109.0.5389.0/109.0.5389.0_chrome_installer.exe](https://dl.google.com/release2/chrome/gwqqhjw2bc7o2ucgi6hzlbalym_109.0.5389.0/109.0.5389.0_chrome_installer.exe)  
+**sha1**:556b048c332866d9e67bac977cc791f5694cf738  
+**sha256**:271a026828d6b9dab1702c3c3ee3077fa24544fc0f81d13425d5376a17e321f2  
+**download**:[https://dl.google.com/release2/chrome/acy6lh7exnlix65dzzwbd4uvivlq_109.0.5391.0/109.0.5391.0_chrome_installer.exe](https://dl.google.com/release2/chrome/acy6lh7exnlix65dzzwbd4uvivlq_109.0.5391.0/109.0.5391.0_chrome_installer.exe)  
 
 ## mac stable
 **version**:107.0.5304.87  
