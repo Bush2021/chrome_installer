@@ -1,5 +1,5 @@
 # Automatic Generated Time
-2022-11-19 20:09:38.218234+00:00
+2022-11-20 20:09:48.562687+00:00
 
 ## win stable x86
 **version**:107.0.5304.107  
@@ -79,9 +79,9 @@
 **download**:[https://dl.google.com/release2/chrome/gyq5c66icnnh5dnsuw555lm43e_107.0.5304.110/GoogleChrome-107.0.5304.110.dmg](https://dl.google.com/release2/chrome/gyq5c66icnnh5dnsuw555lm43e_107.0.5304.110/GoogleChrome-107.0.5304.110.dmg)  
 
 ## mac canary
-**version**:110.0.5427.0  
-**size**:210.42 MB  
-**sha1**:d9298bf8cc1d981e0a008577cad6499126be2272  
-**sha256**:4cac8e212441fe6691164cbe0becca53a69e8996206abad71eb23fbc67b68f32  
-**download**:[https://dl.google.com/release2/chrome/hzwjylgpsfrimmeuwektvpof3y_110.0.5427.0/GoogleChromeCanary-110.0.5427.0.dmg](https://dl.google.com/release2/chrome/hzwjylgpsfrimmeuwektvpof3y_110.0.5427.0/GoogleChromeCanary-110.0.5427.0.dmg)  
+**version**:110.0.5429.0  
+**size**:210.13 MB  
+**sha1**:d174106f3694b99210e5c4b48f1152af4aa245e9  
+**sha256**:2ccd34465bd454a04301a8e71aeb25cde62a0e0ae5d16b0543fcabbd7c1a4247  
+**download**:[https://dl.google.com/release2/chrome/hy3mfzmfw37fl2ziuebrvsagwq_110.0.5429.0/GoogleChromeCanary-110.0.5429.0.dmg](https://dl.google.com/release2/chrome/hy3mfzmfw37fl2ziuebrvsagwq_110.0.5429.0/GoogleChromeCanary-110.0.5429.0.dmg)  
 
