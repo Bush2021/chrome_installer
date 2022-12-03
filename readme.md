@@ -1,12 +1,12 @@
 # Automatic Generated Time
-2022-12-02 20:09:16.165021+00:00
+2022-12-03 20:08:21.755783+00:00
 
 ## win stable x86
-**version**:107.0.5304.122  
-**size**:84.7 MB  
-**sha1**:5d1201aa5ccd5388924eea16746ee1b04f07b59d  
-**sha256**:f9a537f8674277ed295f05f440485b5444779de32aaa463f68a9f29908e4875c  
-**download**:[https://dl.google.com/release2/chrome/bdmaxx75yoznbioqsjd4atrp2q_107.0.5304.122/107.0.5304.122_chrome_installer.exe](https://dl.google.com/release2/chrome/bdmaxx75yoznbioqsjd4atrp2q_107.0.5304.122/107.0.5304.122_chrome_installer.exe)  
+**version**:108.0.5359.73  
+**size**:84.58 MB  
+**sha1**:a67c19f66fe651856f96fc5e21d75b1be4bb4a7a  
+**sha256**:46fecfce76a29e2cd127e3a8cae1360e82f1e6a59a130b5b49b9a4debd4b0ca9  
+**download**:[https://dl.google.com/release2/chrome/f6txahnnol3c6jppecef4clczm_108.0.5359.73/108.0.5359.73_chrome_installer.exe](https://dl.google.com/release2/chrome/f6txahnnol3c6jppecef4clczm_108.0.5359.73/108.0.5359.73_chrome_installer.exe)  
 
 ## win stable x64
 **version**:107.0.5304.123  
@@ -79,9 +79,9 @@
 **download**:[https://dl.google.com/release2/chrome/g4ptsjnrvj6pnqg36zna2sixwq_108.0.5359.71/GoogleChrome-108.0.5359.71.dmg](https://dl.google.com/release2/chrome/g4ptsjnrvj6pnqg36zna2sixwq_108.0.5359.71/GoogleChrome-108.0.5359.71.dmg)  
 
 ## mac canary
-**version**:110.0.5453.0  
-**size**:207.76 MB  
-**sha1**:39869592ed5d2e60c2e0cbe903a23d99b0fa7d7b  
-**sha256**:88af723a5ba8798393d0d9b3a11ee5fd89c7c71aa21429896014e5e9a5a5a54a  
-**download**:[https://dl.google.com/release2/chrome/icdxvtox3jqwwgb5u7u2dsux5i_110.0.5453.0/GoogleChromeCanary-110.0.5453.0.dmg](https://dl.google.com/release2/chrome/icdxvtox3jqwwgb5u7u2dsux5i_110.0.5453.0/GoogleChromeCanary-110.0.5453.0.dmg)  
+**version**:110.0.5455.0  
+**size**:208.09 MB  
+**sha1**:9c6f0ddb32e164111a9a22bde849872fa0b39cbd  
+**sha256**:0a68ca5228a2a18bcc4e39156623ec31a4a43525a6c660249efcc94882f14201  
+**download**:[https://dl.google.com/release2/chrome/f6byj7f2jlajb6zntpxnpcg3mm_110.0.5455.0/GoogleChromeCanary-110.0.5455.0.dmg](https://dl.google.com/release2/chrome/f6byj7f2jlajb6zntpxnpcg3mm_110.0.5455.0/GoogleChromeCanary-110.0.5455.0.dmg)  
 
