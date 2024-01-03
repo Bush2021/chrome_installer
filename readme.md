@@ -1,6 +1,6 @@
 # Google Chrome 离线安装包（请使用 7-Zip 解压）
 最后检测更新时间
-2024-01-03 07:13:29 (UTC-5)
+2024-01-03 13:09:48 (UTC-5)
 
 ## win stable x86
 **最新版本**：120.0.6099.130  
@@ -39,14 +39,14 @@
 **下载链接**：[https://dl.google.com/release2/chrome/gr2rq5sjs3jibkp6erdsqi5h2m_122.0.6182.0/122.0.6182.0_chrome_installer.exe](https://dl.google.com/release2/chrome/gr2rq5sjs3jibkp6erdsqi5h2m_122.0.6182.0/122.0.6182.0_chrome_installer.exe)  
 
 ## win canary x86
-**最新版本**：122.0.6223.0  
-**文件大小**：96.44 MB  
-**校验值（Sha256）**：2fecbb99279f2e9e1d91ab8e461c005355c0fcaf0a0cd76811d8b8c2d036e6e5  
-**下载链接**：[https://dl.google.com/release2/chrome/nzg66yidojdibeux6vk4ex2saq_122.0.6223.0/122.0.6223.0_chrome_installer.exe](https://dl.google.com/release2/chrome/nzg66yidojdibeux6vk4ex2saq_122.0.6223.0/122.0.6223.0_chrome_installer.exe)  
+**最新版本**：122.0.6224.0  
+**文件大小**：96.15 MB  
+**校验值（Sha256）**：472ae02cae19248f6bdf9611957c5132901f7790415b4993758d8c3b693f20ce  
+**下载链接**：[https://dl.google.com/release2/chrome/icijsoyglvelue3ossvo7ucklu_122.0.6224.0/122.0.6224.0_chrome_installer.exe](https://dl.google.com/release2/chrome/icijsoyglvelue3ossvo7ucklu_122.0.6224.0/122.0.6224.0_chrome_installer.exe)  
 
 ## win canary x64
-**最新版本**：122.0.6223.0  
-**文件大小**：107.81 MB  
-**校验值（Sha256）**：da1898417ca5e0a578aa97590ce0fa5dbdbdb52c720667186243b6c6177c0b61  
-**下载链接**：[https://dl.google.com/release2/chrome/opbvxrglkzbz33256q2pe2p6da_122.0.6223.0/122.0.6223.0_chrome_installer.exe](https://dl.google.com/release2/chrome/opbvxrglkzbz33256q2pe2p6da_122.0.6223.0/122.0.6223.0_chrome_installer.exe)  
+**最新版本**：122.0.6224.0  
+**文件大小**：107.7 MB  
+**校验值（Sha256）**：ea65d1d4c62ffd04a67e135aefc35a47c44a9fb9591cb70f4ad3d9551c9f10ba  
+**下载链接**：[https://dl.google.com/release2/chrome/acszxyo5d4st4uohvwq7q3kivd6a_122.0.6224.0/122.0.6224.0_chrome_installer.exe](https://dl.google.com/release2/chrome/acszxyo5d4st4uohvwq7q3kivd6a_122.0.6224.0/122.0.6224.0_chrome_installer.exe)  
 
