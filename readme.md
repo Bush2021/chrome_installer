@@ -1,18 +1,18 @@
 # Google Chrome 离线安装包（请使用 7-Zip 解压）
 最后检测更新时间
-2024-01-03 20:04:58 (UTC-5)
+2024-01-03 20:41:58 (UTC-5)
 
 ## win stable x86
-**最新版本**：120.0.6099.131  
-**文件大小**：88.27 MB  
-**校验值（Sha256）**：c47119385f85ba91ff0c82f21525cfc629c5ac64def49008d4b35298d0ba46c9  
-**下载链接**：[https://dl.google.com/release2/chrome/adis75at5tqvtxfoe2tzvezyt3xq_120.0.6099.131/120.0.6099.131_chrome_installer.exe](https://dl.google.com/release2/chrome/adis75at5tqvtxfoe2tzvezyt3xq_120.0.6099.131/120.0.6099.131_chrome_installer.exe)  
+**最新版本**：120.0.6099.200  
+**文件大小**：88.24 MB  
+**校验值（Sha256）**：7b08df30869c635ca609851da78a9e4e6f199c6d821e55c6002a47d7461cc63d  
+**下载链接**：[https://dl.google.com/release2/chrome/j5d6tsmsmsr4437yvc2qefrrqe_120.0.6099.200/120.0.6099.200_chrome_installer.exe](https://dl.google.com/release2/chrome/j5d6tsmsmsr4437yvc2qefrrqe_120.0.6099.200/120.0.6099.200_chrome_installer.exe)  
 
 ## win stable x64
-**最新版本**：120.0.6099.131  
-**文件大小**：106.31 MB  
-**校验值（Sha256）**：767506b554d67123cde9126f2ee07f790f4824cbb293e73611c8c392b0f2a073  
-**下载链接**：[https://dl.google.com/release2/chrome/acmzeheurms6eqzv6nbup6dvlhja_120.0.6099.131/120.0.6099.131_chrome_installer.exe](https://dl.google.com/release2/chrome/acmzeheurms6eqzv6nbup6dvlhja_120.0.6099.131/120.0.6099.131_chrome_installer.exe)  
+**最新版本**：120.0.6099.200  
+**文件大小**：106.32 MB  
+**校验值（Sha256）**：26604dbf1232eb3cfca1538ab4cb4a0786f341f54d4fdab116f207392050a76d  
+**下载链接**：[https://dl.google.com/release2/chrome/ac7jhd2w4bnuetulmuou4cnwt52q_120.0.6099.200/120.0.6099.200_chrome_installer.exe](https://dl.google.com/release2/chrome/ac7jhd2w4bnuetulmuou4cnwt52q_120.0.6099.200/120.0.6099.200_chrome_installer.exe)  
 
 ## win beta x86
 **最新版本**：121.0.6167.16  
@@ -46,7 +46,7 @@
 
 ## win canary x64
 **最新版本**：122.0.6225.0  
-**文件大小**：107.8 MB  
-**校验值（Sha256）**：5a0c192e75e77a8f1d508a52b974ea1e0fcf4b0c22c50b393a2d71a25a9bf516  
-**下载链接**：[https://dl.google.com/release2/chrome/ac7ao3vk7hm7ywcegmd6taos36sq_122.0.6225.0/122.0.6225.0_chrome_installer.exe](https://dl.google.com/release2/chrome/ac7ao3vk7hm7ywcegmd6taos36sq_122.0.6225.0/122.0.6225.0_chrome_installer.exe)  
+**文件大小**：96.36 MB  
+**校验值（Sha256）**：04a3027ea0199415589b04ee427d185d00346d04a4e726c8c00a46d8a0059ecf  
+**下载链接**：[https://dl.google.com/release2/chrome/m3ffsrkgqpbr5ff7kffvlvhywy_122.0.6225.0/122.0.6225.0_chrome_installer.exe](https://dl.google.com/release2/chrome/m3ffsrkgqpbr5ff7kffvlvhywy_122.0.6225.0/122.0.6225.0_chrome_installer.exe)  
 
