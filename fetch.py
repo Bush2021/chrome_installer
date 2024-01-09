@@ -15,20 +15,20 @@ info = {
         "app": '''appid="{8A69D345-D564-463C-AFF1-A69D9E530F96}" version="" nextversion="" lang="en" brand=""  installage="-1" installdate="-1" iid="{11111111-1111-1111-1111-111111111111}"''',
     },
     "win_beta_x86": {
-        "os": '''platform="win" version="10.0" sp="" arch="x86"''',
-        "app": '''appid="{8A69D345-D564-463C-AFF1-A69D9E530F96}" version="" nextversion="" lang="en" brand=""  installage="-1" installdate="-1" iid="{11111111-1111-1111-1111-111111111111}"''',
+        "os": '''platform="win" version="10.0" arch="x86"''',
+        "app": '''appid="{8A69D345-D564-463C-AFF1-A69D9E530F96}" ap="1.1-beta"''',
     },
     "win_beta_x64": {
-        "os": '''platform="win" version="10.0" sp="" arch="x64"''',
-        "app": '''appid="{8A69D345-D564-463C-AFF1-A69D9E530F96}" version="" nextversion="" lang="en" brand=""  installage="-1" installdate="-1" iid="{11111111-1111-1111-1111-111111111111}"''',
+        "os": '''platform="win" version="10.0" arch="x64"''',
+        "app": '''appid="{8A69D345-D564-463C-AFF1-A69D9E530F96}" ap="x64-beta-multi-chrome"''',
     },
     "win_dev_x86": {
-        "os": '''platform="win" version="10.0" sp="" arch="x86"''',
-        "app": '''appid="{8A69D345-D564-463C-AFF1-A69D9E530F96}" version="" nextversion="" lang="en" brand=""  installage="-1" installdate="-1" iid="{11111111-1111-1111-1111-111111111111}"''',
+        "os": '''platform="win" version="10.0" arch="x86"''',
+        "app": '''appid="{8A69D345-D564-463C-AFF1-A69D9E530F96}" ap="2.0-dev"''',
     },
     "win_dev_x64": {
-        "os": '''platform="win" version="10.0" sp="" arch="x64"''',
-        "app": '''appid="{8A69D345-D564-463C-AFF1-A69D9E530F96}" version="" nextversion="" lang="en" brand=""  installage="-1" installdate="-1" iid="{11111111-1111-1111-1111-111111111111}"''',
+        "os": '''platform="win" version="10.0" arch="x64"''',
+        "app": '''appid="{8A69D345-D564-463C-AFF1-A69D9E530F96}" ap="x64-dev-multi-chrome"''',
     },
     "win_canary_x86": {
         "os": '''platform="win" version="10.0" arch="x86"''',
