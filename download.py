@@ -29,7 +29,7 @@ def check_update():
 def get_download_url():
     with open('data.json', 'r') as f:
         data = json.load(f)
-        download_url = data['win_stable_x64']['urls'][0]
+        download_url = data['win_stable_x64']['urls'][3]
     return download_url
 
 
@@ -47,15 +47,11 @@ def download():
                 if chunk:
                     f.write(chunk)
         print('Download complete')
+        if os.path.exists('__pycache__'):
+            os.system('rmdir /s /q __pycache__')
     else:
         print('No new version detected, skip downloading')
         return
 
 
-def clean():
-    if os.path.exists('__pycache__'):
-        os.system('rmdir /s /q __pycache__')
-
-
 download()
-clean()
