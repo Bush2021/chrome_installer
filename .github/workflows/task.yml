@@ -1,4 +1,4 @@
-name: Check Update
+name: Check Update and Upload Release
 
 on:
   workflow_dispatch:
@@ -31,3 +31,16 @@ jobs:
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         branch: ${{ github.ref }}
+
+    - name: Download Latest Stable Release
+      run: python download.py
+
+    - name: Get Tag
+      id: get_tag
+      run: echo "::set-output name=tag::$(cat last_download.txt)"
+
+    - name: Upload Release
+      uses: softprops/action-gh-release@v1
+      with:
+        tag_name: ${{ steps.get_tag.outputs.tag }}
+        files: '*.exe'
