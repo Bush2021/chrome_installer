@@ -17,6 +17,29 @@ jobs:
     - name: Check Update
       run: python fetch.py
 
+    - name: Download Latest Stable Release
+      run: python download.py
+
+    - name: Get Tag
+      id: get_tag
+      run: echo "::set-output name=tag::$(cat last_download.txt)"
+
+    - name: Check for exe files
+      id: check_files
+      run: |
+        if find . -name "*.exe" -print -quit | grep -q .; then
+          echo "::set-output name=exe_exists::true"
+        else
+          echo "::set-output name=exe_exists::false"
+        fi
+
+    - name: Upload Release
+      if: steps.check_files.outputs.exe_exists == 'true'
+      uses: softprops/action-gh-release@v1
+      with:
+        tag_name: ${{ steps.get_tag.outputs.tag }}
+        files: '*.exe'
+
     - name: Commit Files
       env:
         TZ: America/New_York
@@ -31,16 +54,3 @@ jobs:
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         branch: ${{ github.ref }}
-
-    - name: Download Latest Stable Release
-      run: python download.py
-
-    - name: Get Tag
-      id: get_tag
-      run: echo "::set-output name=tag::$(cat last_download.txt)"
-
-    - name: Upload Release
-      uses: softprops/action-gh-release@v1
-      with:
-        tag_name: ${{ steps.get_tag.outputs.tag }}
-        files: '*.exe'
