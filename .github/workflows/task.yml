@@ -1,4 +1,4 @@
-name: Check Update and Upload Release
+name: Check Update and Upload Releases
 
 on:
   workflow_dispatch:
@@ -22,15 +22,15 @@ jobs:
 
     - name: Get Tag
       id: get_tag
-      run: echo "::set-output name=tag::$(cat last_download.txt)"
+      run: echo "tag=$(cat last_download.txt)" >> $GITHUB_ENV
 
-    - name: Check for exe files
+    - name: Check for EXE Files
       id: check_files
       run: |
         if find . -name "*.exe" -print -quit | grep -q .; then
-          echo "::set-output name=exe_exists::true"
+            echo "exe_exists=true" >> $GITHUB_ENV
         else
-          echo "::set-output name=exe_exists::false"
+          echo "exe_exists=false" >> $GITHUB_ENV
         fi
 
     - name: Commit Files
@@ -49,8 +49,8 @@ jobs:
         branch: ${{ github.ref }}
 
     - name: Upload Release
-      if: steps.check_files.outputs.exe_exists == 'true'
-      uses: softprops/action-gh-release@v1
+      if: env.exe_exists == 'true'
+      uses: softprops/action-gh-release@v0.1.15
       with:
-        tag_name: ${{ steps.get_tag.outputs.tag }}
+        tag_name: ${{ env.tag }}
         files: '*.exe'
