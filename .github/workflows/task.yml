@@ -33,13 +33,6 @@ jobs:
           echo "::set-output name=exe_exists::false"
         fi
 
-    - name: Upload Release
-      if: steps.check_files.outputs.exe_exists == 'true'
-      uses: softprops/action-gh-release@v1
-      with:
-        tag_name: ${{ steps.get_tag.outputs.tag }}
-        files: '*.exe'
-
     - name: Commit Files
       env:
         TZ: America/New_York
@@ -54,3 +47,10 @@ jobs:
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         branch: ${{ github.ref }}
+
+    - name: Upload Release
+      if: steps.check_files.outputs.exe_exists == 'true'
+      uses: softprops/action-gh-release@v1
+      with:
+        tag_name: ${{ steps.get_tag.outputs.tag }}
+        files: '*.exe'
