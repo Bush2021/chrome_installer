@@ -2,7 +2,7 @@
 64位稳定版存档：<https://github.com/Bush2021/chrome_installer/releases>
 
 最后检测更新时间
-2024-01-30 07:15:22 (UTC-5)
+2024-01-30 13:11:24 (UTC-5)
 
 ## win stable x86
 **最新版本**：121.0.6167.86  
