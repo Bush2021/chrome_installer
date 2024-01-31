@@ -4,6 +4,10 @@ import os
 import requests
 
 
+def version_tuple(v):
+    return tuple(map(int, (v.split("."))))
+
+
 def get_last_download():
     try:
         with open('last_download.txt', 'r') as file:
@@ -18,7 +22,7 @@ def check_update():
     with open('data.json', 'r') as f:
         data = json.load(f)
         current_version = data['win_stable_x64']['version']
-    if last_version < current_version:
+    if version_tuple(last_version) < version_tuple(current_version):
         with open('last_download.txt', 'w') as file:
             file.write(current_version)
         return True
