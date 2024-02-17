@@ -47,7 +47,7 @@ session = requests.Session()
 
 def post(os: str, app: str) -> str:
     xml = f'''<?xml version="1.0" encoding="UTF-8"?>
-    <request protocol="3.0" updater="Omaha" updaterversion="1.3.36.352" shell_version="1.3.36.352" ismachine="0" sessionid="{11111111-1111-1111-1111-111111111111}" installsource="taggedmi" requestid="{11111111-1111-1111-1111-111111111111}" dedup="cr" domainjoined="0">
+    <request protocol="3.0" updater="Omaha" updaterversion="1.3.36.372" shell_version="1.3.36.352" ismachine="0" sessionid="{11111111-1111-1111-1111-111111111111}" installsource="taggedmi" requestid="{11111111-1111-1111-1111-111111111111}" dedup="cr" domainjoined="0">
     <hw physmemory="16" sse="1" sse2="1" sse3="1" ssse3="1" sse41="1" sse42="1" avx="1"/>
     <os {os}/>
     <app {app}>
@@ -119,19 +119,27 @@ def humansize(nbytes):
 
 
 def save_md() -> None:
+    index_url = "https://github.com/Bush2021/chrome_installer?tab=readme-ov-file#"
     with open('readme.md', 'w') as f:
         f.write(f'# Google Chrome 离线安装包（请使用 7-Zip 解压）\n')
-        f.write(f'64位稳定版存档：<https://github.com/Bush2021/chrome_installer/releases>\n\n')
+        f.write(f'稳定版存档：<https://github.com/Bush2021/chrome_installer/releases>\n\n')
         f.write(f'最后检测更新时间\n')
         now = datetime.now(timezone(timedelta(hours=-5)))
         now_str = now.strftime("%Y-%m-%d %H:%M:%S (UTC-5)")
         f.write(f'{now_str}\n\n')
-        for k, v in results.items():
-            f.write(f'## {k.replace("_", " ")}\n')
-            f.write(f'**最新版本**：{v["version"]}  \n')
-            f.write(f'**文件大小**：{humansize(v["size"])}  \n')
-            f.write(f'**校验值（Sha256）**：{v["sha256"]}  \n')
-            for url in v["urls"]:
+        f.write('\n')
+        f.write(f'## 目录\n')
+        for name in results.keys():
+            title = name.replace("_", " ")
+            link = index_url + title.replace(" ", "-")
+            f.write(f'* [{title}]({link})\n')
+        f.write('\n')
+        for name, version in results.items():
+            f.write(f'## {name.replace("_", " ")}\n')
+            f.write(f'**最新版本**：{version["version"]}  \n')
+            f.write(f'**文件大小**：{humansize(version["size"])}  \n')
+            f.write(f'**校验值（Sha256）**：{version["sha256"]}  \n')
+            for url in version["urls"]:
                 if url.startswith("https://dl."):
                     f.write(f'**下载链接**：[{url}]({url})  \n')
             f.write('\n')
@@ -140,9 +148,6 @@ def save_md() -> None:
 def save_json():
     with open('data.json', 'w') as f:
         json.dump(results, f, indent=4)
-    for k, v in results.items():
-        with open(f'{k}.json', 'w') as f:
-            json.dump(v, f, indent=4)
 
 
 def main() -> None:
