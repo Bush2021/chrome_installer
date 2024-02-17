@@ -2,18 +2,18 @@
 稳定版存档：<https://github.com/Bush2021/chrome_installer/releases>
 
 最后检测更新时间
-2024-02-16 20:36:17 (UTC-5)
+2024-02-16 20:41:24 (UTC-5)
 
 
 ## 目录
-* [ble_x86](https://github.com/Bush2021/chrome_installer?tab=readme-ov-file#ble_x86)
-* [ble_x64](https://github.com/Bush2021/chrome_installer?tab=readme-ov-file#ble_x64)
-* [a_x86](https://github.com/Bush2021/chrome_installer?tab=readme-ov-file#a_x86)
-* [a_x64](https://github.com/Bush2021/chrome_installer?tab=readme-ov-file#a_x64)
-* [_x86](https://github.com/Bush2021/chrome_installer?tab=readme-ov-file#_x86)
-* [_x64](https://github.com/Bush2021/chrome_installer?tab=readme-ov-file#_x64)
-* [ary_x86](https://github.com/Bush2021/chrome_installer?tab=readme-ov-file#ary_x86)
-* [ary_x64](https://github.com/Bush2021/chrome_installer?tab=readme-ov-file#ary_x64)
+* [win stable x86](https://github.com/Bush2021/chrome_installer?tab=readme-ov-file#win-stable-x86)
+* [win stable x64](https://github.com/Bush2021/chrome_installer?tab=readme-ov-file#win-stable-x64)
+* [win beta x86](https://github.com/Bush2021/chrome_installer?tab=readme-ov-file#win-beta-x86)
+* [win beta x64](https://github.com/Bush2021/chrome_installer?tab=readme-ov-file#win-beta-x64)
+* [win dev x86](https://github.com/Bush2021/chrome_installer?tab=readme-ov-file#win-dev-x86)
+* [win dev x64](https://github.com/Bush2021/chrome_installer?tab=readme-ov-file#win-dev-x64)
+* [win canary x86](https://github.com/Bush2021/chrome_installer?tab=readme-ov-file#win-canary-x86)
+* [win canary x64](https://github.com/Bush2021/chrome_installer?tab=readme-ov-file#win-canary-x64)
 
 ## win stable x86
 **最新版本**：121.0.6167.185  
