@@ -130,16 +130,16 @@ def save_md() -> None:
         f.write('\n')
         f.write(f'## 目录\n')
         for name in results.keys():
-            title = name[7:].replace("win-", "").replace("-", " ")
+            title = name.replace("_", " ")
             link = index_url + title.replace(" ", "-")
             f.write(f'* [{title}]({link})\n')
         f.write('\n')
-        for k, v in results.items():
-            f.write(f'## {k.replace("_", " ")}\n')
-            f.write(f'**最新版本**：{v["version"]}  \n')
-            f.write(f'**文件大小**：{humansize(v["size"])}  \n')
-            f.write(f'**校验值（Sha256）**：{v["sha256"]}  \n')
-            for url in v["urls"]:
+        for name, version in results.items():
+            f.write(f'## {name.replace("_", " ")}\n')
+            f.write(f'**最新版本**：{version["version"]}  \n')
+            f.write(f'**文件大小**：{humansize(version["size"])}  \n')
+            f.write(f'**校验值（Sha256）**：{version["sha256"]}  \n')
+            for url in version["urls"]:
                 if url.startswith("https://dl."):
                     f.write(f'**下载链接**：[{url}]({url})  \n')
             f.write('\n')
