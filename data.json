@@ -84,31 +84,31 @@
         ]
     },
     "win_canary_x86": {
-        "version": "124.0.6328.1",
-        "size": 111683120,
-        "sha1": "df092b7f7a912794e379135d28064c8f2385fa2f",
-        "sha256": "4d285154df5e31799516699c6f7535a4790fcb25cc9208cfd5e449363a32c21a",
+        "version": "124.0.6329.0",
+        "size": 101491248,
+        "sha1": "7f2cdbd23792cdc5443ccfec0aeb2387bc2218ad",
+        "sha256": "bd940ef3ea485a97f74354f39295611456042ee7a7608eb3118d0352debc0fec",
         "urls": [
-            "http://edgedl.me.gvt1.com/edgedl/release2/chrome/ad52lrgdu5dl6pt2q6pgddgxhkma_124.0.6328.1/124.0.6328.1_chrome_installer.exe",
-            "https://edgedl.me.gvt1.com/edgedl/release2/chrome/ad52lrgdu5dl6pt2q6pgddgxhkma_124.0.6328.1/124.0.6328.1_chrome_installer.exe",
-            "http://dl.google.com/release2/chrome/ad52lrgdu5dl6pt2q6pgddgxhkma_124.0.6328.1/124.0.6328.1_chrome_installer.exe",
-            "https://dl.google.com/release2/chrome/ad52lrgdu5dl6pt2q6pgddgxhkma_124.0.6328.1/124.0.6328.1_chrome_installer.exe",
-            "http://www.google.com/dl/release2/chrome/ad52lrgdu5dl6pt2q6pgddgxhkma_124.0.6328.1/124.0.6328.1_chrome_installer.exe",
-            "https://www.google.com/dl/release2/chrome/ad52lrgdu5dl6pt2q6pgddgxhkma_124.0.6328.1/124.0.6328.1_chrome_installer.exe"
+            "http://edgedl.me.gvt1.com/edgedl/release2/chrome/jsvop3uzwnajpvekbuol2u5kje_124.0.6329.0/124.0.6329.0_chrome_installer.exe",
+            "https://edgedl.me.gvt1.com/edgedl/release2/chrome/jsvop3uzwnajpvekbuol2u5kje_124.0.6329.0/124.0.6329.0_chrome_installer.exe",
+            "http://dl.google.com/release2/chrome/jsvop3uzwnajpvekbuol2u5kje_124.0.6329.0/124.0.6329.0_chrome_installer.exe",
+            "https://dl.google.com/release2/chrome/jsvop3uzwnajpvekbuol2u5kje_124.0.6329.0/124.0.6329.0_chrome_installer.exe",
+            "http://www.google.com/dl/release2/chrome/jsvop3uzwnajpvekbuol2u5kje_124.0.6329.0/124.0.6329.0_chrome_installer.exe",
+            "https://www.google.com/dl/release2/chrome/jsvop3uzwnajpvekbuol2u5kje_124.0.6329.0/124.0.6329.0_chrome_installer.exe"
         ]
     },
     "win_canary_x64": {
-        "version": "124.0.6328.0",
-        "size": 113106992,
-        "sha1": "029487e3aceb8971573a724b10c7fd057b918b69",
-        "sha256": "dd6e63bb1b0902be40b3161eda4c8c5e4619dd64e4bd87775bb3320684cebfb7",
+        "version": "124.0.6329.0",
+        "size": 113127984,
+        "sha1": "2cfff52b7bcb69e1542b02543989b7f6d3d3a203",
+        "sha256": "0b8533744853ca5c333a8d9c4a1f613c5d6a83998b2cfa15e48dbadb304cb5d9",
         "urls": [
-            "http://edgedl.me.gvt1.com/edgedl/release2/chrome/lqm677mpxi77xllj2xgscncsrq_124.0.6328.0/124.0.6328.0_chrome_installer.exe",
-            "https://edgedl.me.gvt1.com/edgedl/release2/chrome/lqm677mpxi77xllj2xgscncsrq_124.0.6328.0/124.0.6328.0_chrome_installer.exe",
-            "http://dl.google.com/release2/chrome/lqm677mpxi77xllj2xgscncsrq_124.0.6328.0/124.0.6328.0_chrome_installer.exe",
-            "https://dl.google.com/release2/chrome/lqm677mpxi77xllj2xgscncsrq_124.0.6328.0/124.0.6328.0_chrome_installer.exe",
-            "http://www.google.com/dl/release2/chrome/lqm677mpxi77xllj2xgscncsrq_124.0.6328.0/124.0.6328.0_chrome_installer.exe",
-            "https://www.google.com/dl/release2/chrome/lqm677mpxi77xllj2xgscncsrq_124.0.6328.0/124.0.6328.0_chrome_installer.exe"
+            "http://edgedl.me.gvt1.com/edgedl/release2/chrome/l5kmobyfsvymuu6jyhkzv2ikly_124.0.6329.0/124.0.6329.0_chrome_installer.exe",
+            "https://edgedl.me.gvt1.com/edgedl/release2/chrome/l5kmobyfsvymuu6jyhkzv2ikly_124.0.6329.0/124.0.6329.0_chrome_installer.exe",
+            "http://dl.google.com/release2/chrome/l5kmobyfsvymuu6jyhkzv2ikly_124.0.6329.0/124.0.6329.0_chrome_installer.exe",
+            "https://dl.google.com/release2/chrome/l5kmobyfsvymuu6jyhkzv2ikly_124.0.6329.0/124.0.6329.0_chrome_installer.exe",
+            "http://www.google.com/dl/release2/chrome/l5kmobyfsvymuu6jyhkzv2ikly_124.0.6329.0/124.0.6329.0_chrome_installer.exe",
+            "https://www.google.com/dl/release2/chrome/l5kmobyfsvymuu6jyhkzv2ikly_124.0.6329.0/124.0.6329.0_chrome_installer.exe"
         ]
     }
 }
