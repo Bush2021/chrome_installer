@@ -104,6 +104,9 @@ def fetch():
     for k, v in info.items():
         res = post(**v)
         data = decode(res)
+        if data is None:
+            print(f"Error: No data returned for {k}")
+            continue
         if version_tuple(data['version']) < version_tuple(results[k]['version']):
             print("ignore", k, data['version'])
             continue
