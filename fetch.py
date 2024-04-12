@@ -63,6 +63,10 @@ def decode(text):
     root = tree.fromstring(text)
 
     manifest_node = root.find('.//manifest')
+    if manifest_node is None:
+        print("Error: manifest_node is None")
+        return
+
     manifest_version = manifest_node.get('version')
 
     package_node = root.find('.//package')
