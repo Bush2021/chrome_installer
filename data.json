@@ -98,17 +98,17 @@
         ]
     },
     "win_canary_x64": {
-        "version": "125.0.6422.3",
-        "size": 113010224,
-        "sha1": "05b7ac49e10493d85694d30fde3075ba506b5a90",
-        "sha256": "32bd90ee07a72377b0480d972bf00563f2234528e2da6ab8ee56b8ee37787448",
+        "version": "125.0.6422.4",
+        "size": 113020464,
+        "sha1": "3037f91984ee55edf978ceb07b8692591e313d76",
+        "sha256": "86f878438f87e8c76beb4230217f00ce71d46df5828b6bb8bcd8485b8e042c10",
         "urls": [
-            "http://edgedl.me.gvt1.com/edgedl/release2/chrome/acte5yse7fbhg4kbr47dtykeo2qq_125.0.6422.3/125.0.6422.3_chrome_installer.exe",
-            "https://edgedl.me.gvt1.com/edgedl/release2/chrome/acte5yse7fbhg4kbr47dtykeo2qq_125.0.6422.3/125.0.6422.3_chrome_installer.exe",
-            "http://dl.google.com/release2/chrome/acte5yse7fbhg4kbr47dtykeo2qq_125.0.6422.3/125.0.6422.3_chrome_installer.exe",
-            "https://dl.google.com/release2/chrome/acte5yse7fbhg4kbr47dtykeo2qq_125.0.6422.3/125.0.6422.3_chrome_installer.exe",
-            "http://www.google.com/dl/release2/chrome/acte5yse7fbhg4kbr47dtykeo2qq_125.0.6422.3/125.0.6422.3_chrome_installer.exe",
-            "https://www.google.com/dl/release2/chrome/acte5yse7fbhg4kbr47dtykeo2qq_125.0.6422.3/125.0.6422.3_chrome_installer.exe"
+            "http://edgedl.me.gvt1.com/edgedl/release2/chrome/npcma55kgwqdnhmigepupexsiq_125.0.6422.4/125.0.6422.4_chrome_installer.exe",
+            "https://edgedl.me.gvt1.com/edgedl/release2/chrome/npcma55kgwqdnhmigepupexsiq_125.0.6422.4/125.0.6422.4_chrome_installer.exe",
+            "http://dl.google.com/release2/chrome/npcma55kgwqdnhmigepupexsiq_125.0.6422.4/125.0.6422.4_chrome_installer.exe",
+            "https://dl.google.com/release2/chrome/npcma55kgwqdnhmigepupexsiq_125.0.6422.4/125.0.6422.4_chrome_installer.exe",
+            "http://www.google.com/dl/release2/chrome/npcma55kgwqdnhmigepupexsiq_125.0.6422.4/125.0.6422.4_chrome_installer.exe",
+            "https://www.google.com/dl/release2/chrome/npcma55kgwqdnhmigepupexsiq_125.0.6422.4/125.0.6422.4_chrome_installer.exe"
         ]
     }
 }
