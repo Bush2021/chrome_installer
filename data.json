@@ -98,17 +98,17 @@
         ]
     },
     "win_canary_x64": {
-        "version": "126.0.6430.0",
-        "size": 113362480,
-        "sha1": "c70cddfdc27adb97e08317be70e452bda29d8539",
-        "sha256": "691d7e529d98d145a95f8b43da1bc24eaac0cef4bd1aca397d6ff6d0570a33c3",
+        "version": "126.0.6430.1",
+        "size": 148421168,
+        "sha1": "4ed6da41db08dc6961a28549fe9bfe6a8680ba5b",
+        "sha256": "6411a2f530b8f35c30e16c5a7bc2eb8cc40aebddefd30cbab060769dcded6733",
         "urls": [
-            "http://edgedl.me.gvt1.com/edgedl/release2/chrome/p7grsygnm5zkxad6cvd2cujcse_126.0.6430.0/126.0.6430.0_chrome_installer.exe",
-            "https://edgedl.me.gvt1.com/edgedl/release2/chrome/p7grsygnm5zkxad6cvd2cujcse_126.0.6430.0/126.0.6430.0_chrome_installer.exe",
-            "http://dl.google.com/release2/chrome/p7grsygnm5zkxad6cvd2cujcse_126.0.6430.0/126.0.6430.0_chrome_installer.exe",
-            "https://dl.google.com/release2/chrome/p7grsygnm5zkxad6cvd2cujcse_126.0.6430.0/126.0.6430.0_chrome_installer.exe",
-            "http://www.google.com/dl/release2/chrome/p7grsygnm5zkxad6cvd2cujcse_126.0.6430.0/126.0.6430.0_chrome_installer.exe",
-            "https://www.google.com/dl/release2/chrome/p7grsygnm5zkxad6cvd2cujcse_126.0.6430.0/126.0.6430.0_chrome_installer.exe"
+            "http://edgedl.me.gvt1.com/edgedl/release2/chrome/acb2nwpyiwjn5oevbhaurzjejpcq_126.0.6430.1/126.0.6430.1_chrome_installer.exe",
+            "https://edgedl.me.gvt1.com/edgedl/release2/chrome/acb2nwpyiwjn5oevbhaurzjejpcq_126.0.6430.1/126.0.6430.1_chrome_installer.exe",
+            "http://dl.google.com/release2/chrome/acb2nwpyiwjn5oevbhaurzjejpcq_126.0.6430.1/126.0.6430.1_chrome_installer.exe",
+            "https://dl.google.com/release2/chrome/acb2nwpyiwjn5oevbhaurzjejpcq_126.0.6430.1/126.0.6430.1_chrome_installer.exe",
+            "http://www.google.com/dl/release2/chrome/acb2nwpyiwjn5oevbhaurzjejpcq_126.0.6430.1/126.0.6430.1_chrome_installer.exe",
+            "https://www.google.com/dl/release2/chrome/acb2nwpyiwjn5oevbhaurzjejpcq_126.0.6430.1/126.0.6430.1_chrome_installer.exe"
         ]
     }
 }
