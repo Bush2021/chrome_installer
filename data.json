@@ -98,17 +98,17 @@
         ]
     },
     "win_canary_x64": {
-        "version": "126.0.6471.0",
-        "size": 114311728,
-        "sha1": "cdd908d32b2d9094029c0fa3c4faf359bd11a3df",
-        "sha256": "a25bace3b1a9b1e5114867c1560beea99ab46bb62047136e0ffe648588ebbc1d",
+        "version": "126.0.6471.1",
+        "size": 149425200,
+        "sha1": "3c4f1cb9cd26e33afd63e10b8f10fa24592aaeda",
+        "sha256": "c8fa06e195342f79181469199f9e4b888472362f5525de3366a8a8204166e42a",
         "urls": [
-            "http://edgedl.me.gvt1.com/edgedl/release2/chrome/km7lcnl345jludtb5wxva2qmoa_126.0.6471.0/126.0.6471.0_chrome_installer.exe",
-            "https://edgedl.me.gvt1.com/edgedl/release2/chrome/km7lcnl345jludtb5wxva2qmoa_126.0.6471.0/126.0.6471.0_chrome_installer.exe",
-            "http://dl.google.com/release2/chrome/km7lcnl345jludtb5wxva2qmoa_126.0.6471.0/126.0.6471.0_chrome_installer.exe",
-            "https://dl.google.com/release2/chrome/km7lcnl345jludtb5wxva2qmoa_126.0.6471.0/126.0.6471.0_chrome_installer.exe",
-            "http://www.google.com/dl/release2/chrome/km7lcnl345jludtb5wxva2qmoa_126.0.6471.0/126.0.6471.0_chrome_installer.exe",
-            "https://www.google.com/dl/release2/chrome/km7lcnl345jludtb5wxva2qmoa_126.0.6471.0/126.0.6471.0_chrome_installer.exe"
+            "http://edgedl.me.gvt1.com/edgedl/release2/chrome/pdk6twiydls2rz46ob7xpuqgzy_126.0.6471.1/126.0.6471.1_chrome_installer.exe",
+            "https://edgedl.me.gvt1.com/edgedl/release2/chrome/pdk6twiydls2rz46ob7xpuqgzy_126.0.6471.1/126.0.6471.1_chrome_installer.exe",
+            "http://dl.google.com/release2/chrome/pdk6twiydls2rz46ob7xpuqgzy_126.0.6471.1/126.0.6471.1_chrome_installer.exe",
+            "https://dl.google.com/release2/chrome/pdk6twiydls2rz46ob7xpuqgzy_126.0.6471.1/126.0.6471.1_chrome_installer.exe",
+            "http://www.google.com/dl/release2/chrome/pdk6twiydls2rz46ob7xpuqgzy_126.0.6471.1/126.0.6471.1_chrome_installer.exe",
+            "https://www.google.com/dl/release2/chrome/pdk6twiydls2rz46ob7xpuqgzy_126.0.6471.1/126.0.6471.1_chrome_installer.exe"
         ]
     }
 }
