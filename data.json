@@ -84,17 +84,17 @@
         ]
     },
     "win_canary_x86": {
-        "version": "126.0.6472.0",
-        "size": 103244848,
-        "sha1": "8755eb027e328428a6e519ecce769219a4ab073c",
-        "sha256": "25fc57525751738d24a47a1dcb13b65d729769aca34307b28a2066146bdaee2b",
+        "version": "126.0.6472.1",
+        "size": 130232368,
+        "sha1": "6b00df8a3d3d37e2fd0408f6e532c8694178562c",
+        "sha256": "794b24dc7e8fe5af40162d91d3cda122055e1e5c6dc9f32362a8f8be3664ffdb",
         "urls": [
-            "http://edgedl.me.gvt1.com/edgedl/release2/chrome/d5wdk4ml6d6ww6oqcmrjfwzzxu_126.0.6472.0/126.0.6472.0_chrome_installer.exe",
-            "https://edgedl.me.gvt1.com/edgedl/release2/chrome/d5wdk4ml6d6ww6oqcmrjfwzzxu_126.0.6472.0/126.0.6472.0_chrome_installer.exe",
-            "http://dl.google.com/release2/chrome/d5wdk4ml6d6ww6oqcmrjfwzzxu_126.0.6472.0/126.0.6472.0_chrome_installer.exe",
-            "https://dl.google.com/release2/chrome/d5wdk4ml6d6ww6oqcmrjfwzzxu_126.0.6472.0/126.0.6472.0_chrome_installer.exe",
-            "http://www.google.com/dl/release2/chrome/d5wdk4ml6d6ww6oqcmrjfwzzxu_126.0.6472.0/126.0.6472.0_chrome_installer.exe",
-            "https://www.google.com/dl/release2/chrome/d5wdk4ml6d6ww6oqcmrjfwzzxu_126.0.6472.0/126.0.6472.0_chrome_installer.exe"
+            "http://edgedl.me.gvt1.com/edgedl/release2/chrome/hwfg6sxlzca35ax4y66wrrmity_126.0.6472.1/126.0.6472.1_chrome_installer.exe",
+            "https://edgedl.me.gvt1.com/edgedl/release2/chrome/hwfg6sxlzca35ax4y66wrrmity_126.0.6472.1/126.0.6472.1_chrome_installer.exe",
+            "http://dl.google.com/release2/chrome/hwfg6sxlzca35ax4y66wrrmity_126.0.6472.1/126.0.6472.1_chrome_installer.exe",
+            "https://dl.google.com/release2/chrome/hwfg6sxlzca35ax4y66wrrmity_126.0.6472.1/126.0.6472.1_chrome_installer.exe",
+            "http://www.google.com/dl/release2/chrome/hwfg6sxlzca35ax4y66wrrmity_126.0.6472.1/126.0.6472.1_chrome_installer.exe",
+            "https://www.google.com/dl/release2/chrome/hwfg6sxlzca35ax4y66wrrmity_126.0.6472.1/126.0.6472.1_chrome_installer.exe"
         ]
     },
     "win_canary_x64": {
