@@ -98,17 +98,17 @@
         ]
     },
     "win_canary_x64": {
-        "version": "127.0.6486.0",
-        "size": 114521648,
-        "sha1": "e7bd396f60ac2f6bb244e1a90cac6264d8d4eddc",
-        "sha256": "26ce45506600d0c537636389a2c6d4c82ff3092db72688f4ff92d225dfbd05da",
+        "version": "127.0.6486.1",
+        "size": 149635632,
+        "sha1": "d3a2462e52f3d0bce0b63910f38bb445ffbf49f3",
+        "sha256": "fdfd24033f71f5386fc86aafff1b9f396161bea9b10960d0f913e83097f9f23a",
         "urls": [
-            "http://edgedl.me.gvt1.com/edgedl/release2/chrome/adqa5miaz4ipn6ulft6wzydmgbwa_127.0.6486.0/127.0.6486.0_chrome_installer.exe",
-            "https://edgedl.me.gvt1.com/edgedl/release2/chrome/adqa5miaz4ipn6ulft6wzydmgbwa_127.0.6486.0/127.0.6486.0_chrome_installer.exe",
-            "http://dl.google.com/release2/chrome/adqa5miaz4ipn6ulft6wzydmgbwa_127.0.6486.0/127.0.6486.0_chrome_installer.exe",
-            "https://dl.google.com/release2/chrome/adqa5miaz4ipn6ulft6wzydmgbwa_127.0.6486.0/127.0.6486.0_chrome_installer.exe",
-            "http://www.google.com/dl/release2/chrome/adqa5miaz4ipn6ulft6wzydmgbwa_127.0.6486.0/127.0.6486.0_chrome_installer.exe",
-            "https://www.google.com/dl/release2/chrome/adqa5miaz4ipn6ulft6wzydmgbwa_127.0.6486.0/127.0.6486.0_chrome_installer.exe"
+            "http://edgedl.me.gvt1.com/edgedl/release2/chrome/gql4fkuywj4hqijypaww3jyb4m_127.0.6486.1/127.0.6486.1_chrome_installer.exe",
+            "https://edgedl.me.gvt1.com/edgedl/release2/chrome/gql4fkuywj4hqijypaww3jyb4m_127.0.6486.1/127.0.6486.1_chrome_installer.exe",
+            "http://dl.google.com/release2/chrome/gql4fkuywj4hqijypaww3jyb4m_127.0.6486.1/127.0.6486.1_chrome_installer.exe",
+            "https://dl.google.com/release2/chrome/gql4fkuywj4hqijypaww3jyb4m_127.0.6486.1/127.0.6486.1_chrome_installer.exe",
+            "http://www.google.com/dl/release2/chrome/gql4fkuywj4hqijypaww3jyb4m_127.0.6486.1/127.0.6486.1_chrome_installer.exe",
+            "https://www.google.com/dl/release2/chrome/gql4fkuywj4hqijypaww3jyb4m_127.0.6486.1/127.0.6486.1_chrome_installer.exe"
         ]
     }
 }
