@@ -98,17 +98,17 @@
         ]
     },
     "win_canary_x64": {
-        "version": "127.0.6500.0",
-        "size": 114699824,
-        "sha1": "c59c7a2541fd10df23593dcb41243dee9d144319",
-        "sha256": "c18b595bac058ff9df8fafd299b6e1a27a0cbe0b9b1894b149e8f380f1b2af1a",
+        "version": "127.0.6500.1",
+        "size": 150405680,
+        "sha1": "35241f1e6621744b70dbe3c88d77599e221f1ff5",
+        "sha256": "f6b4419da77da27781d9edb33eea3905e6e520bc2a79fcae51c053fdde9638dc",
         "urls": [
-            "http://edgedl.me.gvt1.com/edgedl/release2/chrome/n6a23vzlyn4pg4bif2fznpwos4_127.0.6500.0/127.0.6500.0_chrome_installer.exe",
-            "https://edgedl.me.gvt1.com/edgedl/release2/chrome/n6a23vzlyn4pg4bif2fznpwos4_127.0.6500.0/127.0.6500.0_chrome_installer.exe",
-            "http://dl.google.com/release2/chrome/n6a23vzlyn4pg4bif2fznpwos4_127.0.6500.0/127.0.6500.0_chrome_installer.exe",
-            "https://dl.google.com/release2/chrome/n6a23vzlyn4pg4bif2fznpwos4_127.0.6500.0/127.0.6500.0_chrome_installer.exe",
-            "http://www.google.com/dl/release2/chrome/n6a23vzlyn4pg4bif2fznpwos4_127.0.6500.0/127.0.6500.0_chrome_installer.exe",
-            "https://www.google.com/dl/release2/chrome/n6a23vzlyn4pg4bif2fznpwos4_127.0.6500.0/127.0.6500.0_chrome_installer.exe"
+            "http://edgedl.me.gvt1.com/edgedl/release2/chrome/ofdvdezbnannuvwasjj2qiboj4_127.0.6500.1/127.0.6500.1_chrome_installer.exe",
+            "https://edgedl.me.gvt1.com/edgedl/release2/chrome/ofdvdezbnannuvwasjj2qiboj4_127.0.6500.1/127.0.6500.1_chrome_installer.exe",
+            "http://dl.google.com/release2/chrome/ofdvdezbnannuvwasjj2qiboj4_127.0.6500.1/127.0.6500.1_chrome_installer.exe",
+            "https://dl.google.com/release2/chrome/ofdvdezbnannuvwasjj2qiboj4_127.0.6500.1/127.0.6500.1_chrome_installer.exe",
+            "http://www.google.com/dl/release2/chrome/ofdvdezbnannuvwasjj2qiboj4_127.0.6500.1/127.0.6500.1_chrome_installer.exe",
+            "https://www.google.com/dl/release2/chrome/ofdvdezbnannuvwasjj2qiboj4_127.0.6500.1/127.0.6500.1_chrome_installer.exe"
         ]
     }
 }
