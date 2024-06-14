@@ -98,17 +98,17 @@
         ]
     },
     "win_canary_x64": {
-        "version": "128.0.6539.0",
-        "size": 110305840,
-        "sha1": "7464e5f736d561dce34fd761af508cc4881f4f18",
-        "sha256": "e4e7b0b021242b9af1bf73688de82525b53338158835c29a5b77a49c318432a0",
+        "version": "128.0.6539.1",
+        "size": 139874352,
+        "sha1": "d832767c66047d2d108bb2eb624b8b08849517dc",
+        "sha256": "9a3ec4c2df4538f661408c7cd1521d84dc38d2042b5380db1376a47ef6017dec",
         "urls": [
-            "http://edgedl.me.gvt1.com/edgedl/release2/chrome/acn5zjnzjte7x6nt3hesileiq3kq_128.0.6539.0/128.0.6539.0_chrome_installer.exe",
-            "https://edgedl.me.gvt1.com/edgedl/release2/chrome/acn5zjnzjte7x6nt3hesileiq3kq_128.0.6539.0/128.0.6539.0_chrome_installer.exe",
-            "http://dl.google.com/release2/chrome/acn5zjnzjte7x6nt3hesileiq3kq_128.0.6539.0/128.0.6539.0_chrome_installer.exe",
-            "https://dl.google.com/release2/chrome/acn5zjnzjte7x6nt3hesileiq3kq_128.0.6539.0/128.0.6539.0_chrome_installer.exe",
-            "http://www.google.com/dl/release2/chrome/acn5zjnzjte7x6nt3hesileiq3kq_128.0.6539.0/128.0.6539.0_chrome_installer.exe",
-            "https://www.google.com/dl/release2/chrome/acn5zjnzjte7x6nt3hesileiq3kq_128.0.6539.0/128.0.6539.0_chrome_installer.exe"
+            "http://edgedl.me.gvt1.com/edgedl/release2/chrome/othpphi2c6ccwvhtl4ucprw4sy_128.0.6539.1/128.0.6539.1_chrome_installer.exe",
+            "https://edgedl.me.gvt1.com/edgedl/release2/chrome/othpphi2c6ccwvhtl4ucprw4sy_128.0.6539.1/128.0.6539.1_chrome_installer.exe",
+            "http://dl.google.com/release2/chrome/othpphi2c6ccwvhtl4ucprw4sy_128.0.6539.1/128.0.6539.1_chrome_installer.exe",
+            "https://dl.google.com/release2/chrome/othpphi2c6ccwvhtl4ucprw4sy_128.0.6539.1/128.0.6539.1_chrome_installer.exe",
+            "http://www.google.com/dl/release2/chrome/othpphi2c6ccwvhtl4ucprw4sy_128.0.6539.1/128.0.6539.1_chrome_installer.exe",
+            "https://www.google.com/dl/release2/chrome/othpphi2c6ccwvhtl4ucprw4sy_128.0.6539.1/128.0.6539.1_chrome_installer.exe"
         ]
     }
 }
