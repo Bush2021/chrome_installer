@@ -98,17 +98,17 @@
         ]
     },
     "win_canary_x64": {
-        "version": "128.0.6604.0",
-        "size": 111594872,
-        "sha1": "9a5f541a2074def6f36ddc197655a4bccc91ac96",
-        "sha256": "40d2e9d7a0664899e2dca1a7e070ab3629a7c57f0dca4f0134323c394ac84f41",
+        "version": "128.0.6604.1",
+        "size": 141923192,
+        "sha1": "753b3ca399b97df77b622228379b8b52cc95b885",
+        "sha256": "c5fede70af8f8852a3817af4ccf6b32205adfff4431829d4255252553513a906",
         "urls": [
-            "http://edgedl.me.gvt1.com/edgedl/release2/chrome/ac2o7v7ejyi4q66g6z2zbflnvsta_128.0.6604.0/128.0.6604.0_chrome_installer.exe",
-            "https://edgedl.me.gvt1.com/edgedl/release2/chrome/ac2o7v7ejyi4q66g6z2zbflnvsta_128.0.6604.0/128.0.6604.0_chrome_installer.exe",
-            "http://dl.google.com/release2/chrome/ac2o7v7ejyi4q66g6z2zbflnvsta_128.0.6604.0/128.0.6604.0_chrome_installer.exe",
-            "https://dl.google.com/release2/chrome/ac2o7v7ejyi4q66g6z2zbflnvsta_128.0.6604.0/128.0.6604.0_chrome_installer.exe",
-            "http://www.google.com/dl/release2/chrome/ac2o7v7ejyi4q66g6z2zbflnvsta_128.0.6604.0/128.0.6604.0_chrome_installer.exe",
-            "https://www.google.com/dl/release2/chrome/ac2o7v7ejyi4q66g6z2zbflnvsta_128.0.6604.0/128.0.6604.0_chrome_installer.exe"
+            "http://edgedl.me.gvt1.com/edgedl/release2/chrome/obq5ib6pz774pnm2movouj77du_128.0.6604.1/128.0.6604.1_chrome_installer.exe",
+            "https://edgedl.me.gvt1.com/edgedl/release2/chrome/obq5ib6pz774pnm2movouj77du_128.0.6604.1/128.0.6604.1_chrome_installer.exe",
+            "http://dl.google.com/release2/chrome/obq5ib6pz774pnm2movouj77du_128.0.6604.1/128.0.6604.1_chrome_installer.exe",
+            "https://dl.google.com/release2/chrome/obq5ib6pz774pnm2movouj77du_128.0.6604.1/128.0.6604.1_chrome_installer.exe",
+            "http://www.google.com/dl/release2/chrome/obq5ib6pz774pnm2movouj77du_128.0.6604.1/128.0.6604.1_chrome_installer.exe",
+            "https://www.google.com/dl/release2/chrome/obq5ib6pz774pnm2movouj77du_128.0.6604.1/128.0.6604.1_chrome_installer.exe"
         ]
     }
 }
