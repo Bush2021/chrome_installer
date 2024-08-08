@@ -98,17 +98,17 @@
         ]
     },
     "win_canary_x64": {
-        "version": "129.0.6643.0",
-        "size": 114261368,
-        "sha1": "b5e17f7d8b9f28dbeefd3a88b382d46d60ad5b4b",
-        "sha256": "968cb136699d29e46c3b7f8759451e754f46b767aa0dcdf319986a1fceb18783",
+        "version": "129.0.6643.1",
+        "size": 144085368,
+        "sha1": "cf2ca3cd0b29492ae3629e65a3069a16b795b91a",
+        "sha256": "90758e30b0b7c79b78e70c5cfb945006c67d028b97d203eb4a8811c4296e3099",
         "urls": [
-            "http://edgedl.me.gvt1.com/edgedl/release2/chrome/acifgzyeysgcfmrzdz5t3ip63mqa_129.0.6643.0/129.0.6643.0_chrome_installer.exe",
-            "https://edgedl.me.gvt1.com/edgedl/release2/chrome/acifgzyeysgcfmrzdz5t3ip63mqa_129.0.6643.0/129.0.6643.0_chrome_installer.exe",
-            "http://dl.google.com/release2/chrome/acifgzyeysgcfmrzdz5t3ip63mqa_129.0.6643.0/129.0.6643.0_chrome_installer.exe",
-            "https://dl.google.com/release2/chrome/acifgzyeysgcfmrzdz5t3ip63mqa_129.0.6643.0/129.0.6643.0_chrome_installer.exe",
-            "http://www.google.com/dl/release2/chrome/acifgzyeysgcfmrzdz5t3ip63mqa_129.0.6643.0/129.0.6643.0_chrome_installer.exe",
-            "https://www.google.com/dl/release2/chrome/acifgzyeysgcfmrzdz5t3ip63mqa_129.0.6643.0/129.0.6643.0_chrome_installer.exe"
+            "http://edgedl.me.gvt1.com/edgedl/release2/chrome/bsbyqpfysdd4v3apddaaiidenm_129.0.6643.1/129.0.6643.1_chrome_installer.exe",
+            "https://edgedl.me.gvt1.com/edgedl/release2/chrome/bsbyqpfysdd4v3apddaaiidenm_129.0.6643.1/129.0.6643.1_chrome_installer.exe",
+            "http://dl.google.com/release2/chrome/bsbyqpfysdd4v3apddaaiidenm_129.0.6643.1/129.0.6643.1_chrome_installer.exe",
+            "https://dl.google.com/release2/chrome/bsbyqpfysdd4v3apddaaiidenm_129.0.6643.1/129.0.6643.1_chrome_installer.exe",
+            "http://www.google.com/dl/release2/chrome/bsbyqpfysdd4v3apddaaiidenm_129.0.6643.1/129.0.6643.1_chrome_installer.exe",
+            "https://www.google.com/dl/release2/chrome/bsbyqpfysdd4v3apddaaiidenm_129.0.6643.1/129.0.6643.1_chrome_installer.exe"
         ]
     }
 }
