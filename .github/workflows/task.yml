@@ -33,6 +33,15 @@ jobs:
           echo "exe_exists=false" >> $GITHUB_ENV
         fi
 
+    - name: Check if Tag Exists
+      id: check_tag
+      run: |
+        if git rev-parse "refs/tags/${{ env.tag }}" >/dev/null 2>&1; then
+          echo "tag_exists=true" >> $GITHUB_ENV
+        else
+          echo "tag_exists=false" >> $GITHUB_ENV
+        fi
+
     - name: Commit Files
       env:
         TZ: America/New_York
@@ -49,7 +58,7 @@ jobs:
         branch: ${{ github.ref }}
 
     - name: Upload Release
-      if: env.exe_exists == 'true'
+      if: env.exe_exists == 'true' && env.tag_exists == 'false'
       uses: softprops/action-gh-release@v0.1.15
       with:
         tag_name: ${{ env.tag }}
