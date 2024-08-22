@@ -1,4 +1,5 @@
 import base64
+import os
 import json
 import xml.etree.ElementTree as tree
 from datetime import datetime, timezone, timedelta
@@ -96,8 +97,16 @@ def version_tuple(v):
 
 def load_json() -> None:
     global results
-    with open('data.json', 'r') as f:
-        results = json.load(f)
+    if not os.path.exists('data.json'):
+        results = {}
+        return
+    try:
+        with open('data.json', 'r') as f:
+            results = json.load(f)
+            if not results:
+                results = {}
+    except (json.JSONDecodeError, ValueError):
+        results = {}
 
 
 def fetch():
@@ -107,7 +116,7 @@ def fetch():
         if data is None:
             print(f"Error: No data returned for {k}")
             continue
-        if version_tuple(data['version']) < version_tuple(results[k]['version']):
+        if version_tuple(data['version']) < version_tuple(results.get(k, {}).get('version', '0.0.0.0')):
             print("ignore", k, data['version'])
             continue
         results[k] = data
