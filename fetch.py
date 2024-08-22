@@ -41,13 +41,13 @@ info = {
     },
 }
 
-update_url = 'https://tools.google.com/service/update2'
+update_url = "https://tools.google.com/service/update2"
 
 session = requests.Session()
 
 
 def post(os: str, app: str) -> str:
-    xml = f'''<?xml version="1.0" encoding="UTF-8"?>
+    xml = f"""<?xml version="1.0" encoding="UTF-8"?>
     <request protocol="3.0" updater="Omaha" updaterversion="1.3.36.372" shell_version="1.3.36.352" ismachine="0" sessionid="{11111111-1111-1111-1111-111111111111}" installsource="taggedmi" requestid="{11111111-1111-1111-1111-111111111111}" dedup="cr" domainjoined="0">
     <hw physmemory="16" sse="1" sse2="1" sse3="1" ssse3="1" sse41="1" sse42="1" avx="1"/>
     <os {os}/>
@@ -55,7 +55,7 @@ def post(os: str, app: str) -> str:
     <updatecheck/>
     <data name="install" index="empty"/>
     </app>
-    </request>'''
+    </request>"""
     r = session.post(update_url, data=xml)
     return r.text
 
@@ -63,29 +63,34 @@ def post(os: str, app: str) -> str:
 def decode(text):
     root = tree.fromstring(text)
 
-    manifest_node = root.find('.//manifest')
+    manifest_node = root.find(".//manifest")
     if manifest_node is None:
         print("Error: manifest_node is None")
         return
 
-    manifest_version = manifest_node.get('version')
+    manifest_version = manifest_node.get("version")
 
-    package_node = root.find('.//package')
-    package_name = package_node.get('name')
-    package_size = int(package_node.get('size'))
-    package_sha1 = package_node.get('hash')
+    package_node = root.find(".//package")
+    package_name = package_node.get("name")
+    package_size = int(package_node.get("size"))
+    package_sha1 = package_node.get("hash")
     package_sha1 = base64.b64decode(package_sha1)
     package_sha1 = package_sha1.hex()
-    package_sha256 = package_node.get('hash_sha256')
+    package_sha256 = package_node.get("hash_sha256")
 
-    url_nodes = root.findall('.//url')
+    url_nodes = root.findall(".//url")
 
     url_prefixes = []
     for node in url_nodes:
-        url_prefixes.append(node.get('codebase') + package_name)
+        url_prefixes.append(node.get("codebase") + package_name)
 
-    return {"version": manifest_version, "size": package_size, "sha1": package_sha1, "sha256": package_sha256,
-            "urls": url_prefixes}
+    return {
+        "version": manifest_version,
+        "size": package_size,
+        "sha1": package_sha1,
+        "sha256": package_sha256,
+        "urls": url_prefixes,
+    }
 
 
 results = {}
@@ -97,11 +102,11 @@ def version_tuple(v):
 
 def load_json() -> None:
     global results
-    if not os.path.exists('data.json'):
+    if not os.path.exists("data.json"):
         results = {}
         return
     try:
-        with open('data.json', 'r') as f:
+        with open("data.json", "r") as f:
             results = json.load(f)
             if not results:
                 results = {}
@@ -116,40 +121,44 @@ def fetch():
         if data is None:
             print(f"Error: No data returned for {k}")
             continue
-        if version_tuple(data['version']) < version_tuple(results.get(k, {}).get('version', '0.0.0.0')):
-            print("ignore", k, data['version'])
+        if version_tuple(data["version"]) < version_tuple(
+            results.get(k, {}).get("version", "0.0.0.0")
+        ):
+            print("ignore", k, data["version"])
             continue
         results[k] = data
 
 
-suffixes = ['B', 'KB', 'MB', 'GB', 'TB', 'PB']
+suffixes = ["B", "KB", "MB", "GB", "TB", "PB"]
 
 
 def humansize(nbytes):
     i = 0
     while nbytes >= 1024 and i < len(suffixes) - 1:
-        nbytes /= 1024.
+        nbytes /= 1024.0
         i += 1
-    f = ('%.2f' % nbytes).rstrip('0').rstrip('.')
-    return '%s %s' % (f, suffixes[i])
+    f = ("%.2f" % nbytes).rstrip("0").rstrip(".")
+    return "%s %s" % (f, suffixes[i])
 
 
 def save_md() -> None:
     index_url = "https://github.com/Bush2021/chrome_installer?tab=readme-ov-file#"
-    with open('readme.md', 'w') as f:
-        f.write(f'# Google Chrome 离线安装包（请使用 7-Zip 解压）\n')
-        f.write(f'稳定版存档：<https://github.com/Bush2021/chrome_installer/releases>\n\n')
-        f.write(f'最后检测更新时间\n')
+    with open("readme.md", "w") as f:
+        f.write(f"# Google Chrome 离线安装包（请使用 7-Zip 解压）\n")
+        f.write(
+            f"稳定版存档：<https://github.com/Bush2021/chrome_installer/releases>\n\n"
+        )
+        f.write(f"最后检测更新时间\n")
         now = datetime.now(timezone(timedelta(hours=-4)))
         now_str = now.strftime("%Y-%m-%d %H:%M:%S (UTC-4)")
-        f.write(f'{now_str}\n\n')
-        f.write('\n')
-        f.write(f'## 目录\n')
+        f.write(f"{now_str}\n\n")
+        f.write("\n")
+        f.write(f"## 目录\n")
         for name in results.keys():
             title = name.replace("_", " ")
             link = index_url + title.replace(" ", "-")
-            f.write(f'* [{title}]({link})\n')
-        f.write('\n')
+            f.write(f"* [{title}]({link})\n")
+        f.write("\n")
         for name, version in results.items():
             f.write(f'## {name.replace("_", " ")}\n')
             f.write(f'**最新版本**：{version["version"]}  \n')
@@ -157,12 +166,12 @@ def save_md() -> None:
             f.write(f'**校验值（Sha256）**：{version["sha256"]}  \n')
             for url in version["urls"]:
                 if url.startswith("https://dl."):
-                    f.write(f'**下载链接**：[{url}]({url})  \n')
-            f.write('\n')
+                    f.write(f"**下载链接**：[{url}]({url})  \n")
+            f.write("\n")
 
 
 def save_json():
-    with open('data.json', 'w') as f:
+    with open("data.json", "w") as f:
         json.dump(results, f, indent=4)
 
 
