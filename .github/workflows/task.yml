@@ -9,7 +9,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v4.1.1
+    - uses: actions/checkout@v4
       with:
         persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal access token.
         fetch-depth: 0 # otherwise, there would be errors pushing refs to the destination repository.
@@ -59,7 +59,7 @@ jobs:
 
     - name: Upload Release
       if: env.exe_exists == 'true' && env.tag_exists == 'false'
-      uses: softprops/action-gh-release@v0.1.15
+      uses: softprops/action-gh-release@v2
       with:
         tag_name: ${{ env.tag }}
         files: '*.exe'
