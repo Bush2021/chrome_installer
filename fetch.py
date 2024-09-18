@@ -74,6 +74,7 @@ def post(os: str, app: str) -> str:
     </app>
     </request>"""
     r = session.post(update_url, data=xml)
+    r.raise_for_status()
     return r.text
 
 
@@ -90,16 +91,11 @@ def decode(text):
     package_node = root.find(".//package")
     package_name = package_node.get("name")
     package_size = int(package_node.get("size"))
-    package_sha1 = package_node.get("hash")
-    package_sha1 = base64.b64decode(package_sha1)
-    package_sha1 = package_sha1.hex()
+    package_sha1 = base64.b64decode(package_node.get("hash")).hex()
     package_sha256 = package_node.get("hash_sha256")
 
     url_nodes = root.findall(".//url")
-
-    url_prefixes = []
-    for node in url_nodes:
-        url_prefixes.append(node.get("codebase") + package_name)
+    url_prefixes = [node.get("codebase") + package_name for node in url_nodes]
 
     return {
         "version": manifest_version,
@@ -110,28 +106,21 @@ def decode(text):
     }
 
 
-results = {}
-
-
 def version_tuple(v):
-    return tuple(map(int, (v.split("."))))
+    return tuple(map(int, v.split(".")))
 
 
-def load_json() -> None:
-    global results
-    if not os.path.exists("data.json"):
-        results = {}
-        return
+def load_json(file_path="data.json"):
+    if not os.path.exists(file_path):
+        return {}
     try:
-        with open("data.json", "r") as f:
-            results = json.load(f)
-            if not results:
-                results = {}
+        with open(file_path, "r") as f:
+            return json.load(f) or {}
     except (json.JSONDecodeError, ValueError):
-        results = {}
+        return {}
 
 
-def fetch():
+def fetch(info, results):
     for k, v in info.items():
         res = post(**v)
         data = decode(res)
@@ -155,22 +144,21 @@ def humansize(nbytes):
         nbytes /= 1024.0
         i += 1
     f = ("%.2f" % nbytes).rstrip("0").rstrip(".")
-    return "%s %s" % (f, suffixes[i])
+    return f"{f} {suffixes[i]}"
 
 
-def save_md() -> None:
+def save_md(results, file_path="readme.md"):
     index_url = "https://github.com/Bush2021/chrome_installer?tab=readme-ov-file#"
-    with open("readme.md", "w") as f:
-        f.write(f"# Google Chrome 离线安装包（请使用 7-Zip 解压）\n")
+    with open(file_path, "w") as f:
+        f.write("# Google Chrome 离线安装包（请使用 7-Zip 解压）\n")
         f.write(
-            f"稳定版存档：<https://github.com/Bush2021/chrome_installer/releases>\n\n"
+            "稳定版存档：<https://github.com/Bush2021/chrome_installer/releases>\n\n"
         )
-        f.write(f"最后检测更新时间\n")
+        f.write("最后检测更新时间\n")
         now = datetime.now(timezone(timedelta(hours=-4)))
         now_str = now.strftime("%Y-%m-%d %H:%M:%S (UTC-4)")
         f.write(f"{now_str}\n\n")
-        f.write("\n")
-        f.write(f"## 目录\n")
+        f.write("## 目录\n")
         for name in results.keys():
             title = name.replace("_", " ")
             link = index_url + title.replace(" ", "-")
@@ -187,16 +175,17 @@ def save_md() -> None:
             f.write("\n")
 
 
-def save_json():
-    with open("data.json", "w") as f:
+def save_json(results, file_path="data.json"):
+    with open(file_path, "w") as f:
         json.dump(results, f, indent=4)
 
 
-def main() -> None:
-    load_json()
-    fetch()
-    save_md()
-    save_json()
+def main():
+    results = load_json()
+    fetch(info, results)
+    save_md(results)
+    save_json(results)
 
 
-main()
+if __name__ == "__main__":
+    main()
