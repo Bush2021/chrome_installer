@@ -154,17 +154,17 @@
         ]
     },
     "win_canary_arm64": {
-        "version": "131.0.6739.0",
-        "size": 121568632,
-        "sha1": "85b1157a22b7e3a8187af18d8ffeb6789693a879",
-        "sha256": "e43242c15d428f75946478756a34a0a309045ac33c47880e2a581071a7659d5e",
+        "version": "131.0.6740.0",
+        "size": 121461112,
+        "sha1": "7cb8505bbd3254412531db33e2852f43cb52f91a",
+        "sha256": "6c7295fba98ba76afb178bd042156da1acfb766cccc2fcf034579209122bb206",
         "urls": [
-            "http://edgedl.me.gvt1.com/edgedl/release2/chrome/glikkx2d5rwiq6m5sssi27akde_131.0.6739.0/131.0.6739.0_chrome_installer.exe",
-            "https://edgedl.me.gvt1.com/edgedl/release2/chrome/glikkx2d5rwiq6m5sssi27akde_131.0.6739.0/131.0.6739.0_chrome_installer.exe",
-            "http://dl.google.com/release2/chrome/glikkx2d5rwiq6m5sssi27akde_131.0.6739.0/131.0.6739.0_chrome_installer.exe",
-            "https://dl.google.com/release2/chrome/glikkx2d5rwiq6m5sssi27akde_131.0.6739.0/131.0.6739.0_chrome_installer.exe",
-            "http://www.google.com/dl/release2/chrome/glikkx2d5rwiq6m5sssi27akde_131.0.6739.0/131.0.6739.0_chrome_installer.exe",
-            "https://www.google.com/dl/release2/chrome/glikkx2d5rwiq6m5sssi27akde_131.0.6739.0/131.0.6739.0_chrome_installer.exe"
+            "http://edgedl.me.gvt1.com/edgedl/release2/chrome/elarmzpk55ytpz2lfzz2rdewu4_131.0.6740.0/131.0.6740.0_chrome_installer.exe",
+            "https://edgedl.me.gvt1.com/edgedl/release2/chrome/elarmzpk55ytpz2lfzz2rdewu4_131.0.6740.0/131.0.6740.0_chrome_installer.exe",
+            "http://dl.google.com/release2/chrome/elarmzpk55ytpz2lfzz2rdewu4_131.0.6740.0/131.0.6740.0_chrome_installer.exe",
+            "https://dl.google.com/release2/chrome/elarmzpk55ytpz2lfzz2rdewu4_131.0.6740.0/131.0.6740.0_chrome_installer.exe",
+            "http://www.google.com/dl/release2/chrome/elarmzpk55ytpz2lfzz2rdewu4_131.0.6740.0/131.0.6740.0_chrome_installer.exe",
+            "https://www.google.com/dl/release2/chrome/elarmzpk55ytpz2lfzz2rdewu4_131.0.6740.0/131.0.6740.0_chrome_installer.exe"
         ]
     }
 }
