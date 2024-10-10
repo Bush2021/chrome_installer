@@ -154,17 +154,17 @@
         ]
     },
     "win_canary_arm64": {
-        "version": "131.0.6768.0",
-        "size": 122264432,
-        "sha1": "8ec86dbe4917eccecee9a027344ccc337c0d3133",
-        "sha256": "277f7f2bef2e16de37b9834008b72777cda8c2c19b6c1b4093e7085ccbc63f00",
+        "version": "131.0.6768.1",
+        "size": 149273456,
+        "sha1": "c9b2c14efd603e759564f48697c5b5b56ef5af47",
+        "sha256": "bf51d883f9997fa92fa35cb5fc2257fb80eec54dc7c37ff0c01f6edcd35844ab",
         "urls": [
-            "http://edgedl.me.gvt1.com/edgedl/release2/chrome/iyiyws6aepnwcz7wgvtfrstf4e_131.0.6768.0/131.0.6768.0_chrome_installer.exe",
-            "https://edgedl.me.gvt1.com/edgedl/release2/chrome/iyiyws6aepnwcz7wgvtfrstf4e_131.0.6768.0/131.0.6768.0_chrome_installer.exe",
-            "http://dl.google.com/release2/chrome/iyiyws6aepnwcz7wgvtfrstf4e_131.0.6768.0/131.0.6768.0_chrome_installer.exe",
-            "https://dl.google.com/release2/chrome/iyiyws6aepnwcz7wgvtfrstf4e_131.0.6768.0/131.0.6768.0_chrome_installer.exe",
-            "http://www.google.com/dl/release2/chrome/iyiyws6aepnwcz7wgvtfrstf4e_131.0.6768.0/131.0.6768.0_chrome_installer.exe",
-            "https://www.google.com/dl/release2/chrome/iyiyws6aepnwcz7wgvtfrstf4e_131.0.6768.0/131.0.6768.0_chrome_installer.exe"
+            "http://edgedl.me.gvt1.com/edgedl/release2/chrome/pl2y7rnm2izqqsknvdvtvmtqqq_131.0.6768.1/131.0.6768.1_chrome_installer.exe",
+            "https://edgedl.me.gvt1.com/edgedl/release2/chrome/pl2y7rnm2izqqsknvdvtvmtqqq_131.0.6768.1/131.0.6768.1_chrome_installer.exe",
+            "http://dl.google.com/release2/chrome/pl2y7rnm2izqqsknvdvtvmtqqq_131.0.6768.1/131.0.6768.1_chrome_installer.exe",
+            "https://dl.google.com/release2/chrome/pl2y7rnm2izqqsknvdvtvmtqqq_131.0.6768.1/131.0.6768.1_chrome_installer.exe",
+            "http://www.google.com/dl/release2/chrome/pl2y7rnm2izqqsknvdvtvmtqqq_131.0.6768.1/131.0.6768.1_chrome_installer.exe",
+            "https://www.google.com/dl/release2/chrome/pl2y7rnm2izqqsknvdvtvmtqqq_131.0.6768.1/131.0.6768.1_chrome_installer.exe"
         ]
     }
 }
