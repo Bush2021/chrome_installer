@@ -154,17 +154,17 @@
         ]
     },
     "win_canary_arm64": {
-        "version": "131.0.6775.0",
-        "size": 122296176,
-        "sha1": "6157ad917093a7b81520c8c3efc2de6e423c3579",
-        "sha256": "0b9b6a858081ce5f4d80ad6e25868107549b4766ec65d92cb09c81ec5bf3da71",
+        "version": "131.0.6776.0",
+        "size": 122566000,
+        "sha1": "48755853a4938248bdb0253b043bd73744697699",
+        "sha256": "8107480d3e51b360435f3f2bc2d0bb9137a92bf130417c45bc7228bd8ca1624e",
         "urls": [
-            "http://edgedl.me.gvt1.com/edgedl/release2/chrome/pdvwlcvujhlxhohtdorkhvlcbm_131.0.6775.0/131.0.6775.0_chrome_installer.exe",
-            "https://edgedl.me.gvt1.com/edgedl/release2/chrome/pdvwlcvujhlxhohtdorkhvlcbm_131.0.6775.0/131.0.6775.0_chrome_installer.exe",
-            "http://dl.google.com/release2/chrome/pdvwlcvujhlxhohtdorkhvlcbm_131.0.6775.0/131.0.6775.0_chrome_installer.exe",
-            "https://dl.google.com/release2/chrome/pdvwlcvujhlxhohtdorkhvlcbm_131.0.6775.0/131.0.6775.0_chrome_installer.exe",
-            "http://www.google.com/dl/release2/chrome/pdvwlcvujhlxhohtdorkhvlcbm_131.0.6775.0/131.0.6775.0_chrome_installer.exe",
-            "https://www.google.com/dl/release2/chrome/pdvwlcvujhlxhohtdorkhvlcbm_131.0.6775.0/131.0.6775.0_chrome_installer.exe"
+            "http://edgedl.me.gvt1.com/edgedl/release2/chrome/acndtiqyzxgkpzouvit55mcw7lva_131.0.6776.0/131.0.6776.0_chrome_installer.exe",
+            "https://edgedl.me.gvt1.com/edgedl/release2/chrome/acndtiqyzxgkpzouvit55mcw7lva_131.0.6776.0/131.0.6776.0_chrome_installer.exe",
+            "http://dl.google.com/release2/chrome/acndtiqyzxgkpzouvit55mcw7lva_131.0.6776.0/131.0.6776.0_chrome_installer.exe",
+            "https://dl.google.com/release2/chrome/acndtiqyzxgkpzouvit55mcw7lva_131.0.6776.0/131.0.6776.0_chrome_installer.exe",
+            "http://www.google.com/dl/release2/chrome/acndtiqyzxgkpzouvit55mcw7lva_131.0.6776.0/131.0.6776.0_chrome_installer.exe",
+            "https://www.google.com/dl/release2/chrome/acndtiqyzxgkpzouvit55mcw7lva_131.0.6776.0/131.0.6776.0_chrome_installer.exe"
         ]
     }
 }
