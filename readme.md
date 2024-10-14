@@ -2,7 +2,7 @@
 稳定版存档：<https://github.com/Bush2021/chrome_installer/releases>
 
 最后检测更新时间
-2024-10-14 02:13:34 (UTC-4)
+2024-10-14 03:10:21 (UTC-4)
 
 ## 目录
 * [win stable x86](https://github.com/Bush2021/chrome_installer?tab=readme-ov-file#win-stable-x86)
@@ -73,16 +73,16 @@
 **下载链接**：[https://dl.google.com/release2/chrome/adw2milh6ew2vvuk2wf2shg23ddq_131.0.6768.4/131.0.6768.4_chrome_installer.exe](https://dl.google.com/release2/chrome/adw2milh6ew2vvuk2wf2shg23ddq_131.0.6768.4/131.0.6768.4_chrome_installer.exe)  
 
 ## win canary x86
-**最新版本**：131.0.6775.1  
-**文件大小**：116.77 MB  
-**校验值（Sha256）**：406eae5e8535daac4376c9671bdd004fd497a445044cb092fa43956a37387c21  
-**下载链接**：[https://dl.google.com/release2/chrome/acbsiyym642qhdjuijf44zrg2nua_131.0.6775.1/131.0.6775.1_chrome_installer.exe](https://dl.google.com/release2/chrome/acbsiyym642qhdjuijf44zrg2nua_131.0.6775.1/131.0.6775.1_chrome_installer.exe)  
+**最新版本**：131.0.6776.0  
+**文件大小**：99.12 MB  
+**校验值（Sha256）**：cadc64d47b5151cfd2c6f65099ccc879f4742e2d8376e063a9d6a21632427260  
+**下载链接**：[https://dl.google.com/release2/chrome/isufaapch4dkiohj3mroxqfvia_131.0.6776.0/131.0.6776.0_chrome_installer.exe](https://dl.google.com/release2/chrome/isufaapch4dkiohj3mroxqfvia_131.0.6776.0/131.0.6776.0_chrome_installer.exe)  
 
 ## win canary x64
-**最新版本**：131.0.6775.0  
+**最新版本**：131.0.6776.0  
 **文件大小**：110.88 MB  
-**校验值（Sha256）**：ec7ee27410b42da08e7fddf191be5ac48fe14c9493e9fd3f78f583991189d06b  
-**下载链接**：[https://dl.google.com/release2/chrome/acgcqlt36spjugsnqgh6mcpgxhcq_131.0.6775.0/131.0.6775.0_chrome_installer.exe](https://dl.google.com/release2/chrome/acgcqlt36spjugsnqgh6mcpgxhcq_131.0.6775.0/131.0.6775.0_chrome_installer.exe)  
+**校验值（Sha256）**：b3442d22b442131a97708558beb4ce2d47eff429bbfaf3d90fea910483ce881c  
+**下载链接**：[https://dl.google.com/release2/chrome/addjue7l5rmq3dzkpag2etzct2eq_131.0.6776.0/131.0.6776.0_chrome_installer.exe](https://dl.google.com/release2/chrome/addjue7l5rmq3dzkpag2etzct2eq_131.0.6776.0/131.0.6776.0_chrome_installer.exe)  
 
 ## win canary arm64
 **最新版本**：131.0.6775.0  
