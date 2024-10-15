@@ -154,17 +154,17 @@
         ]
     },
     "win_canary_arm64": {
-        "version": "131.0.6778.0",
-        "size": 122175856,
-        "sha1": "924e33264808b4f473937bea25b49c4ad4f8315e",
-        "sha256": "23f2e717f0bb53abcda05d2d2c76e4b27aa78b9dd07755399eb98549f57f2a3a",
+        "version": "131.0.6778.1",
+        "size": 149583216,
+        "sha1": "449778d41c4d97ecaec6a7810114a298558613f2",
+        "sha256": "ddd7907629f74ea69ea96398c852ac2037fc071a56e2a8eff45908f0f37000f3",
         "urls": [
-            "http://edgedl.me.gvt1.com/edgedl/release2/chrome/bfxlwqjis6pg37o3y6jjimywtu_131.0.6778.0/131.0.6778.0_chrome_installer.exe",
-            "https://edgedl.me.gvt1.com/edgedl/release2/chrome/bfxlwqjis6pg37o3y6jjimywtu_131.0.6778.0/131.0.6778.0_chrome_installer.exe",
-            "http://dl.google.com/release2/chrome/bfxlwqjis6pg37o3y6jjimywtu_131.0.6778.0/131.0.6778.0_chrome_installer.exe",
-            "https://dl.google.com/release2/chrome/bfxlwqjis6pg37o3y6jjimywtu_131.0.6778.0/131.0.6778.0_chrome_installer.exe",
-            "http://www.google.com/dl/release2/chrome/bfxlwqjis6pg37o3y6jjimywtu_131.0.6778.0/131.0.6778.0_chrome_installer.exe",
-            "https://www.google.com/dl/release2/chrome/bfxlwqjis6pg37o3y6jjimywtu_131.0.6778.0/131.0.6778.0_chrome_installer.exe"
+            "http://edgedl.me.gvt1.com/edgedl/release2/chrome/adxblrvda7brmlrexgshn2hiunva_131.0.6778.1/131.0.6778.1_chrome_installer.exe",
+            "https://edgedl.me.gvt1.com/edgedl/release2/chrome/adxblrvda7brmlrexgshn2hiunva_131.0.6778.1/131.0.6778.1_chrome_installer.exe",
+            "http://dl.google.com/release2/chrome/adxblrvda7brmlrexgshn2hiunva_131.0.6778.1/131.0.6778.1_chrome_installer.exe",
+            "https://dl.google.com/release2/chrome/adxblrvda7brmlrexgshn2hiunva_131.0.6778.1/131.0.6778.1_chrome_installer.exe",
+            "http://www.google.com/dl/release2/chrome/adxblrvda7brmlrexgshn2hiunva_131.0.6778.1/131.0.6778.1_chrome_installer.exe",
+            "https://www.google.com/dl/release2/chrome/adxblrvda7brmlrexgshn2hiunva_131.0.6778.1/131.0.6778.1_chrome_installer.exe"
         ]
     }
 }
