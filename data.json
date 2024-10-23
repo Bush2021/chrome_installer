@@ -154,17 +154,17 @@
         ]
     },
     "win_canary_arm64": {
-        "version": "132.0.6793.0",
-        "size": 122026352,
-        "sha1": "8d05e97512eec63c61e60282f1830f25bb5834bc",
-        "sha256": "f48efa3e9797ec1e847c7460d2d7aa3362ee914459d62e536d052148d2756ff0",
+        "version": "132.0.6793.1",
+        "size": 152360816,
+        "sha1": "782862915e4cd57a24d97596c757702ec0cbf703",
+        "sha256": "2b964a1cea77589f2e866272e2d8967654ef8cacbfc736d1678f3c76a0bc8eb0",
         "urls": [
-            "http://edgedl.me.gvt1.com/edgedl/release2/chrome/acfjxf2vsazsosxtilkcmpswwbya_132.0.6793.0/132.0.6793.0_chrome_installer.exe",
-            "https://edgedl.me.gvt1.com/edgedl/release2/chrome/acfjxf2vsazsosxtilkcmpswwbya_132.0.6793.0/132.0.6793.0_chrome_installer.exe",
-            "http://dl.google.com/release2/chrome/acfjxf2vsazsosxtilkcmpswwbya_132.0.6793.0/132.0.6793.0_chrome_installer.exe",
-            "https://dl.google.com/release2/chrome/acfjxf2vsazsosxtilkcmpswwbya_132.0.6793.0/132.0.6793.0_chrome_installer.exe",
-            "http://www.google.com/dl/release2/chrome/acfjxf2vsazsosxtilkcmpswwbya_132.0.6793.0/132.0.6793.0_chrome_installer.exe",
-            "https://www.google.com/dl/release2/chrome/acfjxf2vsazsosxtilkcmpswwbya_132.0.6793.0/132.0.6793.0_chrome_installer.exe"
+            "http://edgedl.me.gvt1.com/edgedl/release2/chrome/cmeckwg2anpi747tfcuztlrruu_132.0.6793.1/132.0.6793.1_chrome_installer.exe",
+            "https://edgedl.me.gvt1.com/edgedl/release2/chrome/cmeckwg2anpi747tfcuztlrruu_132.0.6793.1/132.0.6793.1_chrome_installer.exe",
+            "http://dl.google.com/release2/chrome/cmeckwg2anpi747tfcuztlrruu_132.0.6793.1/132.0.6793.1_chrome_installer.exe",
+            "https://dl.google.com/release2/chrome/cmeckwg2anpi747tfcuztlrruu_132.0.6793.1/132.0.6793.1_chrome_installer.exe",
+            "http://www.google.com/dl/release2/chrome/cmeckwg2anpi747tfcuztlrruu_132.0.6793.1/132.0.6793.1_chrome_installer.exe",
+            "https://www.google.com/dl/release2/chrome/cmeckwg2anpi747tfcuztlrruu_132.0.6793.1/132.0.6793.1_chrome_installer.exe"
         ]
     }
 }
