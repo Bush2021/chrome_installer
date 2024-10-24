@@ -154,17 +154,17 @@
         ]
     },
     "win_canary_arm64": {
-        "version": "132.0.6796.0",
-        "size": 122156912,
-        "sha1": "0d384d7d5f7b68971d88cf43013a15bd0af919d9",
-        "sha256": "b18de47795e2275b0cd4080915581d71cfe6346325d1e52339cc7493faa281a7",
+        "version": "132.0.6796.1",
+        "size": 152399728,
+        "sha1": "1b4c46593348bd5a1367c503581ffcb761aba4ee",
+        "sha256": "df7dfdf1de980882d23e3570827f9d4216aec901de81b321a9cdb8495974060b",
         "urls": [
-            "http://edgedl.me.gvt1.com/edgedl/release2/chrome/ad3n6er6nqxsik426ql2gdudl3oa_132.0.6796.0/132.0.6796.0_chrome_installer.exe",
-            "https://edgedl.me.gvt1.com/edgedl/release2/chrome/ad3n6er6nqxsik426ql2gdudl3oa_132.0.6796.0/132.0.6796.0_chrome_installer.exe",
-            "http://dl.google.com/release2/chrome/ad3n6er6nqxsik426ql2gdudl3oa_132.0.6796.0/132.0.6796.0_chrome_installer.exe",
-            "https://dl.google.com/release2/chrome/ad3n6er6nqxsik426ql2gdudl3oa_132.0.6796.0/132.0.6796.0_chrome_installer.exe",
-            "http://www.google.com/dl/release2/chrome/ad3n6er6nqxsik426ql2gdudl3oa_132.0.6796.0/132.0.6796.0_chrome_installer.exe",
-            "https://www.google.com/dl/release2/chrome/ad3n6er6nqxsik426ql2gdudl3oa_132.0.6796.0/132.0.6796.0_chrome_installer.exe"
+            "http://edgedl.me.gvt1.com/edgedl/release2/chrome/dafug4whob3lgwhfc5sknlabpu_132.0.6796.1/132.0.6796.1_chrome_installer.exe",
+            "https://edgedl.me.gvt1.com/edgedl/release2/chrome/dafug4whob3lgwhfc5sknlabpu_132.0.6796.1/132.0.6796.1_chrome_installer.exe",
+            "http://dl.google.com/release2/chrome/dafug4whob3lgwhfc5sknlabpu_132.0.6796.1/132.0.6796.1_chrome_installer.exe",
+            "https://dl.google.com/release2/chrome/dafug4whob3lgwhfc5sknlabpu_132.0.6796.1/132.0.6796.1_chrome_installer.exe",
+            "http://www.google.com/dl/release2/chrome/dafug4whob3lgwhfc5sknlabpu_132.0.6796.1/132.0.6796.1_chrome_installer.exe",
+            "https://www.google.com/dl/release2/chrome/dafug4whob3lgwhfc5sknlabpu_132.0.6796.1/132.0.6796.1_chrome_installer.exe"
         ]
     }
 }
