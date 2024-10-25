@@ -154,17 +154,17 @@
         ]
     },
     "win_canary_arm64": {
-        "version": "132.0.6796.1",
-        "size": 152399728,
-        "sha1": "1b4c46593348bd5a1367c503581ffcb761aba4ee",
-        "sha256": "df7dfdf1de980882d23e3570827f9d4216aec901de81b321a9cdb8495974060b",
+        "version": "132.0.6797.0",
+        "size": 122266480,
+        "sha1": "4a9c60aea554847736254ec4cab9d0ed3e72a8d9",
+        "sha256": "6ffb6a0fd4832be8acf98d3a8d34537d85db108991490381c57c1f4347ba1a11",
         "urls": [
-            "http://edgedl.me.gvt1.com/edgedl/release2/chrome/dafug4whob3lgwhfc5sknlabpu_132.0.6796.1/132.0.6796.1_chrome_installer.exe",
-            "https://edgedl.me.gvt1.com/edgedl/release2/chrome/dafug4whob3lgwhfc5sknlabpu_132.0.6796.1/132.0.6796.1_chrome_installer.exe",
-            "http://dl.google.com/release2/chrome/dafug4whob3lgwhfc5sknlabpu_132.0.6796.1/132.0.6796.1_chrome_installer.exe",
-            "https://dl.google.com/release2/chrome/dafug4whob3lgwhfc5sknlabpu_132.0.6796.1/132.0.6796.1_chrome_installer.exe",
-            "http://www.google.com/dl/release2/chrome/dafug4whob3lgwhfc5sknlabpu_132.0.6796.1/132.0.6796.1_chrome_installer.exe",
-            "https://www.google.com/dl/release2/chrome/dafug4whob3lgwhfc5sknlabpu_132.0.6796.1/132.0.6796.1_chrome_installer.exe"
+            "http://edgedl.me.gvt1.com/edgedl/release2/chrome/nxpqx77pj2tmezoamnn6kdrlpq_132.0.6797.0/132.0.6797.0_chrome_installer.exe",
+            "https://edgedl.me.gvt1.com/edgedl/release2/chrome/nxpqx77pj2tmezoamnn6kdrlpq_132.0.6797.0/132.0.6797.0_chrome_installer.exe",
+            "http://dl.google.com/release2/chrome/nxpqx77pj2tmezoamnn6kdrlpq_132.0.6797.0/132.0.6797.0_chrome_installer.exe",
+            "https://dl.google.com/release2/chrome/nxpqx77pj2tmezoamnn6kdrlpq_132.0.6797.0/132.0.6797.0_chrome_installer.exe",
+            "http://www.google.com/dl/release2/chrome/nxpqx77pj2tmezoamnn6kdrlpq_132.0.6797.0/132.0.6797.0_chrome_installer.exe",
+            "https://www.google.com/dl/release2/chrome/nxpqx77pj2tmezoamnn6kdrlpq_132.0.6797.0/132.0.6797.0_chrome_installer.exe"
         ]
     }
 }
