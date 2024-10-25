@@ -154,17 +154,17 @@
         ]
     },
     "win_canary_arm64": {
-        "version": "132.0.6798.0",
-        "size": 122192752,
-        "sha1": "031fd00d98705a6fd16bc02904d5db7fc1242bc1",
-        "sha256": "1ebf15a8b7d134460c27dd77726fc9f0c4599a017ada202346bc5b0871659637",
+        "version": "132.0.6798.1",
+        "size": 152427888,
+        "sha1": "401ecbf1666cf04f0ffeccd84bbac49ca0babd2d",
+        "sha256": "ed3ef920ed12b69db1b28007a0e1f1e368f23dea705ce0305562d082b077c4d2",
         "urls": [
-            "http://edgedl.me.gvt1.com/edgedl/release2/chrome/itaf6pn5o3ccayhkjem3bhsv2y_132.0.6798.0/132.0.6798.0_chrome_installer.exe",
-            "https://edgedl.me.gvt1.com/edgedl/release2/chrome/itaf6pn5o3ccayhkjem3bhsv2y_132.0.6798.0/132.0.6798.0_chrome_installer.exe",
-            "http://dl.google.com/release2/chrome/itaf6pn5o3ccayhkjem3bhsv2y_132.0.6798.0/132.0.6798.0_chrome_installer.exe",
-            "https://dl.google.com/release2/chrome/itaf6pn5o3ccayhkjem3bhsv2y_132.0.6798.0/132.0.6798.0_chrome_installer.exe",
-            "http://www.google.com/dl/release2/chrome/itaf6pn5o3ccayhkjem3bhsv2y_132.0.6798.0/132.0.6798.0_chrome_installer.exe",
-            "https://www.google.com/dl/release2/chrome/itaf6pn5o3ccayhkjem3bhsv2y_132.0.6798.0/132.0.6798.0_chrome_installer.exe"
+            "http://edgedl.me.gvt1.com/edgedl/release2/chrome/o7xp22aoxwy5zcd53qa7asti5e_132.0.6798.1/132.0.6798.1_chrome_installer.exe",
+            "https://edgedl.me.gvt1.com/edgedl/release2/chrome/o7xp22aoxwy5zcd53qa7asti5e_132.0.6798.1/132.0.6798.1_chrome_installer.exe",
+            "http://dl.google.com/release2/chrome/o7xp22aoxwy5zcd53qa7asti5e_132.0.6798.1/132.0.6798.1_chrome_installer.exe",
+            "https://dl.google.com/release2/chrome/o7xp22aoxwy5zcd53qa7asti5e_132.0.6798.1/132.0.6798.1_chrome_installer.exe",
+            "http://www.google.com/dl/release2/chrome/o7xp22aoxwy5zcd53qa7asti5e_132.0.6798.1/132.0.6798.1_chrome_installer.exe",
+            "https://www.google.com/dl/release2/chrome/o7xp22aoxwy5zcd53qa7asti5e_132.0.6798.1/132.0.6798.1_chrome_installer.exe"
         ]
     }
 }
