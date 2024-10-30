@@ -2,7 +2,7 @@
 稳定版存档：<https://github.com/Bush2021/chrome_installer/releases>
 
 最后检测更新时间
-2024-10-30 15:07:52 (UTC-4)
+2024-10-30 16:10:16 (UTC-4)
 
 ## 目录
 * [win stable x86](https://github.com/Bush2021/chrome_installer?tab=readme-ov-file#win-stable-x86)
@@ -73,16 +73,16 @@
 **下载链接**：[https://dl.google.com/release2/chrome/cgd7jvxxv463kpiphtdlfv64oa_132.0.6793.2/132.0.6793.2_chrome_installer.exe](https://dl.google.com/release2/chrome/cgd7jvxxv463kpiphtdlfv64oa_132.0.6793.2/132.0.6793.2_chrome_installer.exe)  
 
 ## win canary x86
-**最新版本**：132.0.6807.0  
-**文件大小**：99.16 MB  
-**校验值（Sha256）**：8384fd250ade7d5cbbc2d8045f793abaa3bd9e9bddeb91c6eeae50624c2c5f23  
-**下载链接**：[https://dl.google.com/release2/chrome/a3y2g4ugz4qkmgpvrouwjxjxze_132.0.6807.0/132.0.6807.0_chrome_installer.exe](https://dl.google.com/release2/chrome/a3y2g4ugz4qkmgpvrouwjxjxze_132.0.6807.0/132.0.6807.0_chrome_installer.exe)  
+**最新版本**：132.0.6808.0  
+**文件大小**：99.18 MB  
+**校验值（Sha256）**：487a223754ad21cccc4edb9eff1e83464af640fa7dcf6ba481510f811287a5cb  
+**下载链接**：[https://dl.google.com/release2/chrome/kysxclgwgzsgcx2iulfx323xau_132.0.6808.0/132.0.6808.0_chrome_installer.exe](https://dl.google.com/release2/chrome/kysxclgwgzsgcx2iulfx323xau_132.0.6808.0/132.0.6808.0_chrome_installer.exe)  
 
 ## win canary x64
-**最新版本**：132.0.6807.0  
-**文件大小**：110.82 MB  
-**校验值（Sha256）**：4777a03e426435f6298cc2b4eb5d1da6f9baae7092d66d44e89fabe2bfcddd28  
-**下载链接**：[https://dl.google.com/release2/chrome/iva3qqzxnud26npukmvzyjjf5a_132.0.6807.0/132.0.6807.0_chrome_installer.exe](https://dl.google.com/release2/chrome/iva3qqzxnud26npukmvzyjjf5a_132.0.6807.0/132.0.6807.0_chrome_installer.exe)  
+**最新版本**：132.0.6808.0  
+**文件大小**：110.97 MB  
+**校验值（Sha256）**：9b0d24c873c5134fc3e2a0baade5c765cf861e1fa06b5eb7ff49e0118054f93e  
+**下载链接**：[https://dl.google.com/release2/chrome/oixvuavnmi5pwcjuzw7ekeuovq_132.0.6808.0/132.0.6808.0_chrome_installer.exe](https://dl.google.com/release2/chrome/oixvuavnmi5pwcjuzw7ekeuovq_132.0.6808.0/132.0.6808.0_chrome_installer.exe)  
 
 ## win canary arm64
 **最新版本**：132.0.6804.1  
