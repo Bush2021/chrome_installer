@@ -154,17 +154,17 @@
         ]
     },
     "win_canary_arm64": {
-        "version": "132.0.6809.0",
-        "size": 122205552,
-        "sha1": "043ee132efec794be5f7e93fea73e06d4b359487",
-        "sha256": "e60fe627197df2329b8cb71e67d34b8ae7450418aecbd6803d8374e7eb9f1c4e",
+        "version": "132.0.6809.1",
+        "size": 152500080,
+        "sha1": "1a46beea7d8c8ed2318a743b1f4494ce05dec9c1",
+        "sha256": "5c82a636e6137efc6cfb063925d8df91a91e22cf4ca012d62a6567a32b55414b",
         "urls": [
-            "http://edgedl.me.gvt1.com/edgedl/release2/chrome/adaca4fcggqqv76kuw3tgudlh2iq_132.0.6809.0/132.0.6809.0_chrome_installer.exe",
-            "https://edgedl.me.gvt1.com/edgedl/release2/chrome/adaca4fcggqqv76kuw3tgudlh2iq_132.0.6809.0/132.0.6809.0_chrome_installer.exe",
-            "http://dl.google.com/release2/chrome/adaca4fcggqqv76kuw3tgudlh2iq_132.0.6809.0/132.0.6809.0_chrome_installer.exe",
-            "https://dl.google.com/release2/chrome/adaca4fcggqqv76kuw3tgudlh2iq_132.0.6809.0/132.0.6809.0_chrome_installer.exe",
-            "http://www.google.com/dl/release2/chrome/adaca4fcggqqv76kuw3tgudlh2iq_132.0.6809.0/132.0.6809.0_chrome_installer.exe",
-            "https://www.google.com/dl/release2/chrome/adaca4fcggqqv76kuw3tgudlh2iq_132.0.6809.0/132.0.6809.0_chrome_installer.exe"
+            "http://edgedl.me.gvt1.com/edgedl/release2/chrome/aerp2av7lq7j7czz5puigpskuy_132.0.6809.1/132.0.6809.1_chrome_installer.exe",
+            "https://edgedl.me.gvt1.com/edgedl/release2/chrome/aerp2av7lq7j7czz5puigpskuy_132.0.6809.1/132.0.6809.1_chrome_installer.exe",
+            "http://dl.google.com/release2/chrome/aerp2av7lq7j7czz5puigpskuy_132.0.6809.1/132.0.6809.1_chrome_installer.exe",
+            "https://dl.google.com/release2/chrome/aerp2av7lq7j7czz5puigpskuy_132.0.6809.1/132.0.6809.1_chrome_installer.exe",
+            "http://www.google.com/dl/release2/chrome/aerp2av7lq7j7czz5puigpskuy_132.0.6809.1/132.0.6809.1_chrome_installer.exe",
+            "https://www.google.com/dl/release2/chrome/aerp2av7lq7j7czz5puigpskuy_132.0.6809.1/132.0.6809.1_chrome_installer.exe"
         ]
     }
 }
