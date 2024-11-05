@@ -154,17 +154,17 @@
         ]
     },
     "win_canary_arm64": {
-        "version": "132.0.6818.0",
-        "size": 122486640,
-        "sha1": "538663bd1da61533cff34887101f10451a333305",
-        "sha256": "dfe9ba4cea5ddba3109b91420b3934d15b1ade5a8a2d5995d305d952f4fefc4f",
+        "version": "132.0.6818.1",
+        "size": 152804720,
+        "sha1": "4ef5ac2195117ab5f238b6662a115fd94e0a3f7e",
+        "sha256": "a0fa1510525251f0cd2a8b28092427e716d305716a086a31f9406b242d37dbd5",
         "urls": [
-            "http://edgedl.me.gvt1.com/edgedl/release2/chrome/oyv2x7y6jvozzn66mfn3zqqkoa_132.0.6818.0/132.0.6818.0_chrome_installer.exe",
-            "https://edgedl.me.gvt1.com/edgedl/release2/chrome/oyv2x7y6jvozzn66mfn3zqqkoa_132.0.6818.0/132.0.6818.0_chrome_installer.exe",
-            "http://dl.google.com/release2/chrome/oyv2x7y6jvozzn66mfn3zqqkoa_132.0.6818.0/132.0.6818.0_chrome_installer.exe",
-            "https://dl.google.com/release2/chrome/oyv2x7y6jvozzn66mfn3zqqkoa_132.0.6818.0/132.0.6818.0_chrome_installer.exe",
-            "http://www.google.com/dl/release2/chrome/oyv2x7y6jvozzn66mfn3zqqkoa_132.0.6818.0/132.0.6818.0_chrome_installer.exe",
-            "https://www.google.com/dl/release2/chrome/oyv2x7y6jvozzn66mfn3zqqkoa_132.0.6818.0/132.0.6818.0_chrome_installer.exe"
+            "http://edgedl.me.gvt1.com/edgedl/release2/chrome/kkcf7rt732hs3a3klcnxnlr5oe_132.0.6818.1/132.0.6818.1_chrome_installer.exe",
+            "https://edgedl.me.gvt1.com/edgedl/release2/chrome/kkcf7rt732hs3a3klcnxnlr5oe_132.0.6818.1/132.0.6818.1_chrome_installer.exe",
+            "http://dl.google.com/release2/chrome/kkcf7rt732hs3a3klcnxnlr5oe_132.0.6818.1/132.0.6818.1_chrome_installer.exe",
+            "https://dl.google.com/release2/chrome/kkcf7rt732hs3a3klcnxnlr5oe_132.0.6818.1/132.0.6818.1_chrome_installer.exe",
+            "http://www.google.com/dl/release2/chrome/kkcf7rt732hs3a3klcnxnlr5oe_132.0.6818.1/132.0.6818.1_chrome_installer.exe",
+            "https://www.google.com/dl/release2/chrome/kkcf7rt732hs3a3klcnxnlr5oe_132.0.6818.1/132.0.6818.1_chrome_installer.exe"
         ]
     }
 }
