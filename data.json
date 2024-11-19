@@ -154,17 +154,17 @@
         ]
     },
     "win_canary_arm64": {
-        "version": "133.0.6845.0",
-        "size": 122927984,
-        "sha1": "09868a27473b467fb3652b13da3e82ee34d278f1",
-        "sha256": "11d0d0f0ff4a7e942f228e92e8f88fa8abf7de7c405a082d1534b261560674f2",
+        "version": "133.0.6845.1",
+        "size": 153296240,
+        "sha1": "be1e0a46ee67484f8aa031661e5de57772763733",
+        "sha256": "bf0c31c2f0ef31ef1f3676fa60b0c8b648f7e072ea2879c1da8f8f4814420cdd",
         "urls": [
-            "http://edgedl.me.gvt1.com/edgedl/release2/chrome/pgpypbhnrani5jenpyby45xzty_133.0.6845.0/133.0.6845.0_chrome_installer.exe",
-            "https://edgedl.me.gvt1.com/edgedl/release2/chrome/pgpypbhnrani5jenpyby45xzty_133.0.6845.0/133.0.6845.0_chrome_installer.exe",
-            "http://dl.google.com/release2/chrome/pgpypbhnrani5jenpyby45xzty_133.0.6845.0/133.0.6845.0_chrome_installer.exe",
-            "https://dl.google.com/release2/chrome/pgpypbhnrani5jenpyby45xzty_133.0.6845.0/133.0.6845.0_chrome_installer.exe",
-            "http://www.google.com/dl/release2/chrome/pgpypbhnrani5jenpyby45xzty_133.0.6845.0/133.0.6845.0_chrome_installer.exe",
-            "https://www.google.com/dl/release2/chrome/pgpypbhnrani5jenpyby45xzty_133.0.6845.0/133.0.6845.0_chrome_installer.exe"
+            "http://edgedl.me.gvt1.com/edgedl/release2/chrome/cmhfzsa5lowejrckopcfmipo2m_133.0.6845.1/133.0.6845.1_chrome_installer.exe",
+            "https://edgedl.me.gvt1.com/edgedl/release2/chrome/cmhfzsa5lowejrckopcfmipo2m_133.0.6845.1/133.0.6845.1_chrome_installer.exe",
+            "http://dl.google.com/release2/chrome/cmhfzsa5lowejrckopcfmipo2m_133.0.6845.1/133.0.6845.1_chrome_installer.exe",
+            "https://dl.google.com/release2/chrome/cmhfzsa5lowejrckopcfmipo2m_133.0.6845.1/133.0.6845.1_chrome_installer.exe",
+            "http://www.google.com/dl/release2/chrome/cmhfzsa5lowejrckopcfmipo2m_133.0.6845.1/133.0.6845.1_chrome_installer.exe",
+            "https://www.google.com/dl/release2/chrome/cmhfzsa5lowejrckopcfmipo2m_133.0.6845.1/133.0.6845.1_chrome_installer.exe"
         ]
     }
 }
