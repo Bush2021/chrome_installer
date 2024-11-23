@@ -2,7 +2,7 @@
 稳定版存档：<https://github.com/Bush2021/chrome_installer/releases>
 
 最后检测更新时间
-2024-11-23 01:08:45 (UTC-4)
+2024-11-23 02:12:39 (UTC-4)
 
 ## 目录
 * [win stable x86](https://github.com/Bush2021/chrome_installer?tab=readme-ov-file#win-stable-x86)
@@ -85,8 +85,8 @@
 **下载链接**：[https://dl.google.com/release2/chrome/adsqnwbok7ggvnz5er7bnjwjajka_133.0.6853.0/133.0.6853.0_chrome_installer.exe](https://dl.google.com/release2/chrome/adsqnwbok7ggvnz5er7bnjwjajka_133.0.6853.0/133.0.6853.0_chrome_installer.exe)  
 
 ## win canary arm64
-**最新版本**：133.0.6853.0  
-**文件大小**：117.43 MB  
-**校验值（Sha256）**：588a521d82e5abaf1075459b96a0af3e735ca57a3e34ccea604d944905f939d4  
-**下载链接**：[https://dl.google.com/release2/chrome/dl6mbhvsbxao5oeeuqqomky6hq_133.0.6853.0/133.0.6853.0_chrome_installer.exe](https://dl.google.com/release2/chrome/dl6mbhvsbxao5oeeuqqomky6hq_133.0.6853.0/133.0.6853.0_chrome_installer.exe)  
+**最新版本**：133.0.6853.1  
+**文件大小**：146.38 MB  
+**校验值（Sha256）**：439fa7f0832f2225571b737a284f4e435a25592fff6418a7a86ab0205ad65876  
+**下载链接**：[https://dl.google.com/release2/chrome/acqwrexrzt4rrl2euu5kpqxzwwda_133.0.6853.1/133.0.6853.1_chrome_installer.exe](https://dl.google.com/release2/chrome/acqwrexrzt4rrl2euu5kpqxzwwda_133.0.6853.1/133.0.6853.1_chrome_installer.exe)  
 
