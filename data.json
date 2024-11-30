@@ -154,17 +154,17 @@
         ]
     },
     "win_canary_arm64": {
-        "version": "133.0.6868.0",
-        "size": 123180400,
-        "sha1": "e75f6afb983a3e7b7c32ffc379aac7df5b939d23",
-        "sha256": "f3552766309d41a8b30784ed2f772ead67ce1e008eaf788d69a474cda4faa0fc",
+        "version": "133.0.6868.1",
+        "size": 156816240,
+        "sha1": "b21a30298d92e7f39a20139e09fa77b44057e390",
+        "sha256": "47400b7d9407649770e140df03a61c7bc3f17c9dfe5546008a300424f2d3b305",
         "urls": [
-            "http://edgedl.me.gvt1.com/edgedl/release2/chrome/cefbptk3r4kxabnq3sqokfag5y_133.0.6868.0/133.0.6868.0_chrome_installer.exe",
-            "https://edgedl.me.gvt1.com/edgedl/release2/chrome/cefbptk3r4kxabnq3sqokfag5y_133.0.6868.0/133.0.6868.0_chrome_installer.exe",
-            "http://dl.google.com/release2/chrome/cefbptk3r4kxabnq3sqokfag5y_133.0.6868.0/133.0.6868.0_chrome_installer.exe",
-            "https://dl.google.com/release2/chrome/cefbptk3r4kxabnq3sqokfag5y_133.0.6868.0/133.0.6868.0_chrome_installer.exe",
-            "http://www.google.com/dl/release2/chrome/cefbptk3r4kxabnq3sqokfag5y_133.0.6868.0/133.0.6868.0_chrome_installer.exe",
-            "https://www.google.com/dl/release2/chrome/cefbptk3r4kxabnq3sqokfag5y_133.0.6868.0/133.0.6868.0_chrome_installer.exe"
+            "http://edgedl.me.gvt1.com/edgedl/release2/chrome/ibp3xlh6lmb2pkav43t2rlq24a_133.0.6868.1/133.0.6868.1_chrome_installer.exe",
+            "https://edgedl.me.gvt1.com/edgedl/release2/chrome/ibp3xlh6lmb2pkav43t2rlq24a_133.0.6868.1/133.0.6868.1_chrome_installer.exe",
+            "http://dl.google.com/release2/chrome/ibp3xlh6lmb2pkav43t2rlq24a_133.0.6868.1/133.0.6868.1_chrome_installer.exe",
+            "https://dl.google.com/release2/chrome/ibp3xlh6lmb2pkav43t2rlq24a_133.0.6868.1/133.0.6868.1_chrome_installer.exe",
+            "http://www.google.com/dl/release2/chrome/ibp3xlh6lmb2pkav43t2rlq24a_133.0.6868.1/133.0.6868.1_chrome_installer.exe",
+            "https://www.google.com/dl/release2/chrome/ibp3xlh6lmb2pkav43t2rlq24a_133.0.6868.1/133.0.6868.1_chrome_installer.exe"
         ]
     }
 }
