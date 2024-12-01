@@ -154,17 +154,17 @@
         ]
     },
     "win_canary_arm64": {
-        "version": "133.0.6870.1",
-        "size": 156821360,
-        "sha1": "fb0f376410b5380b159c902cce95fbb50404cec1",
-        "sha256": "75f97c279de8c73afc49c05ac1a284bc340422d2b504b0b167eecbe6a7af6a05",
+        "version": "133.0.6871.0",
+        "size": 123226480,
+        "sha1": "bf33ea9c3dc1c50e4b5163038892159dd9946d2b",
+        "sha256": "81dd3f1a0b0cb50d957e0c56adb0d833b581c344de0c798bea6be7fc7aafe37a",
         "urls": [
-            "http://edgedl.me.gvt1.com/edgedl/release2/chrome/hv4m7qpnlzigi3yvmb7zurkhla_133.0.6870.1/133.0.6870.1_chrome_installer.exe",
-            "https://edgedl.me.gvt1.com/edgedl/release2/chrome/hv4m7qpnlzigi3yvmb7zurkhla_133.0.6870.1/133.0.6870.1_chrome_installer.exe",
-            "http://dl.google.com/release2/chrome/hv4m7qpnlzigi3yvmb7zurkhla_133.0.6870.1/133.0.6870.1_chrome_installer.exe",
-            "https://dl.google.com/release2/chrome/hv4m7qpnlzigi3yvmb7zurkhla_133.0.6870.1/133.0.6870.1_chrome_installer.exe",
-            "http://www.google.com/dl/release2/chrome/hv4m7qpnlzigi3yvmb7zurkhla_133.0.6870.1/133.0.6870.1_chrome_installer.exe",
-            "https://www.google.com/dl/release2/chrome/hv4m7qpnlzigi3yvmb7zurkhla_133.0.6870.1/133.0.6870.1_chrome_installer.exe"
+            "http://edgedl.me.gvt1.com/edgedl/release2/chrome/knh5hsbt5esc6ake4xpqrdr2ta_133.0.6871.0/133.0.6871.0_chrome_installer.exe",
+            "https://edgedl.me.gvt1.com/edgedl/release2/chrome/knh5hsbt5esc6ake4xpqrdr2ta_133.0.6871.0/133.0.6871.0_chrome_installer.exe",
+            "http://dl.google.com/release2/chrome/knh5hsbt5esc6ake4xpqrdr2ta_133.0.6871.0/133.0.6871.0_chrome_installer.exe",
+            "https://dl.google.com/release2/chrome/knh5hsbt5esc6ake4xpqrdr2ta_133.0.6871.0/133.0.6871.0_chrome_installer.exe",
+            "http://www.google.com/dl/release2/chrome/knh5hsbt5esc6ake4xpqrdr2ta_133.0.6871.0/133.0.6871.0_chrome_installer.exe",
+            "https://www.google.com/dl/release2/chrome/knh5hsbt5esc6ake4xpqrdr2ta_133.0.6871.0/133.0.6871.0_chrome_installer.exe"
         ]
     }
 }
