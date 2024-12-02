@@ -154,17 +154,17 @@
         ]
     },
     "win_canary_arm64": {
-        "version": "133.0.6872.0",
-        "size": 123217264,
-        "sha1": "d87dd50ee9a4703bf8635c5e0da0a973363c0eb6",
-        "sha256": "f1f223034532dd70d0bb955d06996830418e3a6aaceff8b0c9dda4542da8ee00",
+        "version": "133.0.6873.0",
+        "size": 123218800,
+        "sha1": "8a6bd2ef093bfabd8a53646e0556dc3cb97f1cdc",
+        "sha256": "11dc3edeebe6c7863654ce6742b97d15ec79eec2faa3c8e09fe2ff8dadc20f52",
         "urls": [
-            "http://edgedl.me.gvt1.com/edgedl/release2/chrome/odqdfqysg72ciillnznjuhf34a_133.0.6872.0/133.0.6872.0_chrome_installer.exe",
-            "https://edgedl.me.gvt1.com/edgedl/release2/chrome/odqdfqysg72ciillnznjuhf34a_133.0.6872.0/133.0.6872.0_chrome_installer.exe",
-            "http://dl.google.com/release2/chrome/odqdfqysg72ciillnznjuhf34a_133.0.6872.0/133.0.6872.0_chrome_installer.exe",
-            "https://dl.google.com/release2/chrome/odqdfqysg72ciillnznjuhf34a_133.0.6872.0/133.0.6872.0_chrome_installer.exe",
-            "http://www.google.com/dl/release2/chrome/odqdfqysg72ciillnznjuhf34a_133.0.6872.0/133.0.6872.0_chrome_installer.exe",
-            "https://www.google.com/dl/release2/chrome/odqdfqysg72ciillnznjuhf34a_133.0.6872.0/133.0.6872.0_chrome_installer.exe"
+            "http://edgedl.me.gvt1.com/edgedl/release2/chrome/kj5f4nhq4etwp3w2yn4flcbpp4_133.0.6873.0/133.0.6873.0_chrome_installer.exe",
+            "https://edgedl.me.gvt1.com/edgedl/release2/chrome/kj5f4nhq4etwp3w2yn4flcbpp4_133.0.6873.0/133.0.6873.0_chrome_installer.exe",
+            "http://dl.google.com/release2/chrome/kj5f4nhq4etwp3w2yn4flcbpp4_133.0.6873.0/133.0.6873.0_chrome_installer.exe",
+            "https://dl.google.com/release2/chrome/kj5f4nhq4etwp3w2yn4flcbpp4_133.0.6873.0/133.0.6873.0_chrome_installer.exe",
+            "http://www.google.com/dl/release2/chrome/kj5f4nhq4etwp3w2yn4flcbpp4_133.0.6873.0/133.0.6873.0_chrome_installer.exe",
+            "https://www.google.com/dl/release2/chrome/kj5f4nhq4etwp3w2yn4flcbpp4_133.0.6873.0/133.0.6873.0_chrome_installer.exe"
         ]
     }
 }
