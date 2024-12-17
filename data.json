@@ -154,17 +154,17 @@
         ]
     },
     "win_canary_arm64": {
-        "version": "133.0.6900.0",
-        "size": 124952944,
-        "sha1": "e9e0dbae737dad9d426640fd3a792d9a35dc1c99",
-        "sha256": "cdadae726c21c390976ca2f69e841052f3c2bf5d8a1769c3503b7fe03ce7a1a5",
+        "version": "133.0.6900.1",
+        "size": 158177136,
+        "sha1": "53414011331de4f9300bf91cb54f2c7d044ddd16",
+        "sha256": "6d0292b6f1e3d5bdebb8906f3709d0a5997a97b14f60d13bc7ff3ad1601f565a",
         "urls": [
-            "http://edgedl.me.gvt1.com/edgedl/release2/chrome/l42oarbsa7nv4k7qvgsacwpcja_133.0.6900.0/133.0.6900.0_chrome_installer.exe",
-            "https://edgedl.me.gvt1.com/edgedl/release2/chrome/l42oarbsa7nv4k7qvgsacwpcja_133.0.6900.0/133.0.6900.0_chrome_installer.exe",
-            "http://dl.google.com/release2/chrome/l42oarbsa7nv4k7qvgsacwpcja_133.0.6900.0/133.0.6900.0_chrome_installer.exe",
-            "https://dl.google.com/release2/chrome/l42oarbsa7nv4k7qvgsacwpcja_133.0.6900.0/133.0.6900.0_chrome_installer.exe",
-            "http://www.google.com/dl/release2/chrome/l42oarbsa7nv4k7qvgsacwpcja_133.0.6900.0/133.0.6900.0_chrome_installer.exe",
-            "https://www.google.com/dl/release2/chrome/l42oarbsa7nv4k7qvgsacwpcja_133.0.6900.0/133.0.6900.0_chrome_installer.exe"
+            "http://edgedl.me.gvt1.com/edgedl/release2/chrome/frtpluozgfljuiglpsrff44tfa_133.0.6900.1/133.0.6900.1_chrome_installer.exe",
+            "https://edgedl.me.gvt1.com/edgedl/release2/chrome/frtpluozgfljuiglpsrff44tfa_133.0.6900.1/133.0.6900.1_chrome_installer.exe",
+            "http://dl.google.com/release2/chrome/frtpluozgfljuiglpsrff44tfa_133.0.6900.1/133.0.6900.1_chrome_installer.exe",
+            "https://dl.google.com/release2/chrome/frtpluozgfljuiglpsrff44tfa_133.0.6900.1/133.0.6900.1_chrome_installer.exe",
+            "http://www.google.com/dl/release2/chrome/frtpluozgfljuiglpsrff44tfa_133.0.6900.1/133.0.6900.1_chrome_installer.exe",
+            "https://www.google.com/dl/release2/chrome/frtpluozgfljuiglpsrff44tfa_133.0.6900.1/133.0.6900.1_chrome_installer.exe"
         ]
     }
 }
