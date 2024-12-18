@@ -154,17 +154,17 @@
         ]
     },
     "win_canary_arm64": {
-        "version": "133.0.6902.1",
-        "size": 157475184,
-        "sha1": "194c92068d0d6cae1e489f41645164c267c5ca2d",
-        "sha256": "85276bccc759b7632d608210c5d6213f3258787c65a7c1b66701fddb35eb9326",
+        "version": "133.0.6903.0",
+        "size": 124945264,
+        "sha1": "c12c400aa594171a0cdad87c2f8b1c8c228daada",
+        "sha256": "ba2251fd1569d701d9751ceed96af88eb43f9b7b53d16070474e696c539c1fc8",
         "urls": [
-            "http://edgedl.me.gvt1.com/edgedl/release2/chrome/nrsx2utxi66i2y34xv6isv56sm_133.0.6902.1/133.0.6902.1_chrome_installer.exe",
-            "https://edgedl.me.gvt1.com/edgedl/release2/chrome/nrsx2utxi66i2y34xv6isv56sm_133.0.6902.1/133.0.6902.1_chrome_installer.exe",
-            "http://dl.google.com/release2/chrome/nrsx2utxi66i2y34xv6isv56sm_133.0.6902.1/133.0.6902.1_chrome_installer.exe",
-            "https://dl.google.com/release2/chrome/nrsx2utxi66i2y34xv6isv56sm_133.0.6902.1/133.0.6902.1_chrome_installer.exe",
-            "http://www.google.com/dl/release2/chrome/nrsx2utxi66i2y34xv6isv56sm_133.0.6902.1/133.0.6902.1_chrome_installer.exe",
-            "https://www.google.com/dl/release2/chrome/nrsx2utxi66i2y34xv6isv56sm_133.0.6902.1/133.0.6902.1_chrome_installer.exe"
+            "http://edgedl.me.gvt1.com/edgedl/release2/chrome/adafwcsu3qjrgywfocotdr5rwfaq_133.0.6903.0/133.0.6903.0_chrome_installer.exe",
+            "https://edgedl.me.gvt1.com/edgedl/release2/chrome/adafwcsu3qjrgywfocotdr5rwfaq_133.0.6903.0/133.0.6903.0_chrome_installer.exe",
+            "http://dl.google.com/release2/chrome/adafwcsu3qjrgywfocotdr5rwfaq_133.0.6903.0/133.0.6903.0_chrome_installer.exe",
+            "https://dl.google.com/release2/chrome/adafwcsu3qjrgywfocotdr5rwfaq_133.0.6903.0/133.0.6903.0_chrome_installer.exe",
+            "http://www.google.com/dl/release2/chrome/adafwcsu3qjrgywfocotdr5rwfaq_133.0.6903.0/133.0.6903.0_chrome_installer.exe",
+            "https://www.google.com/dl/release2/chrome/adafwcsu3qjrgywfocotdr5rwfaq_133.0.6903.0/133.0.6903.0_chrome_installer.exe"
         ]
     }
 }
