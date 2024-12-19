@@ -154,17 +154,17 @@
         ]
     },
     "win_canary_arm64": {
-        "version": "133.0.6905.0",
-        "size": 125043568,
-        "sha1": "736d38745e227ceb0da38266f94dffb000705719",
-        "sha256": "aad1ec1f2ec30362dc012e8ab040ee8137964539b93b6123aa7a7bf5291e0a2c",
+        "version": "133.0.6905.1",
+        "size": 158692208,
+        "sha1": "4b7f3e16770ead1958f221a8415bfdad8b2c7ac0",
+        "sha256": "2914c120d9598d8bca46759cb6aa81561fbd3433dadcbf01a0b464b67c28ca44",
         "urls": [
-            "http://edgedl.me.gvt1.com/edgedl/release2/chrome/p3lr2pi5azk6uft7dsnarx4pri_133.0.6905.0/133.0.6905.0_chrome_installer.exe",
-            "https://edgedl.me.gvt1.com/edgedl/release2/chrome/p3lr2pi5azk6uft7dsnarx4pri_133.0.6905.0/133.0.6905.0_chrome_installer.exe",
-            "http://dl.google.com/release2/chrome/p3lr2pi5azk6uft7dsnarx4pri_133.0.6905.0/133.0.6905.0_chrome_installer.exe",
-            "https://dl.google.com/release2/chrome/p3lr2pi5azk6uft7dsnarx4pri_133.0.6905.0/133.0.6905.0_chrome_installer.exe",
-            "http://www.google.com/dl/release2/chrome/p3lr2pi5azk6uft7dsnarx4pri_133.0.6905.0/133.0.6905.0_chrome_installer.exe",
-            "https://www.google.com/dl/release2/chrome/p3lr2pi5azk6uft7dsnarx4pri_133.0.6905.0/133.0.6905.0_chrome_installer.exe"
+            "http://edgedl.me.gvt1.com/edgedl/release2/chrome/k2ibsxtyko5joir64kbom2alda_133.0.6905.1/133.0.6905.1_chrome_installer.exe",
+            "https://edgedl.me.gvt1.com/edgedl/release2/chrome/k2ibsxtyko5joir64kbom2alda_133.0.6905.1/133.0.6905.1_chrome_installer.exe",
+            "http://dl.google.com/release2/chrome/k2ibsxtyko5joir64kbom2alda_133.0.6905.1/133.0.6905.1_chrome_installer.exe",
+            "https://dl.google.com/release2/chrome/k2ibsxtyko5joir64kbom2alda_133.0.6905.1/133.0.6905.1_chrome_installer.exe",
+            "http://www.google.com/dl/release2/chrome/k2ibsxtyko5joir64kbom2alda_133.0.6905.1/133.0.6905.1_chrome_installer.exe",
+            "https://www.google.com/dl/release2/chrome/k2ibsxtyko5joir64kbom2alda_133.0.6905.1/133.0.6905.1_chrome_installer.exe"
         ]
     }
 }
