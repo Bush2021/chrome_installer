@@ -154,17 +154,17 @@
         ]
     },
     "win_canary_arm64": {
-        "version": "133.0.6929.0",
-        "size": 125241200,
-        "sha1": "fedcad052cde830d85948a82cf9fa018aa07bb2c",
-        "sha256": "ebdb8b4c3086115a0120cdb9a1535eba4e62a7d5ddc3ecb76521f6305a3c3e91",
+        "version": "133.0.6929.1",
+        "size": 156721008,
+        "sha1": "46c4292052f397dbe271044e7f718cd446aca425",
+        "sha256": "8443f5929692a57adb939e1db1eb2ae18f10a6e53523b8ef8c2ea3b42e19d1c4",
         "urls": [
-            "http://edgedl.me.gvt1.com/edgedl/release2/chrome/adfhqz5w4l6anhfdsbwxur63uqpa_133.0.6929.0/133.0.6929.0_chrome_installer.exe",
-            "https://edgedl.me.gvt1.com/edgedl/release2/chrome/adfhqz5w4l6anhfdsbwxur63uqpa_133.0.6929.0/133.0.6929.0_chrome_installer.exe",
-            "http://dl.google.com/release2/chrome/adfhqz5w4l6anhfdsbwxur63uqpa_133.0.6929.0/133.0.6929.0_chrome_installer.exe",
-            "https://dl.google.com/release2/chrome/adfhqz5w4l6anhfdsbwxur63uqpa_133.0.6929.0/133.0.6929.0_chrome_installer.exe",
-            "http://www.google.com/dl/release2/chrome/adfhqz5w4l6anhfdsbwxur63uqpa_133.0.6929.0/133.0.6929.0_chrome_installer.exe",
-            "https://www.google.com/dl/release2/chrome/adfhqz5w4l6anhfdsbwxur63uqpa_133.0.6929.0/133.0.6929.0_chrome_installer.exe"
+            "http://edgedl.me.gvt1.com/edgedl/release2/chrome/nhlisqnz5zcomllk67rkmetguy_133.0.6929.1/133.0.6929.1_chrome_installer.exe",
+            "https://edgedl.me.gvt1.com/edgedl/release2/chrome/nhlisqnz5zcomllk67rkmetguy_133.0.6929.1/133.0.6929.1_chrome_installer.exe",
+            "http://dl.google.com/release2/chrome/nhlisqnz5zcomllk67rkmetguy_133.0.6929.1/133.0.6929.1_chrome_installer.exe",
+            "https://dl.google.com/release2/chrome/nhlisqnz5zcomllk67rkmetguy_133.0.6929.1/133.0.6929.1_chrome_installer.exe",
+            "http://www.google.com/dl/release2/chrome/nhlisqnz5zcomllk67rkmetguy_133.0.6929.1/133.0.6929.1_chrome_installer.exe",
+            "https://www.google.com/dl/release2/chrome/nhlisqnz5zcomllk67rkmetguy_133.0.6929.1/133.0.6929.1_chrome_installer.exe"
         ]
     }
 }
