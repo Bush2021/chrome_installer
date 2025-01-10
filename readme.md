@@ -2,7 +2,7 @@
 稳定版存档：<https://github.com/Bush2021/chrome_installer/releases>
 
 最后检测更新时间
-2025-01-10 16:15:25 (UTC-4)
+2025-01-10 17:12:45 (UTC-4)
 
 ## 目录
 * [win stable x86](https://github.com/Bush2021/chrome_installer?tab=readme-ov-file#win-stable-x86)
@@ -73,16 +73,16 @@
 **下载链接**：[https://dl.google.com/release2/chrome/pbkoir7hthv422oxequxvp2wya_133.0.6943.6/133.0.6943.6_chrome_installer.exe](https://dl.google.com/release2/chrome/pbkoir7hthv422oxequxvp2wya_133.0.6943.6/133.0.6943.6_chrome_installer.exe)  
 
 ## win canary x86
-**最新版本**：134.0.6948.1  
-**文件大小**：119.31 MB  
-**校验值（Sha256）**：c016e688feda23ed295410aa69a2f42ed57729d9cad587f56bfe6abb55ce0272  
-**下载链接**：[https://dl.google.com/release2/chrome/lngjmabozc7w7dtnq6aurdxkfy_134.0.6948.1/134.0.6948.1_chrome_installer.exe](https://dl.google.com/release2/chrome/lngjmabozc7w7dtnq6aurdxkfy_134.0.6948.1/134.0.6948.1_chrome_installer.exe)  
+**最新版本**：134.0.6949.0  
+**文件大小**：101.58 MB  
+**校验值（Sha256）**：f40d1467dc51faedcb80964460bfaebc5210338f6a09a02812fa0438328951b3  
+**下载链接**：[https://dl.google.com/release2/chrome/byc6ibznvapavwlv37pc3fgzgi_134.0.6949.0/134.0.6949.0_chrome_installer.exe](https://dl.google.com/release2/chrome/byc6ibznvapavwlv37pc3fgzgi_134.0.6949.0/134.0.6949.0_chrome_installer.exe)  
 
 ## win canary x64
-**最新版本**：134.0.6948.0  
-**文件大小**：113.6 MB  
-**校验值（Sha256）**：ffab1c72de24cbcc0b7b52a1cba24dc2fe03889b9d5bf0936fd49046e26157b7  
-**下载链接**：[https://dl.google.com/release2/chrome/mopw44fqqcpjajxcpvcqufjd7i_134.0.6948.0/134.0.6948.0_chrome_installer.exe](https://dl.google.com/release2/chrome/mopw44fqqcpjajxcpvcqufjd7i_134.0.6948.0/134.0.6948.0_chrome_installer.exe)  
+**最新版本**：134.0.6949.0  
+**文件大小**：113.59 MB  
+**校验值（Sha256）**：8af1a2e931b532e6c1883060bea90507c7ad75b0833bd19ede5fb9fc5de97a2f  
+**下载链接**：[https://dl.google.com/release2/chrome/acztlx76mkfzx34skzdlnc65hifq_134.0.6949.0/134.0.6949.0_chrome_installer.exe](https://dl.google.com/release2/chrome/acztlx76mkfzx34skzdlnc65hifq_134.0.6949.0/134.0.6949.0_chrome_installer.exe)  
 
 ## win canary arm64
 **最新版本**：134.0.6948.1  
