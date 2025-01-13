@@ -154,17 +154,17 @@
         ]
     },
     "win_canary_arm64": {
-        "version": "134.0.6954.0",
-        "size": 125325168,
-        "sha1": "032deb98ba7d5d9e2d0ea2e8f4f5957fd12f35a7",
-        "sha256": "c0eb1b2a27d751b1e2c0adeda960613b4432f5060c02edbc6a004b11158911b9",
+        "version": "134.0.6954.1",
+        "size": 156999024,
+        "sha1": "b5a647721715c4c949b06b2a98d5f2699e028d07",
+        "sha256": "2285b8635f3b7ec0d3903646ce192dc6c0ebc59bd2a2993aaef165f047904307",
         "urls": [
-            "http://edgedl.me.gvt1.com/edgedl/release2/chrome/bjcqqohr6sxoum4azwo4lhrocy_134.0.6954.0/134.0.6954.0_chrome_installer.exe",
-            "https://edgedl.me.gvt1.com/edgedl/release2/chrome/bjcqqohr6sxoum4azwo4lhrocy_134.0.6954.0/134.0.6954.0_chrome_installer.exe",
-            "http://dl.google.com/release2/chrome/bjcqqohr6sxoum4azwo4lhrocy_134.0.6954.0/134.0.6954.0_chrome_installer.exe",
-            "https://dl.google.com/release2/chrome/bjcqqohr6sxoum4azwo4lhrocy_134.0.6954.0/134.0.6954.0_chrome_installer.exe",
-            "http://www.google.com/dl/release2/chrome/bjcqqohr6sxoum4azwo4lhrocy_134.0.6954.0/134.0.6954.0_chrome_installer.exe",
-            "https://www.google.com/dl/release2/chrome/bjcqqohr6sxoum4azwo4lhrocy_134.0.6954.0/134.0.6954.0_chrome_installer.exe"
+            "http://edgedl.me.gvt1.com/edgedl/release2/chrome/i4bz4gknzdyhaneufr4kwmrsge_134.0.6954.1/134.0.6954.1_chrome_installer.exe",
+            "https://edgedl.me.gvt1.com/edgedl/release2/chrome/i4bz4gknzdyhaneufr4kwmrsge_134.0.6954.1/134.0.6954.1_chrome_installer.exe",
+            "http://dl.google.com/release2/chrome/i4bz4gknzdyhaneufr4kwmrsge_134.0.6954.1/134.0.6954.1_chrome_installer.exe",
+            "https://dl.google.com/release2/chrome/i4bz4gknzdyhaneufr4kwmrsge_134.0.6954.1/134.0.6954.1_chrome_installer.exe",
+            "http://www.google.com/dl/release2/chrome/i4bz4gknzdyhaneufr4kwmrsge_134.0.6954.1/134.0.6954.1_chrome_installer.exe",
+            "https://www.google.com/dl/release2/chrome/i4bz4gknzdyhaneufr4kwmrsge_134.0.6954.1/134.0.6954.1_chrome_installer.exe"
         ]
     }
 }
