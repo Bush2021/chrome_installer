@@ -2,7 +2,7 @@
 稳定版存档：<https://github.com/Bush2021/chrome_installer/releases>
 
 最后检测更新时间
-2025-01-15 16:14:35 (UTC-4)
+2025-01-15 17:12:33 (UTC-4)
 
 ## 目录
 * [win stable x86](https://github.com/Bush2021/chrome_installer?tab=readme-ov-file#win-stable-x86)
@@ -73,16 +73,16 @@
 **下载链接**：[https://dl.google.com/release2/chrome/pbkoir7hthv422oxequxvp2wya_133.0.6943.6/133.0.6943.6_chrome_installer.exe](https://dl.google.com/release2/chrome/pbkoir7hthv422oxequxvp2wya_133.0.6943.6/133.0.6943.6_chrome_installer.exe)  
 
 ## win canary x86
-**最新版本**：134.0.6958.1  
-**文件大小**：119.52 MB  
-**校验值（Sha256）**：7104c8c865c91c80fb1cfc8edf471060d3b78d5ae9b29c2e4ccac2499041a06d  
-**下载链接**：[https://dl.google.com/release2/chrome/jqpsdxuv3wjhusccdoavhhzody_134.0.6958.1/134.0.6958.1_chrome_installer.exe](https://dl.google.com/release2/chrome/jqpsdxuv3wjhusccdoavhhzody_134.0.6958.1/134.0.6958.1_chrome_installer.exe)  
+**最新版本**：134.0.6959.0  
+**文件大小**：102 MB  
+**校验值（Sha256）**：92774ef8bf848f864b5313a7ded5fea522ad97ffecd4ed2a1055f0ac392cec4f  
+**下载链接**：[https://dl.google.com/release2/chrome/ew6xh5uicn3wfqbbpwytvdt4me_134.0.6959.0/134.0.6959.0_chrome_installer.exe](https://dl.google.com/release2/chrome/ew6xh5uicn3wfqbbpwytvdt4me_134.0.6959.0/134.0.6959.0_chrome_installer.exe)  
 
 ## win canary x64
-**最新版本**：134.0.6958.0  
-**文件大小**：113.75 MB  
-**校验值（Sha256）**：97e281e0db27a792d5fea76f1b4aaa9abcf13f1a3d6b5077ef558c7c717a3d7e  
-**下载链接**：[https://dl.google.com/release2/chrome/o5vjyuqywscfewxljdd572cara_134.0.6958.0/134.0.6958.0_chrome_installer.exe](https://dl.google.com/release2/chrome/o5vjyuqywscfewxljdd572cara_134.0.6958.0/134.0.6958.0_chrome_installer.exe)  
+**最新版本**：134.0.6959.0  
+**文件大小**：113.78 MB  
+**校验值（Sha256）**：7b0518d7b59622242156aa76ba1f856f8b88fe7e874a6fc9ea2eaedb3d1b4ebd  
+**下载链接**：[https://dl.google.com/release2/chrome/f4gwpmuexavj52ow5jtbinfnbq_134.0.6959.0/134.0.6959.0_chrome_installer.exe](https://dl.google.com/release2/chrome/f4gwpmuexavj52ow5jtbinfnbq_134.0.6959.0/134.0.6959.0_chrome_installer.exe)  
 
 ## win canary arm64
 **最新版本**：134.0.6958.0  
