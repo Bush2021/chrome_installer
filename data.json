@@ -154,17 +154,17 @@
         ]
     },
     "win_canary_arm64": {
-        "version": "134.0.6958.0",
-        "size": 125153648,
-        "sha1": "def5c6d1f3bc79c545480bf4fc16d1884d6c2055",
-        "sha256": "ba37c78989447a6ac07b445528accc2de551f3b265fa1963d859341f480f1b86",
+        "version": "134.0.6959.0",
+        "size": 125179248,
+        "sha1": "9dc40541456ef931c8e7a02986e8e4cd1a804658",
+        "sha256": "9c713dc77b69263a553dd86a748f8e51e0169001ceca5cd6b4963ed9635b43d9",
         "urls": [
-            "http://edgedl.me.gvt1.com/edgedl/release2/chrome/kp7qmu5la5cdpxtn3nidx7i3e4_134.0.6958.0/134.0.6958.0_chrome_installer.exe",
-            "https://edgedl.me.gvt1.com/edgedl/release2/chrome/kp7qmu5la5cdpxtn3nidx7i3e4_134.0.6958.0/134.0.6958.0_chrome_installer.exe",
-            "http://dl.google.com/release2/chrome/kp7qmu5la5cdpxtn3nidx7i3e4_134.0.6958.0/134.0.6958.0_chrome_installer.exe",
-            "https://dl.google.com/release2/chrome/kp7qmu5la5cdpxtn3nidx7i3e4_134.0.6958.0/134.0.6958.0_chrome_installer.exe",
-            "http://www.google.com/dl/release2/chrome/kp7qmu5la5cdpxtn3nidx7i3e4_134.0.6958.0/134.0.6958.0_chrome_installer.exe",
-            "https://www.google.com/dl/release2/chrome/kp7qmu5la5cdpxtn3nidx7i3e4_134.0.6958.0/134.0.6958.0_chrome_installer.exe"
+            "http://edgedl.me.gvt1.com/edgedl/release2/chrome/adiia6kyubaufzuvfqpwdh7577ra_134.0.6959.0/134.0.6959.0_chrome_installer.exe",
+            "https://edgedl.me.gvt1.com/edgedl/release2/chrome/adiia6kyubaufzuvfqpwdh7577ra_134.0.6959.0/134.0.6959.0_chrome_installer.exe",
+            "http://dl.google.com/release2/chrome/adiia6kyubaufzuvfqpwdh7577ra_134.0.6959.0/134.0.6959.0_chrome_installer.exe",
+            "https://dl.google.com/release2/chrome/adiia6kyubaufzuvfqpwdh7577ra_134.0.6959.0/134.0.6959.0_chrome_installer.exe",
+            "http://www.google.com/dl/release2/chrome/adiia6kyubaufzuvfqpwdh7577ra_134.0.6959.0/134.0.6959.0_chrome_installer.exe",
+            "https://www.google.com/dl/release2/chrome/adiia6kyubaufzuvfqpwdh7577ra_134.0.6959.0/134.0.6959.0_chrome_installer.exe"
         ]
     }
 }
