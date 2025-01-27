@@ -154,17 +154,17 @@
         ]
     },
     "win_canary_arm64": {
-        "version": "134.0.6982.0",
-        "size": 125769072,
-        "sha1": "64212be6c3ff54bd45af2aecbed7bb23b045fb51",
-        "sha256": "167dece22ba9d093d11a12b74ec9b53dabb84b85cd5931155587b7eb57360545",
+        "version": "134.0.6982.1",
+        "size": 157468016,
+        "sha1": "75fa95045bf760aa5ab35d67b2b9ec4c549ddd56",
+        "sha256": "5a42de782c8c6d7e48019c41c6c865393db777519ea445fd9db30ff78aff5069",
         "urls": [
-            "http://edgedl.me.gvt1.com/edgedl/release2/chrome/adjhtt32f3uu7mnrxn7q4csfrofa_134.0.6982.0/134.0.6982.0_chrome_installer.exe",
-            "https://edgedl.me.gvt1.com/edgedl/release2/chrome/adjhtt32f3uu7mnrxn7q4csfrofa_134.0.6982.0/134.0.6982.0_chrome_installer.exe",
-            "http://dl.google.com/release2/chrome/adjhtt32f3uu7mnrxn7q4csfrofa_134.0.6982.0/134.0.6982.0_chrome_installer.exe",
-            "https://dl.google.com/release2/chrome/adjhtt32f3uu7mnrxn7q4csfrofa_134.0.6982.0/134.0.6982.0_chrome_installer.exe",
-            "http://www.google.com/dl/release2/chrome/adjhtt32f3uu7mnrxn7q4csfrofa_134.0.6982.0/134.0.6982.0_chrome_installer.exe",
-            "https://www.google.com/dl/release2/chrome/adjhtt32f3uu7mnrxn7q4csfrofa_134.0.6982.0/134.0.6982.0_chrome_installer.exe"
+            "http://edgedl.me.gvt1.com/edgedl/release2/chrome/hxwuvmqwypxkjqamnpfcbo2vnq_134.0.6982.1/134.0.6982.1_chrome_installer.exe",
+            "https://edgedl.me.gvt1.com/edgedl/release2/chrome/hxwuvmqwypxkjqamnpfcbo2vnq_134.0.6982.1/134.0.6982.1_chrome_installer.exe",
+            "http://dl.google.com/release2/chrome/hxwuvmqwypxkjqamnpfcbo2vnq_134.0.6982.1/134.0.6982.1_chrome_installer.exe",
+            "https://dl.google.com/release2/chrome/hxwuvmqwypxkjqamnpfcbo2vnq_134.0.6982.1/134.0.6982.1_chrome_installer.exe",
+            "http://www.google.com/dl/release2/chrome/hxwuvmqwypxkjqamnpfcbo2vnq_134.0.6982.1/134.0.6982.1_chrome_installer.exe",
+            "https://www.google.com/dl/release2/chrome/hxwuvmqwypxkjqamnpfcbo2vnq_134.0.6982.1/134.0.6982.1_chrome_installer.exe"
         ]
     }
 }
