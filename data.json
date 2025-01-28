@@ -140,17 +140,17 @@
         ]
     },
     "win_canary_x64": {
-        "version": "134.0.6985.0",
-        "size": 119820144,
-        "sha1": "d29cac413bbee2f466b506fd7ca2330f336af560",
-        "sha256": "671f6e3f13402e8869bd52370d8b2cb3c807313d1a691f16afad7ea9e36aaec4",
+        "version": "134.0.6985.1",
+        "size": 156384624,
+        "sha1": "b6e21bae2625c3c53d3e24f2e5acad7ef74321d9",
+        "sha256": "f1c37b9e964b15d751c28b673a58a7338e34a6e6933e3cf9601eae114a4a0b72",
         "urls": [
-            "http://edgedl.me.gvt1.com/edgedl/release2/chrome/adlbocexygctxuaw6nldfy4xye4q_134.0.6985.0/134.0.6985.0_chrome_installer.exe",
-            "https://edgedl.me.gvt1.com/edgedl/release2/chrome/adlbocexygctxuaw6nldfy4xye4q_134.0.6985.0/134.0.6985.0_chrome_installer.exe",
-            "http://dl.google.com/release2/chrome/adlbocexygctxuaw6nldfy4xye4q_134.0.6985.0/134.0.6985.0_chrome_installer.exe",
-            "https://dl.google.com/release2/chrome/adlbocexygctxuaw6nldfy4xye4q_134.0.6985.0/134.0.6985.0_chrome_installer.exe",
-            "http://www.google.com/dl/release2/chrome/adlbocexygctxuaw6nldfy4xye4q_134.0.6985.0/134.0.6985.0_chrome_installer.exe",
-            "https://www.google.com/dl/release2/chrome/adlbocexygctxuaw6nldfy4xye4q_134.0.6985.0/134.0.6985.0_chrome_installer.exe"
+            "http://edgedl.me.gvt1.com/edgedl/release2/chrome/cy5rntf7cafgtcawlrone264ui_134.0.6985.1/134.0.6985.1_chrome_installer.exe",
+            "https://edgedl.me.gvt1.com/edgedl/release2/chrome/cy5rntf7cafgtcawlrone264ui_134.0.6985.1/134.0.6985.1_chrome_installer.exe",
+            "http://dl.google.com/release2/chrome/cy5rntf7cafgtcawlrone264ui_134.0.6985.1/134.0.6985.1_chrome_installer.exe",
+            "https://dl.google.com/release2/chrome/cy5rntf7cafgtcawlrone264ui_134.0.6985.1/134.0.6985.1_chrome_installer.exe",
+            "http://www.google.com/dl/release2/chrome/cy5rntf7cafgtcawlrone264ui_134.0.6985.1/134.0.6985.1_chrome_installer.exe",
+            "https://www.google.com/dl/release2/chrome/cy5rntf7cafgtcawlrone264ui_134.0.6985.1/134.0.6985.1_chrome_installer.exe"
         ]
     },
     "win_canary_arm64": {
