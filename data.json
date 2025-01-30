@@ -154,17 +154,17 @@
         ]
     },
     "win_canary_arm64": {
-        "version": "134.0.6987.1",
-        "size": 157545840,
-        "sha1": "58745b89d87af93e7058893802c49e22db4ab4e9",
-        "sha256": "0c35cc495b157580f930dbe8b113df6a4ee4888810d3eddb68c0521116f9a8cc",
+        "version": "134.0.6988.0",
+        "size": 126031216,
+        "sha1": "13e09b28bdc7779715600f50f692799343c947c3",
+        "sha256": "539314ad149343b96865275f9744ff870434999354336e152b706a41631016bd",
         "urls": [
-            "http://edgedl.me.gvt1.com/edgedl/release2/chrome/acinrial4mm775grppnywrzvax2q_134.0.6987.1/134.0.6987.1_chrome_installer.exe",
-            "https://edgedl.me.gvt1.com/edgedl/release2/chrome/acinrial4mm775grppnywrzvax2q_134.0.6987.1/134.0.6987.1_chrome_installer.exe",
-            "http://dl.google.com/release2/chrome/acinrial4mm775grppnywrzvax2q_134.0.6987.1/134.0.6987.1_chrome_installer.exe",
-            "https://dl.google.com/release2/chrome/acinrial4mm775grppnywrzvax2q_134.0.6987.1/134.0.6987.1_chrome_installer.exe",
-            "http://www.google.com/dl/release2/chrome/acinrial4mm775grppnywrzvax2q_134.0.6987.1/134.0.6987.1_chrome_installer.exe",
-            "https://www.google.com/dl/release2/chrome/acinrial4mm775grppnywrzvax2q_134.0.6987.1/134.0.6987.1_chrome_installer.exe"
+            "http://edgedl.me.gvt1.com/edgedl/release2/chrome/plzwrobmdlrhuiopxbp6sq6nf4_134.0.6988.0/134.0.6988.0_chrome_installer.exe",
+            "https://edgedl.me.gvt1.com/edgedl/release2/chrome/plzwrobmdlrhuiopxbp6sq6nf4_134.0.6988.0/134.0.6988.0_chrome_installer.exe",
+            "http://dl.google.com/release2/chrome/plzwrobmdlrhuiopxbp6sq6nf4_134.0.6988.0/134.0.6988.0_chrome_installer.exe",
+            "https://dl.google.com/release2/chrome/plzwrobmdlrhuiopxbp6sq6nf4_134.0.6988.0/134.0.6988.0_chrome_installer.exe",
+            "http://www.google.com/dl/release2/chrome/plzwrobmdlrhuiopxbp6sq6nf4_134.0.6988.0/134.0.6988.0_chrome_installer.exe",
+            "https://www.google.com/dl/release2/chrome/plzwrobmdlrhuiopxbp6sq6nf4_134.0.6988.0/134.0.6988.0_chrome_installer.exe"
         ]
     }
 }
