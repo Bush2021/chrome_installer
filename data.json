@@ -140,17 +140,17 @@
         ]
     },
     "win_canary_x64": {
-        "version": "134.0.6998.1",
-        "size": 156731248,
-        "sha1": "4dbf35b9a0bfeca506bfa47209711ad97491e87d",
-        "sha256": "75a72576b94882b1de453ed68a08fadd2176fd59a4f01466966a6e25b19ac592",
+        "version": "134.0.6998.2",
+        "size": 120079216,
+        "sha1": "5f805fd0f59d3db90861a0cbaff7748f3ad41d45",
+        "sha256": "1414f68236da75ab4e4e31cedfc57248235e185c681f1d84da14465757efc303",
         "urls": [
-            "http://edgedl.me.gvt1.com/edgedl/release2/chrome/bk6rd4istvueimis6vijpfb7xi_134.0.6998.1/134.0.6998.1_chrome_installer.exe",
-            "https://edgedl.me.gvt1.com/edgedl/release2/chrome/bk6rd4istvueimis6vijpfb7xi_134.0.6998.1/134.0.6998.1_chrome_installer.exe",
-            "http://dl.google.com/release2/chrome/bk6rd4istvueimis6vijpfb7xi_134.0.6998.1/134.0.6998.1_chrome_installer.exe",
-            "https://dl.google.com/release2/chrome/bk6rd4istvueimis6vijpfb7xi_134.0.6998.1/134.0.6998.1_chrome_installer.exe",
-            "http://www.google.com/dl/release2/chrome/bk6rd4istvueimis6vijpfb7xi_134.0.6998.1/134.0.6998.1_chrome_installer.exe",
-            "https://www.google.com/dl/release2/chrome/bk6rd4istvueimis6vijpfb7xi_134.0.6998.1/134.0.6998.1_chrome_installer.exe"
+            "http://edgedl.me.gvt1.com/edgedl/release2/chrome/e4q2nfph7t67ve4ee7wjtsvmq4_134.0.6998.2/134.0.6998.2_chrome_installer.exe",
+            "https://edgedl.me.gvt1.com/edgedl/release2/chrome/e4q2nfph7t67ve4ee7wjtsvmq4_134.0.6998.2/134.0.6998.2_chrome_installer.exe",
+            "http://dl.google.com/release2/chrome/e4q2nfph7t67ve4ee7wjtsvmq4_134.0.6998.2/134.0.6998.2_chrome_installer.exe",
+            "https://dl.google.com/release2/chrome/e4q2nfph7t67ve4ee7wjtsvmq4_134.0.6998.2/134.0.6998.2_chrome_installer.exe",
+            "http://www.google.com/dl/release2/chrome/e4q2nfph7t67ve4ee7wjtsvmq4_134.0.6998.2/134.0.6998.2_chrome_installer.exe",
+            "https://www.google.com/dl/release2/chrome/e4q2nfph7t67ve4ee7wjtsvmq4_134.0.6998.2/134.0.6998.2_chrome_installer.exe"
         ]
     },
     "win_canary_arm64": {
