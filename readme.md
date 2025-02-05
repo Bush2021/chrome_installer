@@ -2,7 +2,7 @@
 稳定版存档：<https://github.com/Bush2021/chrome_installer/releases>
 
 最后检测更新时间
-2025-02-04 21:06:18 (UTC-4)
+2025-02-04 22:42:37 (UTC-4)
 
 ## 目录
 * [win stable x86](https://github.com/Bush2021/chrome_installer?tab=readme-ov-file#win-stable-x86)
@@ -73,20 +73,20 @@
 **下载链接**：[https://dl.google.com/release2/chrome/jj7vkclv46mk5x6noulpnfujfi_134.0.6988.2/134.0.6988.2_chrome_installer.exe](https://dl.google.com/release2/chrome/jj7vkclv46mk5x6noulpnfujfi_134.0.6988.2/134.0.6988.2_chrome_installer.exe)  
 
 ## win canary x86
-**最新版本**：134.0.6998.2  
+**最新版本**：134.0.6998.3  
 **文件大小**：102.5 MB  
-**校验值（Sha256）**：589a144e71f86a6290db7d9081b4604f676ff2277d8541dc53758367c6b8be35  
-**下载链接**：[https://dl.google.com/release2/chrome/adafsrbbxf5g5qwu6eypu5wtjzoq_134.0.6998.2/134.0.6998.2_chrome_installer.exe](https://dl.google.com/release2/chrome/adafsrbbxf5g5qwu6eypu5wtjzoq_134.0.6998.2/134.0.6998.2_chrome_installer.exe)  
+**校验值（Sha256）**：cd414b13ab8099ed23fc794a62ed6b9d809cd52b63d845c0dae3c1757257aa9d  
+**下载链接**：[https://dl.google.com/release2/chrome/acxtvjppsl7xrych2kb4w436kqnq_134.0.6998.3/134.0.6998.3_chrome_installer.exe](https://dl.google.com/release2/chrome/acxtvjppsl7xrych2kb4w436kqnq_134.0.6998.3/134.0.6998.3_chrome_installer.exe)  
 
 ## win canary x64
-**最新版本**：134.0.6998.2  
+**最新版本**：134.0.6998.3  
 **文件大小**：114.52 MB  
-**校验值（Sha256）**：1414f68236da75ab4e4e31cedfc57248235e185c681f1d84da14465757efc303  
-**下载链接**：[https://dl.google.com/release2/chrome/e4q2nfph7t67ve4ee7wjtsvmq4_134.0.6998.2/134.0.6998.2_chrome_installer.exe](https://dl.google.com/release2/chrome/e4q2nfph7t67ve4ee7wjtsvmq4_134.0.6998.2/134.0.6998.2_chrome_installer.exe)  
+**校验值（Sha256）**：15854b7bebf8b9228cc2282070d816ffef02a9ad4b3ce739e360a6235a3432d4  
+**下载链接**：[https://dl.google.com/release2/chrome/acdzn3kbkaxhzv74dqz6wgxhujma_134.0.6998.3/134.0.6998.3_chrome_installer.exe](https://dl.google.com/release2/chrome/acdzn3kbkaxhzv74dqz6wgxhujma_134.0.6998.3/134.0.6998.3_chrome_installer.exe)  
 
 ## win canary arm64
-**最新版本**：134.0.6998.2  
+**最新版本**：134.0.6998.3  
 **文件大小**：120.01 MB  
-**校验值（Sha256）**：cc6be357ff663150fd8cc05bc0bd4348c38e3cbef8fe929c1c585c58dec05334  
-**下载链接**：[https://dl.google.com/release2/chrome/a4kwovh2qs3sk2zsxjr7xqsqym_134.0.6998.2/134.0.6998.2_chrome_installer.exe](https://dl.google.com/release2/chrome/a4kwovh2qs3sk2zsxjr7xqsqym_134.0.6998.2/134.0.6998.2_chrome_installer.exe)  
+**校验值（Sha256）**：59722e064c4618c491dd0074c683ccd5928642287a795076af53300fb0cd0212  
+**下载链接**：[https://dl.google.com/release2/chrome/g72xwqphjgdam3olkxoujmmunm_134.0.6998.3/134.0.6998.3_chrome_installer.exe](https://dl.google.com/release2/chrome/g72xwqphjgdam3olkxoujmmunm_134.0.6998.3/134.0.6998.3_chrome_installer.exe)  
 
