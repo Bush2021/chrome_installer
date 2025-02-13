@@ -154,10 +154,6 @@ def save_md(results, file_path="readme.md"):
         f.write(
             "稳定版存档：<https://github.com/Bush2021/chrome_installer/releases>\n\n"
         )
-        f.write("最后检测更新时间\n")
-        now = datetime.now(timezone(timedelta(hours=-4)))
-        now_str = now.strftime("%Y-%m-%d %H:%M:%S (UTC-4)")
-        f.write(f"{now_str}\n\n")
         f.write("## 目录\n")
         for name in results.keys():
             title = name.replace("_", " ")
