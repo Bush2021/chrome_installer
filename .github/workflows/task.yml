@@ -24,7 +24,7 @@ jobs:
 
     - name: Get Tag
       id: get_tag
-      run: echo "tag=$(cat last_download.txt)" >> $GITHUB_ENV
+      run: echo "tag=$(git describe --tags --abbrev=0)" >> $GITHUB_ENV
 
     - name: Check for EXE Files
       id: check_files

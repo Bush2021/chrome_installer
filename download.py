@@ -1,6 +1,7 @@
 import json
 import os
 
+import subprocess
 import requests
 
 
@@ -8,23 +9,21 @@ def version_tuple(v):
     return tuple(map(int, (v.split("."))))
 
 
-def get_last_download():
+def get_last_version():
     try:
-        with open('last_download.txt', 'r') as file:
-            last_version = file.read().strip()
-            return last_version
-    except FileNotFoundError:
-        return ''
+        result = subprocess.run(['git', 'describe', '--tags', '--abbrev=0'], 
+                              capture_output=True, text=True)
+        return result.stdout.strip()
+    except:
+        return '0.0.0.0'
 
 
 def check_update():
-    last_version = get_last_download()
+    last_version = get_last_version()
     with open('data.json', 'r') as f:
         data = json.load(f)
         current_version = data['win_stable_x64']['version']
     if version_tuple(last_version) < version_tuple(current_version):
-        with open('last_download.txt', 'w') as file:
-            file.write(current_version)
         return True
     else:
         return False
