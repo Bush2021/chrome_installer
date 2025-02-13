@@ -1,7 +1,9 @@
+import argparse
 import json
 import os
-import subprocess
 import requests
+import shutil
+import subprocess
 
 
 def version_tuple(v):
@@ -16,42 +18,61 @@ def get_last_version():
     return version if version else "0.0.0.0"
 
 
-def check_update():
+def check_update(arch_key):
     last_version = get_last_version()
-    with open('data.json', 'r') as f:
+    with open("data.json", "r") as f:
         data = json.load(f)
-        latest_version = data['win_stable_x64']['version']
-    with open(os.getenv('GITHUB_ENV'), 'a') as env_file:
-        env_file.write(f'latest_version={latest_version}\n')
+        latest_version = data[arch_key]["version"]
+    with open(os.getenv("GITHUB_ENV"), "a") as env_file:
+        env_file.write(f"latest_version={latest_version}\n")
     return version_tuple(last_version) < version_tuple(latest_version)
 
 
-def get_download_url():
-    with open('data.json', 'r') as f:
+def get_download_info(arch_key):
+    with open("data.json", "r") as f:
         data = json.load(f)
-        download_url = data['win_stable_x64']['urls'][3]
-    return download_url
+        version = data[arch_key]["version"]
+        download_url = data[arch_key]["urls"][3]
+    return version, download_url
 
 
-def download():
-    if check_update():
-        print('New version detected, start downloading...')
-        url = get_download_url()
-        filename = url.split('/')[-1]
+def download_for_arch(arch_key):
+    if check_update(arch_key):
+        print(f"New version detected for {arch_key}, start downloading...")
+        version, url = get_download_info(arch_key)
+        arch_id = arch_key.split("_")[-1]
+        filename = f"{arch_id}_{url.split('/')[-1]}"
+
         if os.path.exists(filename):
-            print('The file already exists, skip downloading')
+            print(f"The file {filename} already exists, skip downloading")
             return
         r = requests.get(url, stream=True)
-        with open(filename, 'wb') as f:
+        with open(filename, "wb") as f:
             for chunk in r.iter_content(chunk_size=1024):
                 if chunk:
                     f.write(chunk)
-        print('Download complete')
-        if os.path.exists('__pycache__'):
-            os.system('rmdir /s /q __pycache__')
+        print(f"Download complete for {arch_key}")
     else:
-        print('No new version detected, skip downloading')
-        return
+        print(f"No new version detected for {arch_key}, skip downloading")
 
 
-download()
+def main():
+    parser = argparse.ArgumentParser(
+        description="Download Chrome installers for different architectures"
+    )
+    parser.add_argument(
+        "--arch",
+        nargs="+",
+        default=["win_stable_x64"],
+        choices=["win_stable_x86", "win_stable_x64", "win_stable_arm64"],
+        help="Architecture(s) to download (default: win_stable_x64)",
+    )
+    args = parser.parse_args()
+    for arch in args.arch:
+        download_for_arch(arch)
+    if os.path.exists("__pycache__"):
+        shutil.rmtree("__pycache__")
+
+
+if __name__ == "__main__":
+    main()

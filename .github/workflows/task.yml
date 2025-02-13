@@ -16,8 +16,8 @@ jobs:
     - name: Check Update
       run: python fetch.py
 
-    - name: Download Latest Stable Release
-      run: python download.py
+    - name: Download Latest Stable Releases
+      run: python download.py --arch win_stable_x86 win_stable_x64 win_stable_arm64
 
     - name: Check for EXE Files
       id: check_files
