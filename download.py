@@ -1,6 +1,5 @@
 import json
 import os
-
 import subprocess
 import requests
 
@@ -10,23 +9,21 @@ def version_tuple(v):
 
 
 def get_last_version():
-    try:
-        result = subprocess.run(['git', 'describe', '--tags', '--abbrev=0'], 
-                              capture_output=True, text=True)
-        return result.stdout.strip()
-    except:
-        return '0.0.0.0'
+    result = subprocess.run(
+        ["git", "tag", "--sort=-creatordate"], capture_output=True, text=True
+    )
+    version = result.stdout.split("\n")[0].strip()
+    return version if version else "0.0.0.0"
 
 
 def check_update():
     last_version = get_last_version()
     with open('data.json', 'r') as f:
         data = json.load(f)
-        current_version = data['win_stable_x64']['version']
-    if version_tuple(last_version) < version_tuple(current_version):
-        return True
-    else:
-        return False
+        latest_version = data['win_stable_x64']['version']
+    with open(os.getenv('GITHUB_ENV'), 'a') as env_file:
+        env_file.write(f'latest_version={latest_version}\n')
+    return version_tuple(last_version) < version_tuple(latest_version)
 
 
 def get_download_url():

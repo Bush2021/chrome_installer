@@ -12,19 +12,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
-      with:
-        persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal access token.
-        fetch-depth: 0 # otherwise, there would be errors pushing refs to the destination repository.
 
     - name: Check Update
       run: python fetch.py
 
     - name: Download Latest Stable Release
       run: python download.py
-
-    - name: Get Tag
-      id: get_tag
-      run: echo "tag=$(git describe --tags --abbrev=0)" >> $GITHUB_ENV
 
     - name: Check for EXE Files
       id: check_files
@@ -38,7 +31,7 @@ jobs:
     - name: Check if Tag Exists
       id: check_tag
       run: |
-        if git rev-parse "refs/tags/${{ env.tag }}" >/dev/null 2>&1; then
+        if git rev-parse "refs/tags/${{ env.latest_version }}" >/dev/null 2>&1; then
           echo "tag_exists=true" >> $GITHUB_ENV
         else
           echo "tag_exists=false" >> $GITHUB_ENV
@@ -55,19 +48,19 @@ jobs:
 
     - name: Push Changes
       run: |
-        git push origin HEAD:${{ github.ref }}
+        git push origin main
 
     - name: Create Tag
       if: env.exe_exists == 'true' && env.tag_exists == 'false'
       run: |
-        git tag ${{ env.tag }}
-        git push origin ${{ env.tag }}
+        git tag ${{ env.latest_version }}
+        git push origin ${{ env.latest_version }}
 
     - name: Upload Release
       if: env.exe_exists == 'true' && env.tag_exists == 'false'
       uses: softprops/action-gh-release@v2
       with:
-        tag_name: ${{ env.tag }}
+        tag_name: ${{ env.latest_version }}
         files: '*.exe'
 
     - name: Reset Main Branch
