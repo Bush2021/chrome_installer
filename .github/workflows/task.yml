@@ -5,7 +5,7 @@ on:
     branches: main
   workflow_dispatch:
   schedule:
-  - cron: '0 */1 * * *'
+    - cron: '0 */1 * * *'
 
 jobs:
   build:
@@ -30,7 +30,7 @@ jobs:
       id: check_files
       run: |
         if find . -name "*.exe" -print -quit | grep -q .; then
-            echo "exe_exists=true" >> $GITHUB_ENV
+          echo "exe_exists=true" >> $GITHUB_ENV
         else
           echo "exe_exists=false" >> $GITHUB_ENV
         fi
@@ -51,13 +51,17 @@ jobs:
         git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
         git add .
-        git commit -m ":pencil: Auto update Chrome at  $(date +"%Y-%m-%d %H:%M")" -a
+        git commit -m ":pencil: Auto update Chrome at $(date +'%Y-%m-%d %H:%M')" -a || echo "No changes to commit"
 
     - name: Push Changes
-      uses: ad-m/github-push-action@v0.8.0
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        branch: ${{ github.ref }}
+      run: |
+        git push origin HEAD:${{ github.ref }}
+
+    - name: Create Tag
+      if: env.exe_exists == 'true' && env.tag_exists == 'false'
+      run: |
+        git tag ${{ env.tag }}
+        git push origin ${{ env.tag }}
 
     - name: Upload Release
       if: env.exe_exists == 'true' && env.tag_exists == 'false'
@@ -65,3 +69,11 @@ jobs:
       with:
         tag_name: ${{ env.tag }}
         files: '*.exe'
+
+    - name: Reset Main Branch
+      if: env.exe_exists == 'true' && env.tag_exists == 'false'
+      run: |
+        git checkout --orphan temp_branch
+        git add -A
+        git commit -m "Init"
+        git push --force origin temp_branch:main
