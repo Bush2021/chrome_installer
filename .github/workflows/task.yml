@@ -12,14 +12,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
-      # with:
-      #   fetch-depth: 0 # otherwise, there would be errors pushing refs to the destination repository.
 
     - name: Check Update
       run: python fetch.py
 
-    - name: Download Latest Stable Release
-      run: python download.py
+    - name: Download Latest Stable Releases
+      run: python download.py --arch win_stable_x86 win_stable_x64 win_stable_arm64
 
     - name: Check for EXE Files
       id: check_files
@@ -33,7 +31,7 @@ jobs:
     - name: Check if Tag Exists
       id: check_tag
       run: |
-        if git rev-parse "refs/tags/${{ env.current_version }}" >/dev/null 2>&1; then
+        if git rev-parse "refs/tags/${{ env.latest_version }}" >/dev/null 2>&1; then
           echo "tag_exists=true" >> $GITHUB_ENV
         else
           echo "tag_exists=false" >> $GITHUB_ENV
@@ -55,14 +53,14 @@ jobs:
     - name: Create Tag
       if: env.exe_exists == 'true' && env.tag_exists == 'false'
       run: |
-        git tag ${{ env.current_version }}
-        git push origin ${{ env.current_version }}
+        git tag ${{ env.latest_version }}
+        git push origin ${{ env.latest_version }}
 
     - name: Upload Release
       if: env.exe_exists == 'true' && env.tag_exists == 'false'
       uses: softprops/action-gh-release@v2
       with:
-        tag_name: ${{ env.current_version }}
+        tag_name: ${{ env.latest_version }}
         files: '*.exe'
 
     - name: Reset Main Branch
