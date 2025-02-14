@@ -23,8 +23,10 @@ def check_update(arch_key):
     with open("data.json", "r") as f:
         data = json.load(f)
         latest_version = data[arch_key]["version"]
-    with open(os.getenv("GITHUB_ENV"), "a") as env_file:
-        env_file.write(f"latest_version={latest_version}\n")
+    github_env = os.getenv("GITHUB_ENV")
+    if github_env and os.path.exists(github_env):
+        with open(github_env, "a") as env_file:
+            env_file.write(f"latest_version={latest_version}\n")
     return version_tuple(last_version) < version_tuple(latest_version)
 
 
