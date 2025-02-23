@@ -154,17 +154,17 @@
         ]
     },
     "win_canary_arm64": {
-        "version": "135.0.7030.0",
-        "size": 126196592,
-        "sha1": "2dfe253d1b1486d9997fac04f078d5cd10473ed9",
-        "sha256": "a34043fd7187a88005f92946910bcfd43636b592f2c8ce1ac2130f7dd7e75896",
+        "version": "135.0.7030.1",
+        "size": 158360944,
+        "sha1": "9543b6c4dbbd2e416b2672c971356c33d7fe06a4",
+        "sha256": "f1348d98beaa37c279f93bb42a769780bf80836709e560e4d5e4fc9b742a6dfd",
         "urls": [
-            "http://edgedl.me.gvt1.com/edgedl/release2/chrome/fax37u6oztmsycrx7zzumi6bvq_135.0.7030.0/135.0.7030.0_chrome_installer.exe",
-            "https://edgedl.me.gvt1.com/edgedl/release2/chrome/fax37u6oztmsycrx7zzumi6bvq_135.0.7030.0/135.0.7030.0_chrome_installer.exe",
-            "http://dl.google.com/release2/chrome/fax37u6oztmsycrx7zzumi6bvq_135.0.7030.0/135.0.7030.0_chrome_installer.exe",
-            "https://dl.google.com/release2/chrome/fax37u6oztmsycrx7zzumi6bvq_135.0.7030.0/135.0.7030.0_chrome_installer.exe",
-            "http://www.google.com/dl/release2/chrome/fax37u6oztmsycrx7zzumi6bvq_135.0.7030.0/135.0.7030.0_chrome_installer.exe",
-            "https://www.google.com/dl/release2/chrome/fax37u6oztmsycrx7zzumi6bvq_135.0.7030.0/135.0.7030.0_chrome_installer.exe"
+            "http://edgedl.me.gvt1.com/edgedl/release2/chrome/geps7zwqfbgtsdce7a3lybosui_135.0.7030.1/135.0.7030.1_chrome_installer.exe",
+            "https://edgedl.me.gvt1.com/edgedl/release2/chrome/geps7zwqfbgtsdce7a3lybosui_135.0.7030.1/135.0.7030.1_chrome_installer.exe",
+            "http://dl.google.com/release2/chrome/geps7zwqfbgtsdce7a3lybosui_135.0.7030.1/135.0.7030.1_chrome_installer.exe",
+            "https://dl.google.com/release2/chrome/geps7zwqfbgtsdce7a3lybosui_135.0.7030.1/135.0.7030.1_chrome_installer.exe",
+            "http://www.google.com/dl/release2/chrome/geps7zwqfbgtsdce7a3lybosui_135.0.7030.1/135.0.7030.1_chrome_installer.exe",
+            "https://www.google.com/dl/release2/chrome/geps7zwqfbgtsdce7a3lybosui_135.0.7030.1/135.0.7030.1_chrome_installer.exe"
         ]
     }
 }
