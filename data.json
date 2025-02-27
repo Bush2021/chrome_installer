@@ -154,17 +154,17 @@
         ]
     },
     "win_canary_arm64": {
-        "version": "135.0.7039.0",
-        "size": 125776240,
-        "sha1": "2376c030115112431a21c918e48754c0425bf0e5",
-        "sha256": "b0ce2a549d281754c3e9684ef0090f218197ca694b1518e758aea19e0e99b941",
+        "version": "135.0.7040.0",
+        "size": 125905264,
+        "sha1": "fb70b5977ab62053b820b94e6574d35f34f8bd24",
+        "sha256": "846cc4b0f90218875640d5979825472cbd2d0f1a04134e6151002c82a8008ae0",
         "urls": [
-            "http://edgedl.me.gvt1.com/edgedl/release2/chrome/ac7rn3jm5pdgu32ylxb76aqo7eia_135.0.7039.0/135.0.7039.0_chrome_installer.exe",
-            "https://edgedl.me.gvt1.com/edgedl/release2/chrome/ac7rn3jm5pdgu32ylxb76aqo7eia_135.0.7039.0/135.0.7039.0_chrome_installer.exe",
-            "http://dl.google.com/release2/chrome/ac7rn3jm5pdgu32ylxb76aqo7eia_135.0.7039.0/135.0.7039.0_chrome_installer.exe",
-            "https://dl.google.com/release2/chrome/ac7rn3jm5pdgu32ylxb76aqo7eia_135.0.7039.0/135.0.7039.0_chrome_installer.exe",
-            "http://www.google.com/dl/release2/chrome/ac7rn3jm5pdgu32ylxb76aqo7eia_135.0.7039.0/135.0.7039.0_chrome_installer.exe",
-            "https://www.google.com/dl/release2/chrome/ac7rn3jm5pdgu32ylxb76aqo7eia_135.0.7039.0/135.0.7039.0_chrome_installer.exe"
+            "http://edgedl.me.gvt1.com/edgedl/release2/chrome/dsc4qtt37snhp7aydopxuapuka_135.0.7040.0/135.0.7040.0_chrome_installer.exe",
+            "https://edgedl.me.gvt1.com/edgedl/release2/chrome/dsc4qtt37snhp7aydopxuapuka_135.0.7040.0/135.0.7040.0_chrome_installer.exe",
+            "http://dl.google.com/release2/chrome/dsc4qtt37snhp7aydopxuapuka_135.0.7040.0/135.0.7040.0_chrome_installer.exe",
+            "https://dl.google.com/release2/chrome/dsc4qtt37snhp7aydopxuapuka_135.0.7040.0/135.0.7040.0_chrome_installer.exe",
+            "http://www.google.com/dl/release2/chrome/dsc4qtt37snhp7aydopxuapuka_135.0.7040.0/135.0.7040.0_chrome_installer.exe",
+            "https://www.google.com/dl/release2/chrome/dsc4qtt37snhp7aydopxuapuka_135.0.7040.0/135.0.7040.0_chrome_installer.exe"
         ]
     }
 }
