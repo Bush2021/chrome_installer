@@ -140,17 +140,17 @@
         ]
     },
     "win_canary_x64": {
-        "version": "135.0.7044.0",
-        "size": 120151408,
-        "sha1": "ba362c0d7315c2ecf5f68cee69da8e740debd88c",
-        "sha256": "192d275390001538d79bc2122335780c68f6bfb73908dbc464edf7999315cf8a",
+        "version": "135.0.7044.1",
+        "size": 157872496,
+        "sha1": "229d11e2b315cd3bfa76bb6e08d4c3e704aa0c67",
+        "sha256": "713ab3dfc89e571e2f137d823df70a8832f8209b3f5b0a6e4cd42863d083fbae",
         "urls": [
-            "http://edgedl.me.gvt1.com/edgedl/release2/chrome/acsxqmk22yabb6rb7eib5qhtuyma_135.0.7044.0/135.0.7044.0_chrome_installer.exe",
-            "https://edgedl.me.gvt1.com/edgedl/release2/chrome/acsxqmk22yabb6rb7eib5qhtuyma_135.0.7044.0/135.0.7044.0_chrome_installer.exe",
-            "http://dl.google.com/release2/chrome/acsxqmk22yabb6rb7eib5qhtuyma_135.0.7044.0/135.0.7044.0_chrome_installer.exe",
-            "https://dl.google.com/release2/chrome/acsxqmk22yabb6rb7eib5qhtuyma_135.0.7044.0/135.0.7044.0_chrome_installer.exe",
-            "http://www.google.com/dl/release2/chrome/acsxqmk22yabb6rb7eib5qhtuyma_135.0.7044.0/135.0.7044.0_chrome_installer.exe",
-            "https://www.google.com/dl/release2/chrome/acsxqmk22yabb6rb7eib5qhtuyma_135.0.7044.0/135.0.7044.0_chrome_installer.exe"
+            "http://edgedl.me.gvt1.com/edgedl/release2/chrome/d2bfv6jl3atv7quditutxijnni_135.0.7044.1/135.0.7044.1_chrome_installer.exe",
+            "https://edgedl.me.gvt1.com/edgedl/release2/chrome/d2bfv6jl3atv7quditutxijnni_135.0.7044.1/135.0.7044.1_chrome_installer.exe",
+            "http://dl.google.com/release2/chrome/d2bfv6jl3atv7quditutxijnni_135.0.7044.1/135.0.7044.1_chrome_installer.exe",
+            "https://dl.google.com/release2/chrome/d2bfv6jl3atv7quditutxijnni_135.0.7044.1/135.0.7044.1_chrome_installer.exe",
+            "http://www.google.com/dl/release2/chrome/d2bfv6jl3atv7quditutxijnni_135.0.7044.1/135.0.7044.1_chrome_installer.exe",
+            "https://www.google.com/dl/release2/chrome/d2bfv6jl3atv7quditutxijnni_135.0.7044.1/135.0.7044.1_chrome_installer.exe"
         ]
     },
     "win_canary_arm64": {
