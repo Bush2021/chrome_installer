@@ -154,17 +154,17 @@
         ]
     },
     "win_canary_arm64": {
-        "version": "136.0.7059.1",
-        "size": 158903664,
-        "sha1": "27bcb326adee2cddfa9eb3d46e8221e4e4b4436a",
-        "sha256": "e8b4a03ff8b2b079e154380dd55f1941ca374833d2ee27194f0c107c5087a96c",
+        "version": "136.0.7060.1",
+        "size": 158889840,
+        "sha1": "d58cf39ca91121222d063edd49863175d3d2f48a",
+        "sha256": "c4d8882082ee88c3964b5a43137528b9f029b75ab159a1256cabc950ff8da60c",
         "urls": [
-            "http://edgedl.me.gvt1.com/edgedl/release2/chrome/adplpe3gupf6jpiye634gatkcsna_136.0.7059.1/136.0.7059.1_chrome_installer.exe",
-            "https://edgedl.me.gvt1.com/edgedl/release2/chrome/adplpe3gupf6jpiye634gatkcsna_136.0.7059.1/136.0.7059.1_chrome_installer.exe",
-            "http://dl.google.com/release2/chrome/adplpe3gupf6jpiye634gatkcsna_136.0.7059.1/136.0.7059.1_chrome_installer.exe",
-            "https://dl.google.com/release2/chrome/adplpe3gupf6jpiye634gatkcsna_136.0.7059.1/136.0.7059.1_chrome_installer.exe",
-            "http://www.google.com/dl/release2/chrome/adplpe3gupf6jpiye634gatkcsna_136.0.7059.1/136.0.7059.1_chrome_installer.exe",
-            "https://www.google.com/dl/release2/chrome/adplpe3gupf6jpiye634gatkcsna_136.0.7059.1/136.0.7059.1_chrome_installer.exe"
+            "http://edgedl.me.gvt1.com/edgedl/release2/chrome/kay75h6cwtucnt2ow4es32sa24_136.0.7060.1/136.0.7060.1_chrome_installer.exe",
+            "https://edgedl.me.gvt1.com/edgedl/release2/chrome/kay75h6cwtucnt2ow4es32sa24_136.0.7060.1/136.0.7060.1_chrome_installer.exe",
+            "http://dl.google.com/release2/chrome/kay75h6cwtucnt2ow4es32sa24_136.0.7060.1/136.0.7060.1_chrome_installer.exe",
+            "https://dl.google.com/release2/chrome/kay75h6cwtucnt2ow4es32sa24_136.0.7060.1/136.0.7060.1_chrome_installer.exe",
+            "http://www.google.com/dl/release2/chrome/kay75h6cwtucnt2ow4es32sa24_136.0.7060.1/136.0.7060.1_chrome_installer.exe",
+            "https://www.google.com/dl/release2/chrome/kay75h6cwtucnt2ow4es32sa24_136.0.7060.1/136.0.7060.1_chrome_installer.exe"
         ]
     }
 }
