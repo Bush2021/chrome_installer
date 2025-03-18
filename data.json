@@ -154,17 +154,17 @@
         ]
     },
     "win_canary_arm64": {
-        "version": "136.0.7075.0",
-        "size": 125751664,
-        "sha1": "0e4ed5578f319cf993e9d013c794d9c6ccdd6594",
-        "sha256": "30a827764197cbdae90309e8f96b7a39bf5a28087150ec03a77b3b6fcf5e1d8a",
+        "version": "136.0.7076.0",
+        "size": 125985648,
+        "sha1": "30072bcfb6fc6abe6e561830bdd77044f9e96444",
+        "sha256": "3403964167100676565fd9d282469cfad46a29835490d4eda51be9f09d637896",
         "urls": [
-            "http://edgedl.me.gvt1.com/edgedl/release2/chrome/ez6drnzk5igl6mtqbvu5eliilq_136.0.7075.0/136.0.7075.0_chrome_installer.exe",
-            "https://edgedl.me.gvt1.com/edgedl/release2/chrome/ez6drnzk5igl6mtqbvu5eliilq_136.0.7075.0/136.0.7075.0_chrome_installer.exe",
-            "http://dl.google.com/release2/chrome/ez6drnzk5igl6mtqbvu5eliilq_136.0.7075.0/136.0.7075.0_chrome_installer.exe",
-            "https://dl.google.com/release2/chrome/ez6drnzk5igl6mtqbvu5eliilq_136.0.7075.0/136.0.7075.0_chrome_installer.exe",
-            "http://www.google.com/dl/release2/chrome/ez6drnzk5igl6mtqbvu5eliilq_136.0.7075.0/136.0.7075.0_chrome_installer.exe",
-            "https://www.google.com/dl/release2/chrome/ez6drnzk5igl6mtqbvu5eliilq_136.0.7075.0/136.0.7075.0_chrome_installer.exe"
+            "http://edgedl.me.gvt1.com/edgedl/release2/chrome/lev5rh5mfdgnrgkzea27mezdoa_136.0.7076.0/136.0.7076.0_chrome_installer.exe",
+            "https://edgedl.me.gvt1.com/edgedl/release2/chrome/lev5rh5mfdgnrgkzea27mezdoa_136.0.7076.0/136.0.7076.0_chrome_installer.exe",
+            "http://dl.google.com/release2/chrome/lev5rh5mfdgnrgkzea27mezdoa_136.0.7076.0/136.0.7076.0_chrome_installer.exe",
+            "https://dl.google.com/release2/chrome/lev5rh5mfdgnrgkzea27mezdoa_136.0.7076.0/136.0.7076.0_chrome_installer.exe",
+            "http://www.google.com/dl/release2/chrome/lev5rh5mfdgnrgkzea27mezdoa_136.0.7076.0/136.0.7076.0_chrome_installer.exe",
+            "https://www.google.com/dl/release2/chrome/lev5rh5mfdgnrgkzea27mezdoa_136.0.7076.0/136.0.7076.0_chrome_installer.exe"
         ]
     }
 }
