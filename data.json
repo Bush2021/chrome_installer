@@ -126,17 +126,17 @@
         ]
     },
     "win_canary_x86": {
-        "version": "136.0.7086.0",
-        "size": 108566896,
-        "sha1": "4c2857b5bddb1ed8e55715285ed5aad55c17ab2f",
-        "sha256": "71c0c2605dd4a47cfb04d5a3882cab5ae7c76ab3958f63155ce6b16e07fce094",
+        "version": "136.0.7086.1",
+        "size": 127249264,
+        "sha1": "6c78d2044939e318f6c2e978c5ebe0df54a09fb1",
+        "sha256": "ba99fefcfa8fc0bda3e411839388c0da670df4adb325c45b8fa2bbb8e2893f83",
         "urls": [
-            "http://edgedl.me.gvt1.com/edgedl/release2/chrome/lbb5hcydyz6oof2fvavmsn4pna_136.0.7086.0/136.0.7086.0_chrome_installer.exe",
-            "https://edgedl.me.gvt1.com/edgedl/release2/chrome/lbb5hcydyz6oof2fvavmsn4pna_136.0.7086.0/136.0.7086.0_chrome_installer.exe",
-            "http://dl.google.com/release2/chrome/lbb5hcydyz6oof2fvavmsn4pna_136.0.7086.0/136.0.7086.0_chrome_installer.exe",
-            "https://dl.google.com/release2/chrome/lbb5hcydyz6oof2fvavmsn4pna_136.0.7086.0/136.0.7086.0_chrome_installer.exe",
-            "http://www.google.com/dl/release2/chrome/lbb5hcydyz6oof2fvavmsn4pna_136.0.7086.0/136.0.7086.0_chrome_installer.exe",
-            "https://www.google.com/dl/release2/chrome/lbb5hcydyz6oof2fvavmsn4pna_136.0.7086.0/136.0.7086.0_chrome_installer.exe"
+            "http://edgedl.me.gvt1.com/edgedl/release2/chrome/l7pswguactiu26ews5v2ekebia_136.0.7086.1/136.0.7086.1_chrome_installer.exe",
+            "https://edgedl.me.gvt1.com/edgedl/release2/chrome/l7pswguactiu26ews5v2ekebia_136.0.7086.1/136.0.7086.1_chrome_installer.exe",
+            "http://dl.google.com/release2/chrome/l7pswguactiu26ews5v2ekebia_136.0.7086.1/136.0.7086.1_chrome_installer.exe",
+            "https://dl.google.com/release2/chrome/l7pswguactiu26ews5v2ekebia_136.0.7086.1/136.0.7086.1_chrome_installer.exe",
+            "http://www.google.com/dl/release2/chrome/l7pswguactiu26ews5v2ekebia_136.0.7086.1/136.0.7086.1_chrome_installer.exe",
+            "https://www.google.com/dl/release2/chrome/l7pswguactiu26ews5v2ekebia_136.0.7086.1/136.0.7086.1_chrome_installer.exe"
         ]
     },
     "win_canary_x64": {
