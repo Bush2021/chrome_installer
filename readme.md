@@ -70,10 +70,10 @@
 **下载链接**：[https://dl.google.com/release2/chrome/ogi3mv2hkelgst2skhi6dbnnfu_136.0.7064.0/136.0.7064.0_chrome_installer.exe](https://dl.google.com/release2/chrome/ogi3mv2hkelgst2skhi6dbnnfu_136.0.7064.0/136.0.7064.0_chrome_installer.exe)  
 
 ## win canary x86
-**最新版本**：136.0.7087.0  
-**文件大小**：103.57 MB  
-**校验值（Sha256）**：6de986acb7330f906a01d9875e425bda95d966d3699799d2d56bb309c43f9cf4  
-**下载链接**：[https://dl.google.com/release2/chrome/pgst3r73jwy6jt4s34egh26fqq_136.0.7087.0/136.0.7087.0_chrome_installer.exe](https://dl.google.com/release2/chrome/pgst3r73jwy6jt4s34egh26fqq_136.0.7087.0/136.0.7087.0_chrome_installer.exe)  
+**最新版本**：136.0.7088.0  
+**文件大小**：103.6 MB  
+**校验值（Sha256）**：7dad66ad57f7a4dbd7ecfc8a6191a954df11906beebc76f5b6965807fb475f65  
+**下载链接**：[https://dl.google.com/release2/chrome/icuzhk3rispvcl55rnm5nu3fcy_136.0.7088.0/136.0.7088.0_chrome_installer.exe](https://dl.google.com/release2/chrome/icuzhk3rispvcl55rnm5nu3fcy_136.0.7088.0/136.0.7088.0_chrome_installer.exe)  
 
 ## win canary x64
 **最新版本**：136.0.7088.0  
@@ -82,8 +82,8 @@
 **下载链接**：[https://dl.google.com/release2/chrome/gd3nmuxx37yvsxrxsve3pwrqp4_136.0.7088.0/136.0.7088.0_chrome_installer.exe](https://dl.google.com/release2/chrome/gd3nmuxx37yvsxrxsve3pwrqp4_136.0.7088.0/136.0.7088.0_chrome_installer.exe)  
 
 ## win canary arm64
-**最新版本**：136.0.7087.0  
+**最新版本**：136.0.7088.0  
 **文件大小**：120.18 MB  
-**校验值（Sha256）**：be698a27e73e5590420206fa82989100e1615cf7bc64af4e8b515109e032ed56  
-**下载链接**：[https://dl.google.com/release2/chrome/adpkvplt5opkyiqw5mtkzyhixvhq_136.0.7087.0/136.0.7087.0_chrome_installer.exe](https://dl.google.com/release2/chrome/adpkvplt5opkyiqw5mtkzyhixvhq_136.0.7087.0/136.0.7087.0_chrome_installer.exe)  
+**校验值（Sha256）**：2192df5f6a2201792c201793559a7fe91e5a9acaa08c5d49bd54d75c87e439d1  
+**下载链接**：[https://dl.google.com/release2/chrome/dwfvw64w5bnl6qsf5pi6cqhedy_136.0.7088.0/136.0.7088.0_chrome_installer.exe](https://dl.google.com/release2/chrome/dwfvw64w5bnl6qsf5pi6cqhedy_136.0.7088.0/136.0.7088.0_chrome_installer.exe)  
 
