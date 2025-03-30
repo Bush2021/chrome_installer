@@ -70,10 +70,10 @@
 **下载链接**：[https://dl.google.com/release2/chrome/acoavt57ttqap76ccwxctcefnmeq_136.0.7091.2/136.0.7091.2_chrome_installer.exe](https://dl.google.com/release2/chrome/acoavt57ttqap76ccwxctcefnmeq_136.0.7091.2/136.0.7091.2_chrome_installer.exe)  
 
 ## win canary x86
-**最新版本**：136.0.7098.0  
-**文件大小**：104.07 MB  
-**校验值（Sha256）**：a3d66be43336910fe492495fc644ddd89e680f5e6e9dc8bc1fd0d24f351b85da  
-**下载链接**：[https://dl.google.com/release2/chrome/bwidaepfwgjjfozvmys5lljomq_136.0.7098.0/136.0.7098.0_chrome_installer.exe](https://dl.google.com/release2/chrome/bwidaepfwgjjfozvmys5lljomq_136.0.7098.0/136.0.7098.0_chrome_installer.exe)  
+**最新版本**：136.0.7098.1  
+**文件大小**：122.43 MB  
+**校验值（Sha256）**：d3a27611f91425ed009e73046b9a7a04f2e3bb16e32a6134f33d19785a5471d2  
+**下载链接**：[https://dl.google.com/release2/chrome/adfov7q5mub5bo6ds7evwb3ijxga_136.0.7098.1/136.0.7098.1_chrome_installer.exe](https://dl.google.com/release2/chrome/adfov7q5mub5bo6ds7evwb3ijxga_136.0.7098.1/136.0.7098.1_chrome_installer.exe)  
 
 ## win canary x64
 **最新版本**：136.0.7098.0  
