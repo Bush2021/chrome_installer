@@ -154,17 +154,17 @@
         ]
     },
     "win_canary_arm64": {
-        "version": "136.0.7103.2",
-        "size": 126784368,
-        "sha1": "3a3a3aa906171a0270601f941275a34dd70837f0",
-        "sha256": "767c8fa94c54b4e22d09c9262e8e1f3411572c7845287a2fc9e6f6dcaf8be8c3",
+        "version": "136.0.7103.3",
+        "size": 126669168,
+        "sha1": "9d1179c995a6fb4ffe52d95f433208f5b611e7e8",
+        "sha256": "9b9cd95f5e9fd71eb741a7f33b2d22a42cb9ba1e4443bdc6ea7348b743102c15",
         "urls": [
-            "http://edgedl.me.gvt1.com/edgedl/release2/chrome/d7blgo6t2mki6nnt2yqp5a6mmm_136.0.7103.2/136.0.7103.2_chrome_installer.exe",
-            "https://edgedl.me.gvt1.com/edgedl/release2/chrome/d7blgo6t2mki6nnt2yqp5a6mmm_136.0.7103.2/136.0.7103.2_chrome_installer.exe",
-            "http://dl.google.com/release2/chrome/d7blgo6t2mki6nnt2yqp5a6mmm_136.0.7103.2/136.0.7103.2_chrome_installer.exe",
-            "https://dl.google.com/release2/chrome/d7blgo6t2mki6nnt2yqp5a6mmm_136.0.7103.2/136.0.7103.2_chrome_installer.exe",
-            "http://www.google.com/dl/release2/chrome/d7blgo6t2mki6nnt2yqp5a6mmm_136.0.7103.2/136.0.7103.2_chrome_installer.exe",
-            "https://www.google.com/dl/release2/chrome/d7blgo6t2mki6nnt2yqp5a6mmm_136.0.7103.2/136.0.7103.2_chrome_installer.exe"
+            "http://edgedl.me.gvt1.com/edgedl/release2/chrome/adnqmto3udmpul4r53pykcnoh2va_136.0.7103.3/136.0.7103.3_chrome_installer.exe",
+            "https://edgedl.me.gvt1.com/edgedl/release2/chrome/adnqmto3udmpul4r53pykcnoh2va_136.0.7103.3/136.0.7103.3_chrome_installer.exe",
+            "http://dl.google.com/release2/chrome/adnqmto3udmpul4r53pykcnoh2va_136.0.7103.3/136.0.7103.3_chrome_installer.exe",
+            "https://dl.google.com/release2/chrome/adnqmto3udmpul4r53pykcnoh2va_136.0.7103.3/136.0.7103.3_chrome_installer.exe",
+            "http://www.google.com/dl/release2/chrome/adnqmto3udmpul4r53pykcnoh2va_136.0.7103.3/136.0.7103.3_chrome_installer.exe",
+            "https://www.google.com/dl/release2/chrome/adnqmto3udmpul4r53pykcnoh2va_136.0.7103.3/136.0.7103.3_chrome_installer.exe"
         ]
     }
 }
