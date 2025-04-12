@@ -3,8 +3,11 @@ import os
 import json
 import xml.etree.ElementTree as tree
 from datetime import datetime, timezone, timedelta
+import argparse
+from pathlib import Path
 
 import requests
+import config
 
 # https://source.chromium.org/chromium/chromium/src/+/main:chrome/installer/util/additional_parameters.cc;drc=406947a0f1e0e6b596d387b6b14156f369e8c55d;l=206
 info = {
@@ -58,7 +61,7 @@ info = {
     },
 }
 
-update_url = "https://tools.google.com/service/update2"
+update_url = config.FETCH_API_URL
 
 session = requests.Session()
 
@@ -83,7 +86,7 @@ def decode(text):
 
     manifest_node = root.find(".//manifest")
     if manifest_node is None:
-        print("Error: manifest_node is None")
+        print("错误: manifest_node为空")
         return
 
     manifest_version = manifest_node.get("version")
@@ -110,9 +113,14 @@ def version_tuple(v):
     return tuple(map(int, v.split(".")))
 
 
-def load_json(file_path="data.json"):
+def load_json(file_path=None):
+    """加载JSON文件, 如果文件不存在则返回空字典"""
+    if file_path is None:
+        file_path = config.FETCH_OUTPUT_JSON_PATH
+    
     if not os.path.exists(file_path):
         return {}
+    
     try:
         with open(file_path, "r") as f:
             return json.load(f) or {}
@@ -120,17 +128,21 @@ def load_json(file_path="data.json"):
         return {}
 
 
-def fetch(info, results):
+def fetch(info, results, api_url=None):
+    global update_url
+    if api_url:
+        update_url = api_url
+        
     for k, v in info.items():
         res = post(**v)
         data = decode(res)
         if data is None:
-            print(f"Error: No data returned for {k}")
+            print(f"错误: {k} 未返回数据")
             continue
         if version_tuple(data["version"]) < version_tuple(
             results.get(k, {}).get("version", "0.0.0.0")
         ):
-            print("ignore", k, data["version"])
+            print("忽略", k, data["version"])
             continue
         results[k] = data
 
@@ -147,40 +159,99 @@ def humansize(nbytes):
     return f"{f} {suffixes[i]}"
 
 
-def save_md(results, file_path="readme.md"):
-    index_url = "https://github.com/Bush2021/chrome_installer?tab=readme-ov-file#"
-    with open(file_path, "w") as f:
-        f.write("# Google Chrome 离线安装包（请使用 7-Zip 解压）\n")
-        f.write(
-            "稳定版存档：<https://github.com/Bush2021/chrome_installer/releases>\n\n"
-        )
-        f.write("## 目录\n")
-        for name in results.keys():
-            title = name.replace("_", " ")
-            link = index_url + title.replace(" ", "-")
-            f.write(f"* [{title}]({link})\n")
-        f.write("\n")
-        for name, version in results.items():
-            f.write(f'## {name.replace("_", " ")}\n')
-            f.write(f'**最新版本**：{version["version"]}  \n')
-            f.write(f'**文件大小**：{humansize(version["size"])}  \n')
-            f.write(f'**校验值（Sha256）**：{version["sha256"]}  \n')
-            for url in version["urls"]:
-                if url.startswith("https://dl."):
-                    f.write(f"**下载链接**：[{url}]({url})  \n")
-            f.write("\n")
-
-
-def save_json(results, file_path="data.json"):
+def save_json(results, file_path=None):
+    """保存JSON文件, 默认使用配置中的路径"""
+    if file_path is None:
+        file_path = config.FETCH_OUTPUT_JSON_PATH
+    
+    # 确保目录存在
+    os.makedirs(os.path.dirname(file_path), exist_ok=True)
+        
     with open(file_path, "w") as f:
         json.dump(results, f, indent=4)
+    
+    print(f"已保存JSON数据到 {file_path}")
+
+
+def filter_info_by_channels_and_platforms(channels, platforms):
+    """根据指定的频道和平台过滤info字典"""
+    if not channels and not platforms:
+        return info
+    
+    filtered_info = {}
+    for key, value in info.items():
+        # 解析键名为频道和平台部分
+        parts = key.split('_')
+        if len(parts) >= 3:
+            platform = parts[0]  # win
+            channel = parts[1]   # stable/beta/dev/canary
+            arch = parts[2]      # x86/x64/arm64
+            
+            # 检查频道和平台
+            channel_match = not channels or channel in channels
+            platform_match = not platforms or platform in platforms
+            
+            if channel_match and platform_match:
+                filtered_info[key] = value
+    
+    return filtered_info
 
 
 def main():
-    results = load_json()
-    fetch(info, results)
-    save_md(results)
-    save_json(results)
+    # 从配置中获取默认参数
+    default_api_url = config.FETCH_API_URL
+    default_channels = config.FETCH_CHANNELS
+    default_platforms = config.FETCH_PLATFORMS
+    default_json_path = config.FETCH_OUTPUT_JSON_PATH
+    
+    parser = argparse.ArgumentParser(description='获取Chrome版本信息')
+    parser.add_argument(
+        '--api-url',
+        default=default_api_url,
+        help=f'API URL (默认: {default_api_url})'
+    )
+    parser.add_argument(
+        '--channels',
+        nargs='+',
+        default=default_channels,
+        choices=['stable', 'beta', 'dev', 'canary'],
+        help=f'要获取的频道 (默认: {", ".join(default_channels)})'
+    )
+    parser.add_argument(
+        '--platforms',
+        nargs='+',
+        default=default_platforms,
+        choices=['win', 'mac', 'linux'],
+        help=f'要获取的平台 (默认: {", ".join(default_platforms)})'
+    )
+    parser.add_argument(
+        '--json-file',
+        default=default_json_path,
+        help=f'JSON输出文件 (默认: {default_json_path})'
+    )
+    parser.add_argument(
+        '--no-readme',
+        action='store_true',
+        help='不生成README.md文件'
+    )
+    
+    args = parser.parse_args()
+    
+    # 根据频道和平台过滤info字典
+    filtered_info = filter_info_by_channels_and_platforms(args.channels, args.platforms)
+    
+    results = load_json(args.json_file)
+    fetch(filtered_info, results, args.api_url)
+    save_json(results, args.json_file)
+    
+    # 生成README.md (通过单独的脚本或函数)
+    if not args.no_readme:
+        try:
+            from gen_markdown import generate_readme
+            readme_path = config.GEN_MARKDOWN_OUTPUT_PATH
+            generate_readme(results, readme_path)
+        except ImportError:
+            print("警告: 未找到gen_markdown模块, 跳过README生成")
 
 
 if __name__ == "__main__":

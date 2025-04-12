@@ -20,3 +20,11 @@ coverage/
 *.lock
 *-lock.json
 *-lock.yaml
+
+output/
+
+# 忽略所有 .venv 目录
+.venv/
+
+# 忽略所有 __pycache__ 目录
+__pycache__/
