@@ -140,17 +140,17 @@
         ]
     },
     "win_canary_x64": {
-        "version": "137.0.7123.1",
-        "size": 160158576,
-        "sha1": "e34d1f9151aa0b582e103d147fbfa41512594b4c",
-        "sha256": "74c45555d2f0bba0ea6a2b7a01db1f4430a397a15e251b6b322366da36f29548",
+        "version": "137.0.7123.3",
+        "size": 160162672,
+        "sha1": "679555d364248ac514031baa5dc763354704380c",
+        "sha256": "7d366f34822bc2c370ddcaa51c5e0c526dd4af441becb87202d6d01108163ece",
         "urls": [
-            "http://edgedl.me.gvt1.com/edgedl/release2/chrome/b5mgrxlgze7uqfpblywc7jpa3y_137.0.7123.1/137.0.7123.1_chrome_installer.exe",
-            "https://edgedl.me.gvt1.com/edgedl/release2/chrome/b5mgrxlgze7uqfpblywc7jpa3y_137.0.7123.1/137.0.7123.1_chrome_installer.exe",
-            "http://dl.google.com/release2/chrome/b5mgrxlgze7uqfpblywc7jpa3y_137.0.7123.1/137.0.7123.1_chrome_installer.exe",
-            "https://dl.google.com/release2/chrome/b5mgrxlgze7uqfpblywc7jpa3y_137.0.7123.1/137.0.7123.1_chrome_installer.exe",
-            "http://www.google.com/dl/release2/chrome/b5mgrxlgze7uqfpblywc7jpa3y_137.0.7123.1/137.0.7123.1_chrome_installer.exe",
-            "https://www.google.com/dl/release2/chrome/b5mgrxlgze7uqfpblywc7jpa3y_137.0.7123.1/137.0.7123.1_chrome_installer.exe"
+            "http://edgedl.me.gvt1.com/edgedl/release2/chrome/bho4wrqkqsh3w7etfhutrsovly_137.0.7123.3/137.0.7123.3_chrome_installer.exe",
+            "https://edgedl.me.gvt1.com/edgedl/release2/chrome/bho4wrqkqsh3w7etfhutrsovly_137.0.7123.3/137.0.7123.3_chrome_installer.exe",
+            "http://dl.google.com/release2/chrome/bho4wrqkqsh3w7etfhutrsovly_137.0.7123.3/137.0.7123.3_chrome_installer.exe",
+            "https://dl.google.com/release2/chrome/bho4wrqkqsh3w7etfhutrsovly_137.0.7123.3/137.0.7123.3_chrome_installer.exe",
+            "http://www.google.com/dl/release2/chrome/bho4wrqkqsh3w7etfhutrsovly_137.0.7123.3/137.0.7123.3_chrome_installer.exe",
+            "https://www.google.com/dl/release2/chrome/bho4wrqkqsh3w7etfhutrsovly_137.0.7123.3/137.0.7123.3_chrome_installer.exe"
         ]
     },
     "win_canary_arm64": {
