@@ -154,17 +154,17 @@
         ]
     },
     "win_canary_arm64": {
-        "version": "137.0.7124.0",
-        "size": 126961008,
-        "sha1": "10ff1bcf30aea1dbcc39504523f27b1fd4a9efb3",
-        "sha256": "249541f399809bba1916319828eac4714fe34807235dc5789f1708075000d24d",
+        "version": "137.0.7125.0",
+        "size": 126769520,
+        "sha1": "b649df32e9090c6f7cf907733116120dc300caf4",
+        "sha256": "d7eb3011f72fffd2d366b5b29f88b6380867bd9d3d2519645b96e49bcfb32ede",
         "urls": [
-            "http://edgedl.me.gvt1.com/edgedl/release2/chrome/bdqv7rxfmw67sx7e3pmckmrzy4_137.0.7124.0/137.0.7124.0_chrome_installer.exe",
-            "https://edgedl.me.gvt1.com/edgedl/release2/chrome/bdqv7rxfmw67sx7e3pmckmrzy4_137.0.7124.0/137.0.7124.0_chrome_installer.exe",
-            "http://dl.google.com/release2/chrome/bdqv7rxfmw67sx7e3pmckmrzy4_137.0.7124.0/137.0.7124.0_chrome_installer.exe",
-            "https://dl.google.com/release2/chrome/bdqv7rxfmw67sx7e3pmckmrzy4_137.0.7124.0/137.0.7124.0_chrome_installer.exe",
-            "http://www.google.com/dl/release2/chrome/bdqv7rxfmw67sx7e3pmckmrzy4_137.0.7124.0/137.0.7124.0_chrome_installer.exe",
-            "https://www.google.com/dl/release2/chrome/bdqv7rxfmw67sx7e3pmckmrzy4_137.0.7124.0/137.0.7124.0_chrome_installer.exe"
+            "http://edgedl.me.gvt1.com/edgedl/release2/chrome/ihk57flogixhakadio3lymb4rm_137.0.7125.0/137.0.7125.0_chrome_installer.exe",
+            "https://edgedl.me.gvt1.com/edgedl/release2/chrome/ihk57flogixhakadio3lymb4rm_137.0.7125.0/137.0.7125.0_chrome_installer.exe",
+            "http://dl.google.com/release2/chrome/ihk57flogixhakadio3lymb4rm_137.0.7125.0/137.0.7125.0_chrome_installer.exe",
+            "https://dl.google.com/release2/chrome/ihk57flogixhakadio3lymb4rm_137.0.7125.0/137.0.7125.0_chrome_installer.exe",
+            "http://www.google.com/dl/release2/chrome/ihk57flogixhakadio3lymb4rm_137.0.7125.0/137.0.7125.0_chrome_installer.exe",
+            "https://www.google.com/dl/release2/chrome/ihk57flogixhakadio3lymb4rm_137.0.7125.0/137.0.7125.0_chrome_installer.exe"
         ]
     }
 }
