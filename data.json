@@ -126,17 +126,17 @@
         ]
     },
     "win_canary_x86": {
-        "version": "137.0.7136.0",
-        "size": 109974896,
-        "sha1": "9ce9b82cd67ed6bf7dd11bdf67a04bd5e22e1d7b",
-        "sha256": "71418cfbb3a7590b387856b60b6af301487d3e45edd248b21b15b6cddc68e10a",
+        "version": "137.0.7136.1",
+        "size": 129392496,
+        "sha1": "cf57e74bfddcd5c075b946916b10fe970f2032bd",
+        "sha256": "27c29cdaaf21d7a5f6d2c62ecd0a47252df8342c280fd2bbbb68b99b5ec85e57",
         "urls": [
-            "http://edgedl.me.gvt1.com/edgedl/release2/chrome/acv76p5vxxqtwnwnvq5zfwbfm3nq_137.0.7136.0/137.0.7136.0_chrome_installer.exe",
-            "https://edgedl.me.gvt1.com/edgedl/release2/chrome/acv76p5vxxqtwnwnvq5zfwbfm3nq_137.0.7136.0/137.0.7136.0_chrome_installer.exe",
-            "http://dl.google.com/release2/chrome/acv76p5vxxqtwnwnvq5zfwbfm3nq_137.0.7136.0/137.0.7136.0_chrome_installer.exe",
-            "https://dl.google.com/release2/chrome/acv76p5vxxqtwnwnvq5zfwbfm3nq_137.0.7136.0/137.0.7136.0_chrome_installer.exe",
-            "http://www.google.com/dl/release2/chrome/acv76p5vxxqtwnwnvq5zfwbfm3nq_137.0.7136.0/137.0.7136.0_chrome_installer.exe",
-            "https://www.google.com/dl/release2/chrome/acv76p5vxxqtwnwnvq5zfwbfm3nq_137.0.7136.0/137.0.7136.0_chrome_installer.exe"
+            "http://edgedl.me.gvt1.com/edgedl/release2/chrome/achlps2dqrqsmec3cxbeuhyr5otq_137.0.7136.1/137.0.7136.1_chrome_installer.exe",
+            "https://edgedl.me.gvt1.com/edgedl/release2/chrome/achlps2dqrqsmec3cxbeuhyr5otq_137.0.7136.1/137.0.7136.1_chrome_installer.exe",
+            "http://dl.google.com/release2/chrome/achlps2dqrqsmec3cxbeuhyr5otq_137.0.7136.1/137.0.7136.1_chrome_installer.exe",
+            "https://dl.google.com/release2/chrome/achlps2dqrqsmec3cxbeuhyr5otq_137.0.7136.1/137.0.7136.1_chrome_installer.exe",
+            "http://www.google.com/dl/release2/chrome/achlps2dqrqsmec3cxbeuhyr5otq_137.0.7136.1/137.0.7136.1_chrome_installer.exe",
+            "https://www.google.com/dl/release2/chrome/achlps2dqrqsmec3cxbeuhyr5otq_137.0.7136.1/137.0.7136.1_chrome_installer.exe"
         ]
     },
     "win_canary_x64": {
