@@ -34,22 +34,22 @@
 **下载链接**：[https://dl.google.com/release2/chrome/adhmjcfznxpii72spam7bpbhsloa_135.0.7049.115/135.0.7049.115_chrome_installer.exe](https://dl.google.com/release2/chrome/adhmjcfznxpii72spam7bpbhsloa_135.0.7049.115/135.0.7049.115_chrome_installer.exe)  
 
 ## win beta x86
-**最新版本**：136.0.7103.33  
-**文件大小**：103.84 MB  
-**校验值（Sha256）**：4d2003e24eb003b288858b695d9607de6143db2cfc59b0f9075c02a711ee0f65  
-**下载链接**：[https://dl.google.com/release2/chrome/c64foswzmvrqxgnpgc6vocaa7i_136.0.7103.33/136.0.7103.33_chrome_installer.exe](https://dl.google.com/release2/chrome/c64foswzmvrqxgnpgc6vocaa7i_136.0.7103.33/136.0.7103.33_chrome_installer.exe)  
+**最新版本**：136.0.7103.48  
+**文件大小**：103.45 MB  
+**校验值（Sha256）**：bd2d8920bf0c02fed3961a658bccae02383cbdafe66eda8bd1027a6ffaf439fd  
+**下载链接**：[https://dl.google.com/release2/chrome/hlrkunmj5lpitksej22ya4524m_136.0.7103.48/136.0.7103.48_chrome_installer.exe](https://dl.google.com/release2/chrome/hlrkunmj5lpitksej22ya4524m_136.0.7103.48/136.0.7103.48_chrome_installer.exe)  
 
 ## win beta x64
-**最新版本**：136.0.7103.33  
-**文件大小**：115.96 MB  
-**校验值（Sha256）**：b12c7039c7e0fc8f723ea492e1d45462aa398e0e0eba0af27bf1cbba7dfdf7b3  
-**下载链接**：[https://dl.google.com/release2/chrome/aclnn6t4kshbwsbt3xypquujmp7a_136.0.7103.33/136.0.7103.33_chrome_installer.exe](https://dl.google.com/release2/chrome/aclnn6t4kshbwsbt3xypquujmp7a_136.0.7103.33/136.0.7103.33_chrome_installer.exe)  
+**最新版本**：136.0.7103.48  
+**文件大小**：115.99 MB  
+**校验值（Sha256）**：f68737a88cdcf38275246adfb3309c443295deaa8028ff3550c68bb835e7243f  
+**下载链接**：[https://dl.google.com/release2/chrome/adwqpqh24wcjg2iyftt4blgmfapa_136.0.7103.48/136.0.7103.48_chrome_installer.exe](https://dl.google.com/release2/chrome/adwqpqh24wcjg2iyftt4blgmfapa_136.0.7103.48/136.0.7103.48_chrome_installer.exe)  
 
 ## win beta arm64
-**最新版本**：136.0.7103.33  
-**文件大小**：120.89 MB  
-**校验值（Sha256）**：d73cd0504aff7886e5a344caf11a1861956b33d571fc725f00fb8c17f40fb9cd  
-**下载链接**：[https://dl.google.com/release2/chrome/fh3fyshcaha5talla2xoe276hm_136.0.7103.33/136.0.7103.33_chrome_installer.exe](https://dl.google.com/release2/chrome/fh3fyshcaha5talla2xoe276hm_136.0.7103.33/136.0.7103.33_chrome_installer.exe)  
+**最新版本**：136.0.7103.48  
+**文件大小**：120.87 MB  
+**校验值（Sha256）**：fb7a1ef68fab9d4b26303027a734944e4942682e562905634f316d90c2a76fe9  
+**下载链接**：[https://dl.google.com/release2/chrome/eydiljdq2csnhu7dtqho7mwuom_136.0.7103.48/136.0.7103.48_chrome_installer.exe](https://dl.google.com/release2/chrome/eydiljdq2csnhu7dtqho7mwuom_136.0.7103.48/136.0.7103.48_chrome_installer.exe)  
 
 ## win dev x86
 **最新版本**：137.0.7127.2  
