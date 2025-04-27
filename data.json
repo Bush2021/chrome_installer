@@ -154,17 +154,17 @@
         ]
     },
     "win_canary_arm64": {
-        "version": "137.0.7147.0",
-        "size": 410687856,
-        "sha1": "7149fd70d7bfdb2b6b0820bc947a09722aeec258",
-        "sha256": "6700717c871f10fc574349d5330afdf170ed46054fcf81fd2b574f8ac744b3c5",
+        "version": "137.0.7147.1",
+        "size": 572180848,
+        "sha1": "7215e7dcbe45224805720854ed281e77804af935",
+        "sha256": "64e3eefde6a9bc317bdfec1b4f73ef5e8c40a940adf8863816b7c2a2525304b5",
         "urls": [
-            "http://edgedl.me.gvt1.com/edgedl/release2/chrome/acrm5mbc7aio3hfobcqll4naroiq_137.0.7147.0/137.0.7147.0_chrome_installer_uncompressed.exe",
-            "https://edgedl.me.gvt1.com/edgedl/release2/chrome/acrm5mbc7aio3hfobcqll4naroiq_137.0.7147.0/137.0.7147.0_chrome_installer_uncompressed.exe",
-            "http://dl.google.com/release2/chrome/acrm5mbc7aio3hfobcqll4naroiq_137.0.7147.0/137.0.7147.0_chrome_installer_uncompressed.exe",
-            "https://dl.google.com/release2/chrome/acrm5mbc7aio3hfobcqll4naroiq_137.0.7147.0/137.0.7147.0_chrome_installer_uncompressed.exe",
-            "http://www.google.com/dl/release2/chrome/acrm5mbc7aio3hfobcqll4naroiq_137.0.7147.0/137.0.7147.0_chrome_installer_uncompressed.exe",
-            "https://www.google.com/dl/release2/chrome/acrm5mbc7aio3hfobcqll4naroiq_137.0.7147.0/137.0.7147.0_chrome_installer_uncompressed.exe"
+            "http://edgedl.me.gvt1.com/edgedl/release2/chrome/ftps5qrfksbxwatclmoe3xn2pe_137.0.7147.1/137.0.7147.1_chrome_installer_uncompressed.exe",
+            "https://edgedl.me.gvt1.com/edgedl/release2/chrome/ftps5qrfksbxwatclmoe3xn2pe_137.0.7147.1/137.0.7147.1_chrome_installer_uncompressed.exe",
+            "http://dl.google.com/release2/chrome/ftps5qrfksbxwatclmoe3xn2pe_137.0.7147.1/137.0.7147.1_chrome_installer_uncompressed.exe",
+            "https://dl.google.com/release2/chrome/ftps5qrfksbxwatclmoe3xn2pe_137.0.7147.1/137.0.7147.1_chrome_installer_uncompressed.exe",
+            "http://www.google.com/dl/release2/chrome/ftps5qrfksbxwatclmoe3xn2pe_137.0.7147.1/137.0.7147.1_chrome_installer_uncompressed.exe",
+            "https://www.google.com/dl/release2/chrome/ftps5qrfksbxwatclmoe3xn2pe_137.0.7147.1/137.0.7147.1_chrome_installer_uncompressed.exe"
         ]
     }
 }
