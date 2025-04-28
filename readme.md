@@ -71,19 +71,19 @@
 
 ## win canary x86
 **最新版本**：137.0.7149.0  
-**文件大小**：334.52 MB  
-**校验值（Sha256）**：a0c1c3907fb1589ef05ae6596cb6be0b6a89bcdf5f559dea5be978fa982c8d84  
-**下载链接**：[https://dl.google.com/release2/chrome/adk4vsg56vwtqvzn7qxeqw6a7qmq_137.0.7149.0/137.0.7149.0_chrome_installer_uncompressed.exe](https://dl.google.com/release2/chrome/adk4vsg56vwtqvzn7qxeqw6a7qmq_137.0.7149.0/137.0.7149.0_chrome_installer_uncompressed.exe)  
+**文件大小**：105.67 MB  
+**校验值（Sha256）**：fb50624fd3ed9242f2c6db697329e7c7e380fa9231e0388c322dbe72bbed9de5  
+**下载链接**：[https://dl.google.com/release2/chrome/acckikrcxefwh7dbpxyfyahgzqwq_137.0.7149.0/137.0.7149.0_chrome_installer.exe](https://dl.google.com/release2/chrome/acckikrcxefwh7dbpxyfyahgzqwq_137.0.7149.0/137.0.7149.0_chrome_installer.exe)  
 
 ## win canary x64
 **最新版本**：137.0.7149.0  
-**文件大小**：402.7 MB  
-**校验值（Sha256）**：534947a891b836a4ecbf935811f8dcdfe96a2fe51759e48103342ea915b07e7d  
-**下载链接**：[https://dl.google.com/release2/chrome/ipwdpwxuwjewkmtp3bobn3duhy_137.0.7149.0/137.0.7149.0_chrome_installer_uncompressed.exe](https://dl.google.com/release2/chrome/ipwdpwxuwjewkmtp3bobn3duhy_137.0.7149.0/137.0.7149.0_chrome_installer_uncompressed.exe)  
+**文件大小**：117.04 MB  
+**校验值（Sha256）**：fe4104d8fc5ab1448265584c4453f9372a5c2288d1d34fefacf1a6abba943a8d  
+**下载链接**：[https://dl.google.com/release2/chrome/g7sgsbr44rzjx6jw4i2cwyzgum_137.0.7149.0/137.0.7149.0_chrome_installer.exe](https://dl.google.com/release2/chrome/g7sgsbr44rzjx6jw4i2cwyzgum_137.0.7149.0/137.0.7149.0_chrome_installer.exe)  
 
 ## win canary arm64
 **最新版本**：137.0.7149.0  
-**文件大小**：391.83 MB  
-**校验值（Sha256）**：4a340815a197689f1a1eea38d0588751a14aaf504104c7eb3568ba1281018af3  
-**下载链接**：[https://dl.google.com/release2/chrome/cretnrkbzg5aornoglbnqeiu3q_137.0.7149.0/137.0.7149.0_chrome_installer_uncompressed.exe](https://dl.google.com/release2/chrome/cretnrkbzg5aornoglbnqeiu3q_137.0.7149.0/137.0.7149.0_chrome_installer_uncompressed.exe)  
+**文件大小**：121.54 MB  
+**校验值（Sha256）**：14ec5bf9e34bf9e8eff9bac1b181c212c880a96d9905d0f10bf83b131b7622e6  
+**下载链接**：[https://dl.google.com/release2/chrome/acu3f7g4lyrq5bymsvubod63xcma_137.0.7149.0/137.0.7149.0_chrome_installer.exe](https://dl.google.com/release2/chrome/acu3f7g4lyrq5bymsvubod63xcma_137.0.7149.0/137.0.7149.0_chrome_installer.exe)  
 
