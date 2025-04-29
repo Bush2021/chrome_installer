@@ -154,17 +154,17 @@
         ]
     },
     "win_canary_arm64": {
-        "version": "137.0.7151.0",
-        "size": 127294832,
-        "sha1": "cf822221485e600683f403f7bc843d49dca401ca",
-        "sha256": "db02e23601d055a096e40020d532eada6d35814c82907aa8afcd74622aa911cd",
+        "version": "137.0.7151.1",
+        "size": 161506160,
+        "sha1": "adc0d2bd0f9ee22181278dd163a0ddfd9a1141be",
+        "sha256": "08834913229b6f4b387529042f39e25115e96b2af1e0fdafaaf817191c080a38",
         "urls": [
-            "http://edgedl.me.gvt1.com/edgedl/release2/chrome/cg2k3b3ioddmvys2khhpnu3tj4_137.0.7151.0/137.0.7151.0_chrome_installer.exe",
-            "https://edgedl.me.gvt1.com/edgedl/release2/chrome/cg2k3b3ioddmvys2khhpnu3tj4_137.0.7151.0/137.0.7151.0_chrome_installer.exe",
-            "http://dl.google.com/release2/chrome/cg2k3b3ioddmvys2khhpnu3tj4_137.0.7151.0/137.0.7151.0_chrome_installer.exe",
-            "https://dl.google.com/release2/chrome/cg2k3b3ioddmvys2khhpnu3tj4_137.0.7151.0/137.0.7151.0_chrome_installer.exe",
-            "http://www.google.com/dl/release2/chrome/cg2k3b3ioddmvys2khhpnu3tj4_137.0.7151.0/137.0.7151.0_chrome_installer.exe",
-            "https://www.google.com/dl/release2/chrome/cg2k3b3ioddmvys2khhpnu3tj4_137.0.7151.0/137.0.7151.0_chrome_installer.exe"
+            "http://edgedl.me.gvt1.com/edgedl/release2/chrome/lbtyplqmwravd7hpgauenrfmpm_137.0.7151.1/137.0.7151.1_chrome_installer.exe",
+            "https://edgedl.me.gvt1.com/edgedl/release2/chrome/lbtyplqmwravd7hpgauenrfmpm_137.0.7151.1/137.0.7151.1_chrome_installer.exe",
+            "http://dl.google.com/release2/chrome/lbtyplqmwravd7hpgauenrfmpm_137.0.7151.1/137.0.7151.1_chrome_installer.exe",
+            "https://dl.google.com/release2/chrome/lbtyplqmwravd7hpgauenrfmpm_137.0.7151.1/137.0.7151.1_chrome_installer.exe",
+            "http://www.google.com/dl/release2/chrome/lbtyplqmwravd7hpgauenrfmpm_137.0.7151.1/137.0.7151.1_chrome_installer.exe",
+            "https://www.google.com/dl/release2/chrome/lbtyplqmwravd7hpgauenrfmpm_137.0.7151.1/137.0.7151.1_chrome_installer.exe"
         ]
     }
 }
