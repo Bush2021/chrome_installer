@@ -70,10 +70,10 @@
 **下载链接**：[https://dl.google.com/release2/chrome/dvwcjhza36rdiybnozaijqfzb4_137.0.7141.3/137.0.7141.3_chrome_installer_uncompressed.exe](https://dl.google.com/release2/chrome/dvwcjhza36rdiybnozaijqfzb4_137.0.7141.3/137.0.7141.3_chrome_installer_uncompressed.exe)  
 
 ## win canary x86
-**最新版本**：138.0.7152.0  
-**文件大小**：105.84 MB  
-**校验值（Sha256）**：b81d4adfa09856161d586db58cb1601769fd9263ed0884f3f192d67221c5ad7e  
-**下载链接**：[https://dl.google.com/release2/chrome/accby5j7rhkwllm2hrnnbowra3dq_138.0.7152.0/138.0.7152.0_chrome_installer.exe](https://dl.google.com/release2/chrome/accby5j7rhkwllm2hrnnbowra3dq_138.0.7152.0/138.0.7152.0_chrome_installer.exe)  
+**最新版本**：138.0.7152.1  
+**文件大小**：123.79 MB  
+**校验值（Sha256）**：edc0b6a5bc9a224135c83f4e35a8fccfc8bbcda7f5ef54a544a978f0e4583ad9  
+**下载链接**：[https://dl.google.com/release2/chrome/adhka2f6f25zsf5vtmhcjlool2fa_138.0.7152.1/138.0.7152.1_chrome_installer.exe](https://dl.google.com/release2/chrome/adhka2f6f25zsf5vtmhcjlool2fa_138.0.7152.1/138.0.7152.1_chrome_installer.exe)  
 
 ## win canary x64
 **最新版本**：138.0.7152.0  
@@ -82,8 +82,8 @@
 **下载链接**：[https://dl.google.com/release2/chrome/lylhcnlg6bz65g7nfgkxk6m6b4_138.0.7152.0/138.0.7152.0_chrome_installer.exe](https://dl.google.com/release2/chrome/lylhcnlg6bz65g7nfgkxk6m6b4_138.0.7152.0/138.0.7152.0_chrome_installer.exe)  
 
 ## win canary arm64
-**最新版本**：137.0.7151.5  
-**文件大小**：121.3 MB  
-**校验值（Sha256）**：85f89a20d07a02c1a0a4b75ec87b64e97b88eaf212b92dac44dd5fe473a2e267  
-**下载链接**：[https://dl.google.com/release2/chrome/ad5vkbo4wqe63ww23nv3xmm74zqq_137.0.7151.5/137.0.7151.5_chrome_installer.exe](https://dl.google.com/release2/chrome/ad5vkbo4wqe63ww23nv3xmm74zqq_137.0.7151.5/137.0.7151.5_chrome_installer.exe)  
+**最新版本**：138.0.7152.0  
+**文件大小**：121.88 MB  
+**校验值（Sha256）**：6abe32dc76f8e763044b4d815f0818f5585c2e382f3d8ea4a10aac7d8f7214ea  
+**下载链接**：[https://dl.google.com/release2/chrome/adpaqo652qdcmweygpji2dqmb3ha_138.0.7152.0/138.0.7152.0_chrome_installer.exe](https://dl.google.com/release2/chrome/adpaqo652qdcmweygpji2dqmb3ha_138.0.7152.0/138.0.7152.0_chrome_installer.exe)  
 
