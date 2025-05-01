@@ -154,17 +154,17 @@
         ]
     },
     "win_canary_arm64": {
-        "version": "138.0.7153.0",
-        "size": 127545200,
-        "sha1": "c07814abe5f960af8f100e52b51a8e4c74bf6ce2",
-        "sha256": "d965cc81ad02967d6f6098fe2d44df0a3fafeae64d7981b4e93eb33e790b35e8",
+        "version": "138.0.7153.1",
+        "size": 161538416,
+        "sha1": "356cc51e972b608904bc44baf109664572fed32e",
+        "sha256": "1bc9484adcd638de83eea19c98d58288cf177c9b80334cff68ca447f22d9445f",
         "urls": [
-            "http://edgedl.me.gvt1.com/edgedl/release2/chrome/jsi4eii4ywujeif5pvft3kil6i_138.0.7153.0/138.0.7153.0_chrome_installer.exe",
-            "https://edgedl.me.gvt1.com/edgedl/release2/chrome/jsi4eii4ywujeif5pvft3kil6i_138.0.7153.0/138.0.7153.0_chrome_installer.exe",
-            "http://dl.google.com/release2/chrome/jsi4eii4ywujeif5pvft3kil6i_138.0.7153.0/138.0.7153.0_chrome_installer.exe",
-            "https://dl.google.com/release2/chrome/jsi4eii4ywujeif5pvft3kil6i_138.0.7153.0/138.0.7153.0_chrome_installer.exe",
-            "http://www.google.com/dl/release2/chrome/jsi4eii4ywujeif5pvft3kil6i_138.0.7153.0/138.0.7153.0_chrome_installer.exe",
-            "https://www.google.com/dl/release2/chrome/jsi4eii4ywujeif5pvft3kil6i_138.0.7153.0/138.0.7153.0_chrome_installer.exe"
+            "http://edgedl.me.gvt1.com/edgedl/release2/chrome/knb2shc5o2mbjoi5x77tbo2buu_138.0.7153.1/138.0.7153.1_chrome_installer.exe",
+            "https://edgedl.me.gvt1.com/edgedl/release2/chrome/knb2shc5o2mbjoi5x77tbo2buu_138.0.7153.1/138.0.7153.1_chrome_installer.exe",
+            "http://dl.google.com/release2/chrome/knb2shc5o2mbjoi5x77tbo2buu_138.0.7153.1/138.0.7153.1_chrome_installer.exe",
+            "https://dl.google.com/release2/chrome/knb2shc5o2mbjoi5x77tbo2buu_138.0.7153.1/138.0.7153.1_chrome_installer.exe",
+            "http://www.google.com/dl/release2/chrome/knb2shc5o2mbjoi5x77tbo2buu_138.0.7153.1/138.0.7153.1_chrome_installer.exe",
+            "https://www.google.com/dl/release2/chrome/knb2shc5o2mbjoi5x77tbo2buu_138.0.7153.1/138.0.7153.1_chrome_installer.exe"
         ]
     }
 }
