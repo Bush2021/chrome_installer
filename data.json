@@ -154,17 +154,17 @@
         ]
     },
     "win_canary_arm64": {
-        "version": "138.0.7161.0",
-        "size": 127510384,
-        "sha1": "63df737e19ea25dcf043993e6f5643d641d47ef2",
-        "sha256": "0830cde46908473b857ead6a6f0db5f9bbb6c3979d0fb9d538febaad7932a7ff",
+        "version": "138.0.7162.0",
+        "size": 127663984,
+        "sha1": "adc43e43df6e25f45655f802257cbfcef3b36021",
+        "sha256": "ae0204a26e579caa1c4e36743d1c7177fcd4205825a720afe1b66e9fea2fff28",
         "urls": [
-            "http://edgedl.me.gvt1.com/edgedl/release2/chrome/eh4fg2d2ova4tkfzdoi3xm3nqu_138.0.7161.0/138.0.7161.0_chrome_installer.exe",
-            "https://edgedl.me.gvt1.com/edgedl/release2/chrome/eh4fg2d2ova4tkfzdoi3xm3nqu_138.0.7161.0/138.0.7161.0_chrome_installer.exe",
-            "http://dl.google.com/release2/chrome/eh4fg2d2ova4tkfzdoi3xm3nqu_138.0.7161.0/138.0.7161.0_chrome_installer.exe",
-            "https://dl.google.com/release2/chrome/eh4fg2d2ova4tkfzdoi3xm3nqu_138.0.7161.0/138.0.7161.0_chrome_installer.exe",
-            "http://www.google.com/dl/release2/chrome/eh4fg2d2ova4tkfzdoi3xm3nqu_138.0.7161.0/138.0.7161.0_chrome_installer.exe",
-            "https://www.google.com/dl/release2/chrome/eh4fg2d2ova4tkfzdoi3xm3nqu_138.0.7161.0/138.0.7161.0_chrome_installer.exe"
+            "http://edgedl.me.gvt1.com/edgedl/release2/chrome/du2rsztd3xl6i7you7pp6groxe_138.0.7162.0/138.0.7162.0_chrome_installer.exe",
+            "https://edgedl.me.gvt1.com/edgedl/release2/chrome/du2rsztd3xl6i7you7pp6groxe_138.0.7162.0/138.0.7162.0_chrome_installer.exe",
+            "http://dl.google.com/release2/chrome/du2rsztd3xl6i7you7pp6groxe_138.0.7162.0/138.0.7162.0_chrome_installer.exe",
+            "https://dl.google.com/release2/chrome/du2rsztd3xl6i7you7pp6groxe_138.0.7162.0/138.0.7162.0_chrome_installer.exe",
+            "http://www.google.com/dl/release2/chrome/du2rsztd3xl6i7you7pp6groxe_138.0.7162.0/138.0.7162.0_chrome_installer.exe",
+            "https://www.google.com/dl/release2/chrome/du2rsztd3xl6i7you7pp6groxe_138.0.7162.0/138.0.7162.0_chrome_installer.exe"
         ]
     }
 }
