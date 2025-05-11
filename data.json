@@ -154,17 +154,17 @@
         ]
     },
     "win_canary_arm64": {
-        "version": "138.0.7173.0",
-        "size": 127443312,
-        "sha1": "67311e2203e15bc521924968fce7aaaa2a07c145",
-        "sha256": "d909d357ef772c8f77aa4ef8d9a3a4eb605d625eccdd630267630fe6a96fc7ef",
+        "version": "138.0.7173.1",
+        "size": 161744752,
+        "sha1": "af850dad959d81357034166af191e0cb00834ae3",
+        "sha256": "d25236b69f7acafa8bace9c8d59f00a35451c52ba40c62f115d09c5039c19e3c",
         "urls": [
-            "http://edgedl.me.gvt1.com/edgedl/release2/chrome/prxe76siuvqtcepezap7lx6umi_138.0.7173.0/138.0.7173.0_chrome_installer.exe",
-            "https://edgedl.me.gvt1.com/edgedl/release2/chrome/prxe76siuvqtcepezap7lx6umi_138.0.7173.0/138.0.7173.0_chrome_installer.exe",
-            "http://dl.google.com/release2/chrome/prxe76siuvqtcepezap7lx6umi_138.0.7173.0/138.0.7173.0_chrome_installer.exe",
-            "https://dl.google.com/release2/chrome/prxe76siuvqtcepezap7lx6umi_138.0.7173.0/138.0.7173.0_chrome_installer.exe",
-            "http://www.google.com/dl/release2/chrome/prxe76siuvqtcepezap7lx6umi_138.0.7173.0/138.0.7173.0_chrome_installer.exe",
-            "https://www.google.com/dl/release2/chrome/prxe76siuvqtcepezap7lx6umi_138.0.7173.0/138.0.7173.0_chrome_installer.exe"
+            "http://edgedl.me.gvt1.com/edgedl/release2/chrome/nsiojpaysr3ugbjjrfp3gflfxq_138.0.7173.1/138.0.7173.1_chrome_installer.exe",
+            "https://edgedl.me.gvt1.com/edgedl/release2/chrome/nsiojpaysr3ugbjjrfp3gflfxq_138.0.7173.1/138.0.7173.1_chrome_installer.exe",
+            "http://dl.google.com/release2/chrome/nsiojpaysr3ugbjjrfp3gflfxq_138.0.7173.1/138.0.7173.1_chrome_installer.exe",
+            "https://dl.google.com/release2/chrome/nsiojpaysr3ugbjjrfp3gflfxq_138.0.7173.1/138.0.7173.1_chrome_installer.exe",
+            "http://www.google.com/dl/release2/chrome/nsiojpaysr3ugbjjrfp3gflfxq_138.0.7173.1/138.0.7173.1_chrome_installer.exe",
+            "https://www.google.com/dl/release2/chrome/nsiojpaysr3ugbjjrfp3gflfxq_138.0.7173.1/138.0.7173.1_chrome_installer.exe"
         ]
     }
 }
