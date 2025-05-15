@@ -154,17 +154,17 @@
         ]
     },
     "win_canary_arm64": {
-        "version": "138.0.7179.0",
-        "size": 127725936,
-        "sha1": "77d7d1a3d163bcfd7a651451125266c6fedec6f5",
-        "sha256": "9d3a49aa79d4208a573c7433aa30c3a2af150f246cfb37910f012e0edeaf82fe",
+        "version": "138.0.7179.1",
+        "size": 161954672,
+        "sha1": "dd553960aa2bb1bd5bf5a3cba949e1af4395bde4",
+        "sha256": "95438019a58c83643ad5d226d617f873f83d1942d4a0133979badedb0db8f390",
         "urls": [
-            "http://edgedl.me.gvt1.com/edgedl/release2/chrome/ea552nmwon4chyrxyvnvoh3gea_138.0.7179.0/138.0.7179.0_chrome_installer.exe",
-            "https://edgedl.me.gvt1.com/edgedl/release2/chrome/ea552nmwon4chyrxyvnvoh3gea_138.0.7179.0/138.0.7179.0_chrome_installer.exe",
-            "http://dl.google.com/release2/chrome/ea552nmwon4chyrxyvnvoh3gea_138.0.7179.0/138.0.7179.0_chrome_installer.exe",
-            "https://dl.google.com/release2/chrome/ea552nmwon4chyrxyvnvoh3gea_138.0.7179.0/138.0.7179.0_chrome_installer.exe",
-            "http://www.google.com/dl/release2/chrome/ea552nmwon4chyrxyvnvoh3gea_138.0.7179.0/138.0.7179.0_chrome_installer.exe",
-            "https://www.google.com/dl/release2/chrome/ea552nmwon4chyrxyvnvoh3gea_138.0.7179.0/138.0.7179.0_chrome_installer.exe"
+            "http://edgedl.me.gvt1.com/edgedl/release2/chrome/lrwh4a5fgdxxhubn47jmz62gee_138.0.7179.1/138.0.7179.1_chrome_installer.exe",
+            "https://edgedl.me.gvt1.com/edgedl/release2/chrome/lrwh4a5fgdxxhubn47jmz62gee_138.0.7179.1/138.0.7179.1_chrome_installer.exe",
+            "http://dl.google.com/release2/chrome/lrwh4a5fgdxxhubn47jmz62gee_138.0.7179.1/138.0.7179.1_chrome_installer.exe",
+            "https://dl.google.com/release2/chrome/lrwh4a5fgdxxhubn47jmz62gee_138.0.7179.1/138.0.7179.1_chrome_installer.exe",
+            "http://www.google.com/dl/release2/chrome/lrwh4a5fgdxxhubn47jmz62gee_138.0.7179.1/138.0.7179.1_chrome_installer.exe",
+            "https://www.google.com/dl/release2/chrome/lrwh4a5fgdxxhubn47jmz62gee_138.0.7179.1/138.0.7179.1_chrome_installer.exe"
         ]
     }
 }
