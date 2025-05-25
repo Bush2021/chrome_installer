@@ -154,17 +154,17 @@
         ]
     },
     "win_canary_arm64": {
-        "version": "138.0.7200.0",
-        "size": 128212848,
-        "sha1": "43a02316c2d1b0fabca8ae07d549e976839a2c64",
-        "sha256": "f19f88fd9b086ce965f5d73743358e1a276bcaa7207411e9ffb589937b9aa481",
+        "version": "138.0.7200.1",
+        "size": 162548080,
+        "sha1": "17f0e3aa2a75f0ed01bb9e836b0add8cb16c4e43",
+        "sha256": "517267f3884419644774ef99a1df825b4e188a11882fbbe7e8811ae1893c19b0",
         "urls": [
-            "http://edgedl.me.gvt1.com/edgedl/release2/chrome/bo5o25vw4dkzwmn5xlrnfdwsiy_138.0.7200.0/138.0.7200.0_chrome_installer.exe",
-            "https://edgedl.me.gvt1.com/edgedl/release2/chrome/bo5o25vw4dkzwmn5xlrnfdwsiy_138.0.7200.0/138.0.7200.0_chrome_installer.exe",
-            "http://dl.google.com/release2/chrome/bo5o25vw4dkzwmn5xlrnfdwsiy_138.0.7200.0/138.0.7200.0_chrome_installer.exe",
-            "https://dl.google.com/release2/chrome/bo5o25vw4dkzwmn5xlrnfdwsiy_138.0.7200.0/138.0.7200.0_chrome_installer.exe",
-            "http://www.google.com/dl/release2/chrome/bo5o25vw4dkzwmn5xlrnfdwsiy_138.0.7200.0/138.0.7200.0_chrome_installer.exe",
-            "https://www.google.com/dl/release2/chrome/bo5o25vw4dkzwmn5xlrnfdwsiy_138.0.7200.0/138.0.7200.0_chrome_installer.exe"
+            "http://edgedl.me.gvt1.com/edgedl/release2/chrome/mgln5awoc6nkctxv2okwag6lri_138.0.7200.1/138.0.7200.1_chrome_installer.exe",
+            "https://edgedl.me.gvt1.com/edgedl/release2/chrome/mgln5awoc6nkctxv2okwag6lri_138.0.7200.1/138.0.7200.1_chrome_installer.exe",
+            "http://dl.google.com/release2/chrome/mgln5awoc6nkctxv2okwag6lri_138.0.7200.1/138.0.7200.1_chrome_installer.exe",
+            "https://dl.google.com/release2/chrome/mgln5awoc6nkctxv2okwag6lri_138.0.7200.1/138.0.7200.1_chrome_installer.exe",
+            "http://www.google.com/dl/release2/chrome/mgln5awoc6nkctxv2okwag6lri_138.0.7200.1/138.0.7200.1_chrome_installer.exe",
+            "https://www.google.com/dl/release2/chrome/mgln5awoc6nkctxv2okwag6lri_138.0.7200.1/138.0.7200.1_chrome_installer.exe"
         ]
     }
 }
