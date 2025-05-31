@@ -126,17 +126,17 @@
         ]
     },
     "win_canary_x86": {
-        "version": "139.0.7210.0",
-        "size": 110295920,
-        "sha1": "5ffbd7d78160fbb36c444036e1efb3196f2f9476",
-        "sha256": "2d81956640fd1b970281b3f6f71b7317702d7924fdbaf83a6115f52b743faefe",
+        "version": "139.0.7210.1",
+        "size": 130584432,
+        "sha1": "f33c28a8a907e1e14c8b9ae76054d496e1e673ef",
+        "sha256": "268374d8fc4b9e7dfbef549d9a2ae0e3a1fc6272117d1e76366e68080a55d6fb",
         "urls": [
-            "http://edgedl.me.gvt1.com/edgedl/release2/chrome/ad6g5mgscdftgvzdf45tbsigdbsa_139.0.7210.0/139.0.7210.0_chrome_installer.exe",
-            "https://edgedl.me.gvt1.com/edgedl/release2/chrome/ad6g5mgscdftgvzdf45tbsigdbsa_139.0.7210.0/139.0.7210.0_chrome_installer.exe",
-            "http://dl.google.com/release2/chrome/ad6g5mgscdftgvzdf45tbsigdbsa_139.0.7210.0/139.0.7210.0_chrome_installer.exe",
-            "https://dl.google.com/release2/chrome/ad6g5mgscdftgvzdf45tbsigdbsa_139.0.7210.0/139.0.7210.0_chrome_installer.exe",
-            "http://www.google.com/dl/release2/chrome/ad6g5mgscdftgvzdf45tbsigdbsa_139.0.7210.0/139.0.7210.0_chrome_installer.exe",
-            "https://www.google.com/dl/release2/chrome/ad6g5mgscdftgvzdf45tbsigdbsa_139.0.7210.0/139.0.7210.0_chrome_installer.exe"
+            "http://edgedl.me.gvt1.com/edgedl/release2/chrome/pturu4axmzgegl65art76jtigm_139.0.7210.1/139.0.7210.1_chrome_installer.exe",
+            "https://edgedl.me.gvt1.com/edgedl/release2/chrome/pturu4axmzgegl65art76jtigm_139.0.7210.1/139.0.7210.1_chrome_installer.exe",
+            "http://dl.google.com/release2/chrome/pturu4axmzgegl65art76jtigm_139.0.7210.1/139.0.7210.1_chrome_installer.exe",
+            "https://dl.google.com/release2/chrome/pturu4axmzgegl65art76jtigm_139.0.7210.1/139.0.7210.1_chrome_installer.exe",
+            "http://www.google.com/dl/release2/chrome/pturu4axmzgegl65art76jtigm_139.0.7210.1/139.0.7210.1_chrome_installer.exe",
+            "https://www.google.com/dl/release2/chrome/pturu4axmzgegl65art76jtigm_139.0.7210.1/139.0.7210.1_chrome_installer.exe"
         ]
     },
     "win_canary_x64": {
