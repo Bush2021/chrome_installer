@@ -154,17 +154,17 @@
         ]
     },
     "win_canary_arm64": {
-        "version": "139.0.7213.0",
-        "size": 128260976,
-        "sha1": "6d10f614b3f9c9f36ed0db557a6f35f9a85ba584",
-        "sha256": "20f0723c46860de41873b796b1de5ff8184c227ac05a5aa2e54f435f8c8d5077",
+        "version": "139.0.7213.1",
+        "size": 162653040,
+        "sha1": "dbeddd4835ea6746850605fcd15812566d598c37",
+        "sha256": "d41517f2ded19422aac48435ef57fbfdbbb1ae07893ab5353fab3be851d2aadf",
         "urls": [
-            "http://edgedl.me.gvt1.com/edgedl/release2/chrome/dzyqakgpvd5jcdjxqjrfhpsewa_139.0.7213.0/139.0.7213.0_chrome_installer.exe",
-            "https://edgedl.me.gvt1.com/edgedl/release2/chrome/dzyqakgpvd5jcdjxqjrfhpsewa_139.0.7213.0/139.0.7213.0_chrome_installer.exe",
-            "http://dl.google.com/release2/chrome/dzyqakgpvd5jcdjxqjrfhpsewa_139.0.7213.0/139.0.7213.0_chrome_installer.exe",
-            "https://dl.google.com/release2/chrome/dzyqakgpvd5jcdjxqjrfhpsewa_139.0.7213.0/139.0.7213.0_chrome_installer.exe",
-            "http://www.google.com/dl/release2/chrome/dzyqakgpvd5jcdjxqjrfhpsewa_139.0.7213.0/139.0.7213.0_chrome_installer.exe",
-            "https://www.google.com/dl/release2/chrome/dzyqakgpvd5jcdjxqjrfhpsewa_139.0.7213.0/139.0.7213.0_chrome_installer.exe"
+            "http://edgedl.me.gvt1.com/edgedl/release2/chrome/ep7u5i726nzkngmgiksfos3dzy_139.0.7213.1/139.0.7213.1_chrome_installer.exe",
+            "https://edgedl.me.gvt1.com/edgedl/release2/chrome/ep7u5i726nzkngmgiksfos3dzy_139.0.7213.1/139.0.7213.1_chrome_installer.exe",
+            "http://dl.google.com/release2/chrome/ep7u5i726nzkngmgiksfos3dzy_139.0.7213.1/139.0.7213.1_chrome_installer.exe",
+            "https://dl.google.com/release2/chrome/ep7u5i726nzkngmgiksfos3dzy_139.0.7213.1/139.0.7213.1_chrome_installer.exe",
+            "http://www.google.com/dl/release2/chrome/ep7u5i726nzkngmgiksfos3dzy_139.0.7213.1/139.0.7213.1_chrome_installer.exe",
+            "https://www.google.com/dl/release2/chrome/ep7u5i726nzkngmgiksfos3dzy_139.0.7213.1/139.0.7213.1_chrome_installer.exe"
         ]
     }
 }
