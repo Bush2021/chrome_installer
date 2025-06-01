@@ -154,17 +154,17 @@
         ]
     },
     "win_canary_arm64": {
-        "version": "139.0.7213.1",
-        "size": 162653040,
-        "sha1": "dbeddd4835ea6746850605fcd15812566d598c37",
-        "sha256": "d41517f2ded19422aac48435ef57fbfdbbb1ae07893ab5353fab3be851d2aadf",
+        "version": "139.0.7214.0",
+        "size": 127737200,
+        "sha1": "fe580e2ed16a05eba715dbb6060b2560af0f9059",
+        "sha256": "edcf51cfd64b5e5ec3afb75ae8d5e7a018ffa11d64c8d03f8c81756d3e6316ac",
         "urls": [
-            "http://edgedl.me.gvt1.com/edgedl/release2/chrome/ep7u5i726nzkngmgiksfos3dzy_139.0.7213.1/139.0.7213.1_chrome_installer.exe",
-            "https://edgedl.me.gvt1.com/edgedl/release2/chrome/ep7u5i726nzkngmgiksfos3dzy_139.0.7213.1/139.0.7213.1_chrome_installer.exe",
-            "http://dl.google.com/release2/chrome/ep7u5i726nzkngmgiksfos3dzy_139.0.7213.1/139.0.7213.1_chrome_installer.exe",
-            "https://dl.google.com/release2/chrome/ep7u5i726nzkngmgiksfos3dzy_139.0.7213.1/139.0.7213.1_chrome_installer.exe",
-            "http://www.google.com/dl/release2/chrome/ep7u5i726nzkngmgiksfos3dzy_139.0.7213.1/139.0.7213.1_chrome_installer.exe",
-            "https://www.google.com/dl/release2/chrome/ep7u5i726nzkngmgiksfos3dzy_139.0.7213.1/139.0.7213.1_chrome_installer.exe"
+            "http://edgedl.me.gvt1.com/edgedl/release2/chrome/ach7chsp67zlew2v2aurschgacfa_139.0.7214.0/139.0.7214.0_chrome_installer.exe",
+            "https://edgedl.me.gvt1.com/edgedl/release2/chrome/ach7chsp67zlew2v2aurschgacfa_139.0.7214.0/139.0.7214.0_chrome_installer.exe",
+            "http://dl.google.com/release2/chrome/ach7chsp67zlew2v2aurschgacfa_139.0.7214.0/139.0.7214.0_chrome_installer.exe",
+            "https://dl.google.com/release2/chrome/ach7chsp67zlew2v2aurschgacfa_139.0.7214.0/139.0.7214.0_chrome_installer.exe",
+            "http://www.google.com/dl/release2/chrome/ach7chsp67zlew2v2aurschgacfa_139.0.7214.0/139.0.7214.0_chrome_installer.exe",
+            "https://www.google.com/dl/release2/chrome/ach7chsp67zlew2v2aurschgacfa_139.0.7214.0/139.0.7214.0_chrome_installer.exe"
         ]
     }
 }
