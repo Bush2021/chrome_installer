@@ -60,7 +60,7 @@ jobs:
 
     - name: Upload Release
       if: env.exe_exists == 'true' && env.tag_exists == 'false'
-      uses: softprops/action-gh-release@v2
+      uses: softprops/action-gh-release@da05d552573ad5aba039eaac05058a918a7bf631 # https://github.com/softprops/action-gh-release/issues/628#issuecomment-2957749940
       with:
         tag_name: ${{ env.latest_version }}
         files: '*.exe'
