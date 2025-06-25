@@ -70,20 +70,20 @@
 **下载链接**：[https://dl.google.com/release2/chrome/ggo6n6ecnyzhnic6mus76uwnrq_139.0.7246.0/139.0.7246.0_chrome_installer_uncompressed.exe](https://dl.google.com/release2/chrome/ggo6n6ecnyzhnic6mus76uwnrq_139.0.7246.0/139.0.7246.0_chrome_installer_uncompressed.exe)  
 
 ## win canary x86
-**最新版本**：139.0.7258.5  
+**最新版本**：139.0.7258.6  
 **文件大小**：334.19 MB  
-**校验值（Sha256）**：c48c98f2659bc3c850f4bdd72bdf3c5f92e6727c916470d7cb2f0f3619563c26  
-**下载链接**：[https://dl.google.com/release2/chrome/adtxtyhk6ngxq5y6ma5i2cu7ogwa_139.0.7258.5/139.0.7258.5_chrome_installer_uncompressed.exe](https://dl.google.com/release2/chrome/adtxtyhk6ngxq5y6ma5i2cu7ogwa_139.0.7258.5/139.0.7258.5_chrome_installer_uncompressed.exe)  
+**校验值（Sha256）**：7e416862667d64aff98e9a130a72626947cf77125cb4c26b505f9014cb7f3720  
+**下载链接**：[https://dl.google.com/release2/chrome/dg7n522x6yxslpg7luxwcdancy_139.0.7258.6/139.0.7258.6_chrome_installer_uncompressed.exe](https://dl.google.com/release2/chrome/dg7n522x6yxslpg7luxwcdancy_139.0.7258.6/139.0.7258.6_chrome_installer_uncompressed.exe)  
 
 ## win canary x64
-**最新版本**：139.0.7258.5  
+**最新版本**：139.0.7258.6  
 **文件大小**：405.42 MB  
-**校验值（Sha256）**：c69354b786678e62672714144f25c03bb5ce57f749e33a898baf8a2d1ab031d1  
-**下载链接**：[https://dl.google.com/release2/chrome/hvdhjl3xhaqsehsckhjiavaagm_139.0.7258.5/139.0.7258.5_chrome_installer_uncompressed.exe](https://dl.google.com/release2/chrome/hvdhjl3xhaqsehsckhjiavaagm_139.0.7258.5/139.0.7258.5_chrome_installer_uncompressed.exe)  
+**校验值（Sha256）**：9ac87866e7f12a1b87a56e40b89a3179925147faf4f883b3e97a08b2cc5528fd  
+**下载链接**：[https://dl.google.com/release2/chrome/klv3z76sgchujlovl7oreylsuq_139.0.7258.6/139.0.7258.6_chrome_installer_uncompressed.exe](https://dl.google.com/release2/chrome/klv3z76sgchujlovl7oreylsuq_139.0.7258.6/139.0.7258.6_chrome_installer_uncompressed.exe)  
 
 ## win canary arm64
-**最新版本**：139.0.7258.5  
+**最新版本**：139.0.7258.6  
 **文件大小**：394.75 MB  
-**校验值（Sha256）**：9cf36a90ccc142632e84f246892990d01d776961b40a098405bc11512698ff0e  
-**下载链接**：[https://dl.google.com/release2/chrome/gj66ueqyhdfuaytii4kfksmuki_139.0.7258.5/139.0.7258.5_chrome_installer_uncompressed.exe](https://dl.google.com/release2/chrome/gj66ueqyhdfuaytii4kfksmuki_139.0.7258.5/139.0.7258.5_chrome_installer_uncompressed.exe)  
+**校验值（Sha256）**：fe872cea46a03b41cfce19222f27d5728018c0ab4071d8b66f9c8c0559204551  
+**下载链接**：[https://dl.google.com/release2/chrome/innaaufkpcyc7vip6m6cqj7hbu_139.0.7258.6/139.0.7258.6_chrome_installer_uncompressed.exe](https://dl.google.com/release2/chrome/innaaufkpcyc7vip6m6cqj7hbu_139.0.7258.6/139.0.7258.6_chrome_installer_uncompressed.exe)  
 
