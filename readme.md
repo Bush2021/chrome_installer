@@ -70,16 +70,16 @@
 **下载链接**：[https://dl.google.com/release2/chrome/f3fqny2ugrt5brmitpecf2adwe_140.0.7312.0/140.0.7312.0_chrome_installer_uncompressed.exe](https://dl.google.com/release2/chrome/f3fqny2ugrt5brmitpecf2adwe_140.0.7312.0/140.0.7312.0_chrome_installer_uncompressed.exe)  
 
 ## win canary x86
-**最新版本**：140.0.7321.1  
-**文件大小**：507.42 MB  
-**校验值（Sha256）**：b672cc39c8f6fdd414b44b5a930700d1422c37ecfb0f5daf315f88b777c2d1db  
-**下载链接**：[https://dl.google.com/release2/chrome/adkgj6own6fcojv7i55wa7r3n74a_140.0.7321.1/140.0.7321.1_chrome_installer_uncompressed.exe](https://dl.google.com/release2/chrome/adkgj6own6fcojv7i55wa7r3n74a_140.0.7321.1/140.0.7321.1_chrome_installer_uncompressed.exe)  
+**最新版本**：140.0.7322.0  
+**文件大小**：342.87 MB  
+**校验值（Sha256）**：003172a0b2f2d126d732c1318258321f7eb76907d711d621f360a883334e44f4  
+**下载链接**：[https://dl.google.com/release2/chrome/ac6ojnw7p5npueinigcdf2qnjjua_140.0.7322.0/140.0.7322.0_chrome_installer_uncompressed.exe](https://dl.google.com/release2/chrome/ac6ojnw7p5npueinigcdf2qnjjua_140.0.7322.0/140.0.7322.0_chrome_installer_uncompressed.exe)  
 
 ## win canary x64
-**最新版本**：140.0.7321.0  
-**文件大小**：413.53 MB  
-**校验值（Sha256）**：e74ed9d9c7ba01e9aded46e67c45ba8e56dfaefff07c324cec6afe93ed19342d  
-**下载链接**：[https://dl.google.com/release2/chrome/advpvutxw7sgkftgojdgazb5m5hq_140.0.7321.0/140.0.7321.0_chrome_installer_uncompressed.exe](https://dl.google.com/release2/chrome/advpvutxw7sgkftgojdgazb5m5hq_140.0.7321.0/140.0.7321.0_chrome_installer_uncompressed.exe)  
+**最新版本**：140.0.7322.0  
+**文件大小**：413.72 MB  
+**校验值（Sha256）**：366c9559c5efa40be566b2708d482f5f5aa9bcf3834440404e8530726883faa6  
+**下载链接**：[https://dl.google.com/release2/chrome/ac3mbmbbi4wbtih5js4daiobwpgq_140.0.7322.0/140.0.7322.0_chrome_installer_uncompressed.exe](https://dl.google.com/release2/chrome/ac3mbmbbi4wbtih5js4daiobwpgq_140.0.7322.0/140.0.7322.0_chrome_installer_uncompressed.exe)  
 
 ## win canary arm64
 **最新版本**：140.0.7321.0  
