@@ -204,8 +204,8 @@ def save_md(results, file_path="readme.md"):
                 if arch in channels[channel]:
                     info = channels[channel][arch]
                     sha256_short = (
-                        info["sha256"][:12] + "..."
-                        if len(info["sha256"]) > 12
+                        info["sha256"][:16] + "..."
+                        if len(info["sha256"]) > 16
                         else info["sha256"]
                     )
                     arch_display = arch_names.get(arch, arch.upper())
