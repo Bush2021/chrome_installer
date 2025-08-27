@@ -148,26 +148,72 @@ def humansize(nbytes):
 
 
 def save_md(results, file_path="readme.md"):
-    index_url = "https://github.com/Bush2021/chrome_installer?tab=readme-ov-file#"
-    with open(file_path, "w") as f:
+    def format_channel_arch(name):
+        parts = name.split("_")
+        return parts[0], parts[1], parts[2]  # platform, channel, arch
+
+    channels = {}
+    for name, info in results.items():
+        platform, channel, arch = format_channel_arch(name)
+        if channel not in channels:
+            channels[channel] = {}
+        channels[channel][arch] = {
+            "name": name,
+            "version": info["version"],
+            "size": humansize(info["size"]),
+            "sha256": info["sha256"],
+            "url": next(
+                (url for url in info["urls"] if url.startswith("https://dl.")),
+                info["urls"][0] if info["urls"] else "N/A",
+            ),
+        }
+
+    with open(file_path, "w", encoding="utf-8") as f:
         f.write("# Google Chrome 离线安装包（请使用 7-Zip 解压）\n")
-        f.write(
-            "稳定版存档：<https://github.com/Bush2021/chrome_installer/releases>\n\n"
-        )
-        f.write("## 目录\n")
-        for name in results.keys():
-            title = name.replace("_", " ")
-            link = index_url + title.replace(" ", "-")
-            f.write(f"* [{title}]({link})\n")
+        f.write("稳定版存档：https://github.com/Bush2021/chrome_installer/releases\n\n")
+
+        channel_order = ["stable", "beta", "dev", "canary"]
+        channel_names = {
+            "stable": "Stable",
+            "beta": "Beta",
+            "dev": "Dev",
+            "canary": "Canary",
+        }
+
+        f.write("## 目录\n\n")
+        for channel in channel_order:
+            if channel in channels:
+                channel_name = channel_names.get(channel, channel.title())
+                f.write(f"- [{channel_name}](#{channel})\n")
         f.write("\n")
-        for name, version in results.items():
-            f.write(f'## {name.replace("_", " ")}\n')
-            f.write(f'**最新版本**：{version["version"]}  \n')
-            f.write(f'**文件大小**：{humansize(version["size"])}  \n')
-            f.write(f'**校验值（Sha256）**：{version["sha256"]}  \n')
-            for url in version["urls"]:
-                if url.startswith("https://dl."):
-                    f.write(f"**下载链接**：[{url}]({url})  \n")
+
+        for channel in channel_order:
+            if channel not in channels:
+                continue
+
+            channel_name = channel_names.get(channel, channel.title())
+            f.write(f"## {channel_name}\n\n")
+
+            f.write("| 架构 | 版本号 | 文件大小 | SHA256 校验 | 下载链接 |\n")
+            f.write("|------|--------|----------|-------------|----------|\n")
+
+            arch_order = ["x86", "x64", "arm64"]
+            arch_names = {"x86": "x86", "x64": "x64", "arm64": "ARM64"}
+
+            for arch in arch_order:
+                if arch in channels[channel]:
+                    info = channels[channel][arch]
+                    sha256_short = (
+                        info["sha256"][:16] + "..."
+                        if len(info["sha256"]) > 16
+                        else info["sha256"]
+                    )
+                    arch_display = arch_names.get(arch, arch.upper())
+
+                    f.write(
+                        f"| **{arch_display}** | `{info['version']}` | {info['size']} | `{sha256_short}` | [下载]({info['url']}) |\n"
+                    )
+
             f.write("\n")
 
 
