@@ -36,7 +36,7 @@
 
 | 架构 | 版本号 | 文件大小 | SHA256 校验 | 下载链接 |
 |------|--------|----------|-------------|----------|
-| **x86** | `142.0.7391.0` | 345.39 MB | `058430fd849fdab2...` | [下载](https://dl.google.com/release2/chrome/cu55bkiimuiesyo5phhvesfmki_142.0.7391.0/142.0.7391.0_chrome_installer_uncompressed.exe) |
-| **x64** | `142.0.7391.0` | 416.58 MB | `1e5ee18ed99e0d97...` | [下载](https://dl.google.com/release2/chrome/ado64hdfytct5cr4l5gyia4c465a_142.0.7391.0/142.0.7391.0_chrome_installer_uncompressed.exe) |
-| **ARM64** | `142.0.7391.1` | 573.32 MB | `b91354f1014dff53...` | [下载](https://dl.google.com/release2/chrome/mppxv4bkn3ugrmiekwdrtn6l6e_142.0.7391.1/142.0.7391.1_chrome_installer_uncompressed.exe) |
+| **x86** | `142.0.7392.0` | 345 MB | `e0a495b057000bd1...` | [下载](https://dl.google.com/release2/chrome/nxtv7ug4horrwwvap5ew43weo4_142.0.7392.0/142.0.7392.0_chrome_installer_uncompressed.exe) |
+| **x64** | `142.0.7392.0` | 415.95 MB | `db915f7cd84b53e7...` | [下载](https://dl.google.com/release2/chrome/cfjqckyth5jxpusgh6cwaowoly_142.0.7392.0/142.0.7392.0_chrome_installer_uncompressed.exe) |
+| **ARM64** | `142.0.7392.0` | 411.77 MB | `19e869090e468ad3...` | [下载](https://dl.google.com/release2/chrome/dkodxzbonhqrfirqdghng2ebpu_142.0.7392.0/142.0.7392.0_chrome_installer_uncompressed.exe) |
 
