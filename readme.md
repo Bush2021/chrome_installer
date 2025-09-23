@@ -37,6 +37,6 @@
 | 架构 | 版本号 | 文件大小 | SHA256 校验 | 下载链接 |
 |------|--------|----------|-------------|----------|
 | **x86** | `142.0.7430.0` | 347.61 MB | `3398d7c54b01fea3...` | [下载](https://dl.google.com/release2/chrome/pjgjzidjkrvqwlghr4nfne7y7y_142.0.7430.0/142.0.7430.0_chrome_installer_uncompressed.exe) |
-| **x64** | `142.0.7430.0` | 420.85 MB | `6487f5e6fad694c9...` | [下载](https://dl.google.com/release2/chrome/adctiykoybbhrlr2bvigduntfzta_142.0.7430.0/142.0.7430.0_chrome_installer_uncompressed.exe) |
-| **ARM64** | `142.0.7429.0` | 419.72 MB | `918f8951278226e2...` | [下载](https://dl.google.com/release2/chrome/adt4os7rtemoart7si6u44vxezua_142.0.7429.0/142.0.7429.0_chrome_installer_uncompressed.exe) |
+| **x64** | `142.0.7430.1` | 620.83 MB | `3cf6ecc1c78b567e...` | [下载](https://dl.google.com/release2/chrome/h6mk6kg32netgwbszav5oue6ke_142.0.7430.1/142.0.7430.1_chrome_installer_uncompressed.exe) |
+| **ARM64** | `142.0.7430.0` | 419.81 MB | `57d74210cf262656...` | [下载](https://dl.google.com/release2/chrome/daptty7okjz5krwqa727cnattu_142.0.7430.0/142.0.7430.0_chrome_installer_uncompressed.exe) |
 
