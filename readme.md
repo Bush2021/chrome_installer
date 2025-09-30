@@ -12,8 +12,8 @@
 
 | 架构 | 版本号 | 文件大小 | SHA256 校验 | 下载链接 |
 |------|--------|----------|-------------|----------|
-| **x86** | `140.0.7339.208` | 343.37 MB | `4ccc97c939fc7168...` | [下载](https://dl.google.com/release2/chrome/br4sgfey53ocxyz36zfh6p6oy4_140.0.7339.208/140.0.7339.208_chrome_installer_uncompressed.exe) |
-| **x64** | `140.0.7339.208` | 414.68 MB | `ecf89e1e6d2c6e18...` | [下载](https://dl.google.com/release2/chrome/ac3nic2ahkdg3nwp2cxz7lbucyma_140.0.7339.208/140.0.7339.208_chrome_installer_uncompressed.exe) |
+| **x86** | `141.0.7390.55` | 343.84 MB | `f689aad5e66db5ef...` | [下载](https://dl.google.com/release2/chrome/acqxqfcyxirv2arz3a3dmpeclegq_141.0.7390.55/141.0.7390.55_chrome_installer_uncompressed.exe) |
+| **x64** | `141.0.7390.55` | 416.84 MB | `d3b512ac5e9c0706...` | [下载](https://dl.google.com/release2/chrome/js54dpxs55azpenbpm56mqvpeq_141.0.7390.55/141.0.7390.55_chrome_installer_uncompressed.exe) |
 | **ARM64** | `141.0.7390.55` | 412.06 MB | `1fabf22c1cde6fb5...` | [下载](https://dl.google.com/release2/chrome/bzlnhwechdw47wri4vkikk3qwi_141.0.7390.55/141.0.7390.55_chrome_installer_uncompressed.exe) |
 
 ## Beta
@@ -37,6 +37,6 @@
 | 架构 | 版本号 | 文件大小 | SHA256 校验 | 下载链接 |
 |------|--------|----------|-------------|----------|
 | **x86** | `142.0.7444.1` | 520.66 MB | `227678f83a5d3a94...` | [下载](https://dl.google.com/release2/chrome/addw4loi6ormnt2l7mhjybhym6ka_142.0.7444.1/142.0.7444.1_chrome_installer_uncompressed.exe) |
-| **x64** | `142.0.7444.0` | 421.07 MB | `b786a0028dcb9bc2...` | [下载](https://dl.google.com/release2/chrome/acyprblwztjeyndo2leahrdqqxca_142.0.7444.0/142.0.7444.0_chrome_installer_uncompressed.exe) |
+| **x64** | `142.0.7444.3` | 420.23 MB | `2da914fd9f35d59b...` | [下载](https://dl.google.com/release2/chrome/adeqorosgqgcsr7vix3ey2ic7zkq_142.0.7444.3/142.0.7444.3_chrome_installer_uncompressed.exe) |
 | **ARM64** | `142.0.7444.1` | 577.63 MB | `33dfd85138a87ed3...` | [下载](https://dl.google.com/release2/chrome/acfsoeyqm2e6tcwpzbdolamdtsaa_142.0.7444.1/142.0.7444.1_chrome_installer_uncompressed.exe) |
 
