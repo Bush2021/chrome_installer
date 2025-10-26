@@ -28,9 +28,9 @@
 
 | 架构 | 版本号 | 文件大小 | SHA256 校验 | 下载链接 |
 |------|--------|----------|-------------|----------|
-| **x86** | `143.0.7489.2` | 350.15 MB | `fe1af3fe8b3e8d8b...` | [下载](https://dl.google.com/release2/chrome/ivx4vpgmtzxv5vixkgcz2zjvyi_143.0.7489.2/143.0.7489.2_chrome_installer_uncompressed.exe) |
-| **x64** | `143.0.7489.2` | 421.28 MB | `edea935d5f2ee46b...` | [下载](https://dl.google.com/release2/chrome/bau7cc4np4daej2lsng7j6t2n4_143.0.7489.2/143.0.7489.2_chrome_installer_uncompressed.exe) |
-| **ARM64** | `143.0.7489.2` | 411.26 MB | `eb03515e566a990a...` | [下载](https://dl.google.com/release2/chrome/ac6qvz5r33hau56orfma55derctq_143.0.7489.2/143.0.7489.2_chrome_installer_uncompressed.exe) |
+| **x86** | `143.0.7489.3` | 350.15 MB | `d2ac1acf734bc8f7...` | [下载](https://dl.google.com/release2/chrome/ac5hk6ieadvgphtqck7ygiavgx4a_143.0.7489.3/143.0.7489.3_chrome_installer_uncompressed.exe) |
+| **x64** | `143.0.7489.3` | 421.28 MB | `c0345d027afab087...` | [下载](https://dl.google.com/release2/chrome/oplmb3fhim7dd2dpoekwlg7xgu_143.0.7489.3/143.0.7489.3_chrome_installer_uncompressed.exe) |
+| **ARM64** | `143.0.7489.3` | 411.26 MB | `2b0ff6e4ee4d631a...` | [下载](https://dl.google.com/release2/chrome/ada33tzqip6pvid6p6gxbj2w6qqa_143.0.7489.3/143.0.7489.3_chrome_installer_uncompressed.exe) |
 
 ## Canary
 
