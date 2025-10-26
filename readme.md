@@ -36,7 +36,7 @@
 
 | 架构 | 版本号 | 文件大小 | SHA256 校验 | 下载链接 |
 |------|--------|----------|-------------|----------|
-| **x86** | `143.0.7495.0` | 347.91 MB | `62adec26cc2b3bac...` | [下载](https://dl.google.com/release2/chrome/fgrbzhfeu2k6eqi63ysjjxzwue_143.0.7495.0/143.0.7495.0_chrome_installer_uncompressed.exe) |
-| **x64** | `143.0.7495.0` | 421.24 MB | `31eab7ec4ac6d73e...` | [下载](https://dl.google.com/release2/chrome/admfzceid2o22pb66gygh7rbrvhq_143.0.7495.0/143.0.7495.0_chrome_installer_uncompressed.exe) |
+| **x86** | `143.0.7495.1` | 524.77 MB | `f26921e6643c8134...` | [下载](https://dl.google.com/release2/chrome/adc62ghphj7kg53majuu7kjh53iq_143.0.7495.1/143.0.7495.1_chrome_installer_uncompressed.exe) |
+| **x64** | `143.0.7495.1` | 626.69 MB | `f2cb7d1102344888...` | [下载](https://dl.google.com/release2/chrome/acafwainlhc72i4uxgby6g3vgeua_143.0.7495.1/143.0.7495.1_chrome_installer_uncompressed.exe) |
 | **ARM64** | `143.0.7495.0` | 411.81 MB | `6d4e1d6cd2309a42...` | [下载](https://dl.google.com/release2/chrome/mlhrl464wopdpvyveo4o7otise_143.0.7495.0/143.0.7495.0_chrome_installer_uncompressed.exe) |
 
