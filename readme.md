@@ -36,7 +36,7 @@
 
 | 架构 | 版本号 | 文件大小 | SHA256 校验 | 下载链接 |
 |------|--------|----------|-------------|----------|
-| **x86** | `144.0.7511.0` | 349.76 MB | `50df7c87c3a4b721...` | [下载](https://dl.google.com/release2/chrome/acvjzwxsjs5wxm4heofh5d6pcmrq_144.0.7511.0/144.0.7511.0_chrome_installer_uncompressed.exe) |
-| **x64** | `144.0.7511.0` | 422.16 MB | `f87c2c81ae31d58d...` | [下载](https://dl.google.com/release2/chrome/acmdf63r7elja5hwmrk2tijzp6wa_144.0.7511.0/144.0.7511.0_chrome_installer_uncompressed.exe) |
+| **x86** | `144.0.7512.1` | 351.01 MB | `f45db698f49dacf3...` | [下载](https://dl.google.com/release2/chrome/acaddyj7tz2kfeusjrdnejalcbgq_144.0.7512.1/144.0.7512.1_chrome_installer_uncompressed.exe) |
+| **x64** | `144.0.7512.1` | 422.44 MB | `df609758afe2c797...` | [下载](https://dl.google.com/release2/chrome/adcj73bbuz7pmroqzxe4cfleyexa_144.0.7512.1/144.0.7512.1_chrome_installer_uncompressed.exe) |
 | **ARM64** | `144.0.7511.1` | 583.56 MB | `840775fdd111b29f...` | [下载](https://dl.google.com/release2/chrome/kzct32vrly2ps3ai4uhjfffzba_144.0.7511.1/144.0.7511.1_chrome_installer_uncompressed.exe) |
 
