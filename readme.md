@@ -36,7 +36,7 @@
 
 | 架构 | 版本号 | 文件大小 | SHA256 校验 | 下载链接 |
 |------|--------|----------|-------------|----------|
-| **x86** | `145.0.7570.0` | 354.96 MB | `3f9fa37c36e86ea2...` | [下载](https://dl.google.com/release2/chrome/o2p4hdh534sbxwc76rbiubbzkq_145.0.7570.0/145.0.7570.0_chrome_installer_uncompressed.exe) |
-| **x64** | `145.0.7570.0` | 427.04 MB | `5cd615e48aec31d2...` | [下载](https://dl.google.com/release2/chrome/acgrluklyhfvpyvl4b6fpg73ezbq_145.0.7570.0/145.0.7570.0_chrome_installer_uncompressed.exe) |
+| **x86** | `145.0.7571.0` | 352.67 MB | `b1852e20a011467a...` | [下载](https://dl.google.com/release2/chrome/bumbgts4bzbtuq43evd62med7y_145.0.7571.0/145.0.7571.0_chrome_installer_uncompressed.exe) |
+| **x64** | `145.0.7571.0` | 427.56 MB | `bdb98a03b4b37bf3...` | [下载](https://dl.google.com/release2/chrome/pfok27phksjpj5yu2w7wbscpdy_145.0.7571.0/145.0.7571.0_chrome_installer_uncompressed.exe) |
 | **ARM64** | `145.0.7570.0` | 416.29 MB | `dcadd66c76f29ffe...` | [下载](https://dl.google.com/release2/chrome/dimy4p2agqo3wz2s74bw2iapoa_145.0.7570.0/145.0.7570.0_chrome_installer_uncompressed.exe) |
 
