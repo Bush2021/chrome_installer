@@ -38,5 +38,5 @@
 |------|--------|----------|-------------|----------|
 | **x86** | `145.0.7619.1` | 531.72 MB | `dc12df46d6599ef0...` | [下载](https://dl.google.com/release2/chrome/acx2zs5iqfzrs5s4idy7sloqanjq_145.0.7619.1/145.0.7619.1_chrome_installer_uncompressed.exe) |
 | **x64** | `145.0.7619.1` | 636.9 MB | `0d46f2cf4ae980e6...` | [下载](https://dl.google.com/release2/chrome/aczozjwbeb5dyowc3hxdaxoj33aq_145.0.7619.1/145.0.7619.1_chrome_installer_uncompressed.exe) |
-| **ARM64** | `145.0.7619.0` | 420.01 MB | `e1eee945cb17e069...` | [下载](https://dl.google.com/release2/chrome/f4k6koup3doy73wmtzqfu57xby_145.0.7619.0/145.0.7619.0_chrome_installer_uncompressed.exe) |
+| **ARM64** | `145.0.7619.1` | 589.81 MB | `a004d1cade67e6ae...` | [下载](https://dl.google.com/release2/chrome/acvz3shx4ow6ph3rz2kjp5zrvgha_145.0.7619.1/145.0.7619.1_chrome_installer_uncompressed.exe) |
 
