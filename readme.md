@@ -28,9 +28,9 @@
 
 | 架构 | 版本号 | 文件大小 | SHA256 校验 | 下载链接 |
 |------|--------|----------|-------------|----------|
-| **x86** | `146.0.7635.2` | 358.43 MB | `67b6de63d193b181...` | [下载](https://dl.google.com/release2/chrome/ac4jop53gjjlsymprjnwbzag4oka_146.0.7635.2/146.0.7635.2_chrome_installer_uncompressed.exe) |
-| **x64** | `146.0.7635.2` | 438.26 MB | `450f6dd5ba9157cc...` | [下载](https://dl.google.com/release2/chrome/nayzjdwzl7mzn2v3sdiebmgmea_146.0.7635.2/146.0.7635.2_chrome_installer_uncompressed.exe) |
-| **ARM64** | `146.0.7635.2` | 424.37 MB | `b3b813c3990a8deb...` | [下载](https://dl.google.com/release2/chrome/eosnsd6a4sdjewwl5scs2uulfi_146.0.7635.2/146.0.7635.2_chrome_installer_uncompressed.exe) |
+| **x86** | `146.0.7635.3` | 358.43 MB | `020e91ffa14c4789...` | [下载](https://dl.google.com/release2/chrome/adbkcu3bbphsunq4tth3qn2zwgca_146.0.7635.3/146.0.7635.3_chrome_installer_uncompressed.exe) |
+| **x64** | `146.0.7635.3` | 438.26 MB | `f702b0b3b2fa5cd0...` | [下载](https://dl.google.com/release2/chrome/pojcoaokaolrz6g34abotistw4_146.0.7635.3/146.0.7635.3_chrome_installer_uncompressed.exe) |
+| **ARM64** | `146.0.7635.3` | 424.37 MB | `19a4190ee42f4f66...` | [下载](https://dl.google.com/release2/chrome/ads2acij67k57kshhei73otmt3oa_146.0.7635.3/146.0.7635.3_chrome_installer_uncompressed.exe) |
 
 ## Canary
 
