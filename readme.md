@@ -37,6 +37,6 @@
 | 架构 | 版本号 | 文件大小 | SHA256 校验 | 下载链接 |
 |------|--------|----------|-------------|----------|
 | **x86** | `146.0.7645.0` | 359.99 MB | `009cb10fca60acfe...` | [下载](https://dl.google.com/release2/chrome/nbb6yrd6ptd2ivg6dq5irdglf4_146.0.7645.0/146.0.7645.0_chrome_installer_uncompressed.exe) |
-| **x64** | `146.0.7645.0` | 438.7 MB | `fa1ddfa5788f2a39...` | [下载](https://dl.google.com/release2/chrome/addyjudurfq3hv6l3i7sqfogl4xq_146.0.7645.0/146.0.7645.0_chrome_installer_uncompressed.exe) |
+| **x64** | `146.0.7645.1` | 656.32 MB | `f91d1d48e594e032...` | [下载](https://dl.google.com/release2/chrome/mn7n53gok7pygvuk76mtxafv4i_146.0.7645.1/146.0.7645.1_chrome_installer_uncompressed.exe) |
 | **ARM64** | `146.0.7645.0` | 424.89 MB | `4581cfe958909599...` | [下载](https://dl.google.com/release2/chrome/aca633wbl5ijejkouhfv3jfqkpyq_146.0.7645.0/146.0.7645.0_chrome_installer_uncompressed.exe) |
 
