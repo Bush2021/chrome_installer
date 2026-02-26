@@ -36,7 +36,7 @@
 
 | 架构 | 版本号 | 文件大小 | SHA256 校验 | 下载链接 |
 |------|--------|----------|-------------|----------|
-| **x86** | `147.0.7705.0` | 364.53 MB | `6f20c333796a4fc6...` | [下载](https://dl.google.com/release2/chrome/cvwq5i5qoxnxaulxoyog3ggote_147.0.7705.0/147.0.7705.0_chrome_installer_uncompressed.exe) |
-| **x64** | `147.0.7705.0` | 446.33 MB | `9fa1618b52fdc6a3...` | [下载](https://dl.google.com/release2/chrome/acb3y7ounomjjy7wa5cyvtjrymla_147.0.7705.0/147.0.7705.0_chrome_installer_uncompressed.exe) |
-| **ARM64** | `147.0.7705.0` | 429.57 MB | `f0030706a7274dbd...` | [下载](https://dl.google.com/release2/chrome/l4vngbwg2u2sbxxgy3jfvy237y_147.0.7705.0/147.0.7705.0_chrome_installer_uncompressed.exe) |
+| **x86** | `147.0.7706.0` | 364.29 MB | `536d4e49e66e40b0...` | [下载](https://dl.google.com/release2/chrome/adeedhygvei7zlw24jhohyvq4s2a_147.0.7706.0/147.0.7706.0_chrome_installer_uncompressed.exe) |
+| **x64** | `147.0.7706.0` | 446.28 MB | `a1af64bd7875f10f...` | [下载](https://dl.google.com/release2/chrome/ptyxp2nolptcvknc3tmnp6m6ku_147.0.7706.0/147.0.7706.0_chrome_installer_uncompressed.exe) |
+| **ARM64** | `147.0.7706.0` | 428.59 MB | `320d5eb1a9860188...` | [下载](https://dl.google.com/release2/chrome/adh7qtum4yff2nmc45fhy4xt6uva_147.0.7706.0/147.0.7706.0_chrome_installer_uncompressed.exe) |
 
