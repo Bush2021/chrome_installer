@@ -36,7 +36,7 @@
 
 | 架构 | 版本号 | 文件大小 | SHA256 校验 | 下载链接 |
 |------|--------|----------|-------------|----------|
-| **x86** | `147.0.7714.0` | 365.82 MB | `106f6c8bbb1c6dce...` | [下载](https://dl.google.com/release2/chrome/adsdnhdzjath3ji52vzb5rws5qha_147.0.7714.0/147.0.7714.0_chrome_installer_uncompressed.exe) |
-| **x64** | `147.0.7714.1` | 665.73 MB | `b923953e06c01f36...` | [下载](https://dl.google.com/release2/chrome/acl4micy7gocohlgfzfp5k75bbmq_147.0.7714.1/147.0.7714.1_chrome_installer_uncompressed.exe) |
-| **ARM64** | `147.0.7714.1` | 602.67 MB | `a870a4ade93da5f9...` | [下载](https://dl.google.com/release2/chrome/cqivh2nctbsl5vwxezhay3lz24_147.0.7714.1/147.0.7714.1_chrome_installer_uncompressed.exe) |
+| **x86** | `147.0.7715.0` | 365.64 MB | `b6ef242739e5d6e0...` | [下载](https://dl.google.com/release2/chrome/lghwix3pe377sjjgirpnv6ozoi_147.0.7715.0/147.0.7715.0_chrome_installer_uncompressed.exe) |
+| **x64** | `147.0.7715.0` | 446.25 MB | `3e235d1230ec9d12...` | [下载](https://dl.google.com/release2/chrome/iombkhtr2itisszo4kdoqu2hdm_147.0.7715.0/147.0.7715.0_chrome_installer_uncompressed.exe) |
+| **ARM64** | `147.0.7715.0` | 428.94 MB | `28b500b5d5a6ef4a...` | [下载](https://dl.google.com/release2/chrome/hu23hbfasg6ctzbxanpd3kjyj4_147.0.7715.0/147.0.7715.0_chrome_installer_uncompressed.exe) |
 
