@@ -36,7 +36,7 @@
 
 | 架构 | 版本号 | 文件大小 | SHA256 校验 | 下载链接 |
 |------|--------|----------|-------------|----------|
-| **x86** | `149.0.7827.2` | 374.7 MB | `c309d4335222e6a3...` | [下载](https://dl.google.com/release2/chrome/e3w3xkheu6kxoibhilebc7iwbm_149.0.7827.2/149.0.7827.2_chrome_installer_uncompressed.exe) |
-| **x64** | `149.0.7827.2` | 459.87 MB | `940e1ec0c5e7f3bd...` | [下载](https://dl.google.com/release2/chrome/av2vj2krqdkmln4nu6fywriz64_149.0.7827.2/149.0.7827.2_chrome_installer_uncompressed.exe) |
-| **ARM64** | `149.0.7827.2` | 438.89 MB | `b9b617b91fd9553f...` | [下载](https://dl.google.com/release2/chrome/nftu7rcjp76xfhiy3yej4nir5a_149.0.7827.2/149.0.7827.2_chrome_installer_uncompressed.exe) |
+| **x86** | `149.0.7827.3` | 375.9 MB | `2155de6253217880...` | [下载](https://dl.google.com/release2/chrome/adf2ecwqbugnn5rsz6f3ciyivemq_149.0.7827.3/149.0.7827.3_chrome_installer_uncompressed.exe) |
+| **x64** | `149.0.7827.3` | 459.53 MB | `6d430332c470dffd...` | [下载](https://dl.google.com/release2/chrome/ftown4xwt4rifble2mposf3xgi_149.0.7827.3/149.0.7827.3_chrome_installer_uncompressed.exe) |
+| **ARM64** | `149.0.7827.3` | 438.88 MB | `73653703483f8cc8...` | [下载](https://dl.google.com/release2/chrome/acl2lszum4ytsw4rikr5iw5u5yvq_149.0.7827.3/149.0.7827.3_chrome_installer_uncompressed.exe) |
 
