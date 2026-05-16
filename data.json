@@ -154,17 +154,17 @@
         ]
     },
     "win_canary_arm64": {
-        "version": "150.0.7843.0",
-        "size": 460898728,
-        "sha1": "0eccee63b4478a2aaaa7e7e8e4bbd2461bcee47e",
-        "sha256": "7de25fdb490649941db4d24dd24f72d5e1d6ceaf438ab63fca57a621a20afd7c",
+        "version": "150.0.7843.1",
+        "size": 652848040,
+        "sha1": "2a1d1f7c2e2a68da5086b58584f85ba7041b6e48",
+        "sha256": "4472df67d270ca920d7e85583c6d8f6fccd77d4060d5424b86d92964f2c93c53",
         "urls": [
-            "http://edgedl.me.gvt1.com/edgedl/release2/chrome/ldfbcilzd4lseeci3dk6nbcr3m_150.0.7843.0/150.0.7843.0_chrome_installer_uncompressed.exe",
-            "https://edgedl.me.gvt1.com/edgedl/release2/chrome/ldfbcilzd4lseeci3dk6nbcr3m_150.0.7843.0/150.0.7843.0_chrome_installer_uncompressed.exe",
-            "http://dl.google.com/release2/chrome/ldfbcilzd4lseeci3dk6nbcr3m_150.0.7843.0/150.0.7843.0_chrome_installer_uncompressed.exe",
-            "https://dl.google.com/release2/chrome/ldfbcilzd4lseeci3dk6nbcr3m_150.0.7843.0/150.0.7843.0_chrome_installer_uncompressed.exe",
-            "http://www.google.com/dl/release2/chrome/ldfbcilzd4lseeci3dk6nbcr3m_150.0.7843.0/150.0.7843.0_chrome_installer_uncompressed.exe",
-            "https://www.google.com/dl/release2/chrome/ldfbcilzd4lseeci3dk6nbcr3m_150.0.7843.0/150.0.7843.0_chrome_installer_uncompressed.exe"
+            "http://edgedl.me.gvt1.com/edgedl/release2/chrome/khtey2ugh3slbbunh2s4jjjq6u_150.0.7843.1/150.0.7843.1_chrome_installer_uncompressed.exe",
+            "https://edgedl.me.gvt1.com/edgedl/release2/chrome/khtey2ugh3slbbunh2s4jjjq6u_150.0.7843.1/150.0.7843.1_chrome_installer_uncompressed.exe",
+            "http://dl.google.com/release2/chrome/khtey2ugh3slbbunh2s4jjjq6u_150.0.7843.1/150.0.7843.1_chrome_installer_uncompressed.exe",
+            "https://dl.google.com/release2/chrome/khtey2ugh3slbbunh2s4jjjq6u_150.0.7843.1/150.0.7843.1_chrome_installer_uncompressed.exe",
+            "http://www.google.com/dl/release2/chrome/khtey2ugh3slbbunh2s4jjjq6u_150.0.7843.1/150.0.7843.1_chrome_installer_uncompressed.exe",
+            "https://www.google.com/dl/release2/chrome/khtey2ugh3slbbunh2s4jjjq6u_150.0.7843.1/150.0.7843.1_chrome_installer_uncompressed.exe"
         ]
     }
 }
