@@ -176,8 +176,11 @@ def save_md(results, file_path="readme.md"):
         }
 
     with open(file_path, "w", encoding="utf-8") as f:
-        f.write("# Google Chrome 离线安装包（请使用 7-Zip 解压）\n")
-        f.write("稳定版存档：https://github.com/Bush2021/chrome_installer/releases\n\n")
+        f.write("# Google Chrome Offline Installers (extract with 7-Zip)\n")
+        f.write(
+            "Stable release archive: "
+            "https://github.com/Bush2021/chrome_installer/releases\n\n"
+        )
 
         channel_order = ["stable", "beta", "dev", "canary"]
         channel_names = {
@@ -187,7 +190,7 @@ def save_md(results, file_path="readme.md"):
             "canary": "Canary",
         }
 
-        f.write("## 目录\n\n")
+        f.write("## Contents\n\n")
         for channel in channel_order:
             if channel in channels:
                 channel_name = channel_names.get(channel, channel.title())
@@ -201,8 +204,8 @@ def save_md(results, file_path="readme.md"):
             channel_name = channel_names.get(channel, channel.title())
             f.write(f"## {channel_name}\n\n")
 
-            f.write("| 架构 | 版本号 | 文件大小 | SHA256 校验 | 下载链接 |\n")
-            f.write("|------|--------|----------|-------------|----------|\n")
+            f.write("| Architecture | Version | Size | SHA-256 | Download |\n")
+            f.write("|--------------|---------|------|---------|----------|\n")
 
             arch_order = ["x86", "x64", "arm64"]
             arch_names = {"x86": "x86", "x64": "x64", "arm64": "ARM64"}
@@ -218,7 +221,7 @@ def save_md(results, file_path="readme.md"):
                     arch_display = arch_names.get(arch, arch.upper())
 
                     f.write(
-                        f"| **{arch_display}** | `{info['version']}` | {info['size']} | `{sha256_short}` | [下载]({info['url']}) |\n"
+                        f"| **{arch_display}** | `{info['version']}` | {info['size']} | `{sha256_short}` | [Download]({info['url']}) |\n"
                     )
 
             f.write("\n")
