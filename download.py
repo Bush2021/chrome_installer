@@ -34,7 +34,11 @@ def get_download_info(arch_key):
     with open("data.json", "r") as f:
         data = json.load(f)
         version = data[arch_key]["version"]
-        download_url = data[arch_key]["urls"][3]
+        urls = data[arch_key]["urls"]
+        download_url = next(
+            (u for u in urls if u.startswith("https://") and "google.com" in u),
+            urls[0],
+        )
     return version, download_url
 
 
