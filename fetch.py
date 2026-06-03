@@ -166,7 +166,11 @@ def save_md(results, file_path="readme.md"):
             "size": humansize(info["size"]),
             "sha256": info["sha256"],
             "url": next(
-                (url for url in info["urls"] if url.startswith("https://dl.")),
+                (
+                    url
+                    for url in info["urls"]
+                    if url.startswith("https://") and "google.com" in url
+                ),
                 info["urls"][0] if info["urls"] else "N/A",
             ),
         }
