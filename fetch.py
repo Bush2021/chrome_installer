@@ -89,6 +89,9 @@ def decode(text):
     manifest_version = manifest_node.get("version")
 
     package_node = root.find(".//package")
+    if package_node is None:
+        print("Error: package_node is None")
+        return
     package_name = package_node.get("name")
     package_size = int(package_node.get("size"))
     package_sha1 = base64.b64decode(package_node.get("hash")).hex()
