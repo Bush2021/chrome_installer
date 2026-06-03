@@ -1,4 +1,5 @@
 import argparse
+import hashlib
 import json
 import os
 import requests
@@ -33,19 +34,21 @@ def check_update(arch_key):
 def get_download_info(arch_key):
     with open("data.json", "r") as f:
         data = json.load(f)
-        version = data[arch_key]["version"]
-        urls = data[arch_key]["urls"]
+        entry = data[arch_key]
+        version = entry["version"]
+        urls = entry["urls"]
         download_url = next(
             (u for u in urls if u.startswith("https://") and "google.com" in u),
             urls[0],
         )
-    return version, download_url
+        sha256 = entry["sha256"]
+    return version, download_url, sha256
 
 
 def download_for_arch(arch_key):
     if check_update(arch_key):
         print(f"New version detected for {arch_key}, start downloading...")
-        version, url = get_download_info(arch_key)
+        version, url, expected_sha256 = get_download_info(arch_key)
         arch_id = arch_key.split("_")[-1]
         filename = f"{arch_id}_{url.split('/')[-1]}"
 
@@ -53,11 +56,21 @@ def download_for_arch(arch_key):
             print(f"The file {filename} already exists, skip downloading")
             return
         r = requests.get(url, stream=True)
+        r.raise_for_status()
+        digest = hashlib.sha256()
         with open(filename, "wb") as f:
-            for chunk in r.iter_content(chunk_size=1024):
+            for chunk in r.iter_content(chunk_size=1024 * 1024):
                 if chunk:
                     f.write(chunk)
-        print(f"Download complete for {arch_key}")
+                    digest.update(chunk)
+        actual_sha256 = digest.hexdigest()
+        if actual_sha256 != expected_sha256.lower():
+            os.remove(filename)
+            raise SystemExit(
+                f"SHA256 mismatch for {arch_key}: "
+                f"expected {expected_sha256}, got {actual_sha256}"
+            )
+        print(f"Download complete and verified for {arch_key}")
     else:
         print(f"No new version detected for {arch_key}, skip downloading")
 
