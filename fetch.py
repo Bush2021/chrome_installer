@@ -226,6 +226,17 @@ def save_md(results, file_path="readme.md"):
 
             f.write("\n")
 
+            f.write("<details>\n")
+            f.write("<summary>Full SHA-256 (sha256sum -c)</summary>\n\n")
+            f.write("```\n")
+            for arch in arch_order:
+                if arch in channels[channel]:
+                    info = channels[channel][arch]
+                    asset = f"{arch}_{info['url'].split('/')[-1]}"
+                    f.write(f"{info['sha256']}  {asset}\n")
+            f.write("```\n\n")
+            f.write("</details>\n\n")
+
 
 def save_json(results, file_path="data.json"):
     with open(file_path, "w") as f:
