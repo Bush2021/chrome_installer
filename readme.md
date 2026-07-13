@@ -69,17 +69,17 @@ f464b9c1adffe89d91db23c1506f90a92241f7d0199dff1ed489d65baa8f8456  arm64_150.0.78
 
 | Architecture | Version | Size | SHA-256 | Download |
 |--------------|---------|------|---------|----------|
-| **x86** | `152.0.7947.1` | 626.38 MB | `6aa2787371d27231...` | [Download](https://dl.google.com/release2/chrome/kpv6t7g2oqvlwfo2crb4cqrgb4_152.0.7947.1/152.0.7947.1_chrome_installer_uncompressed.exe) |
-| **x64** | `152.0.7947.0` | 490.57 MB | `fdf43f9b3a86e2e4...` | [Download](https://dl.google.com/release2/chrome/ads3xdemzdj3em2b77i3rkwdphzq_152.0.7947.0/152.0.7947.0_chrome_installer_uncompressed.exe) |
-| **ARM64** | `152.0.7947.0` | 466.44 MB | `7c1e5a5598747ca7...` | [Download](https://dl.google.com/release2/chrome/ceyaxi45dpiv6sbcbfe3mjocry_152.0.7947.0/152.0.7947.0_chrome_installer_uncompressed.exe) |
+| **x86** | `152.0.7948.0` | 402.41 MB | `0aef1cfe52e11b16...` | [Download](https://dl.google.com/release2/chrome/acd5ug4ly4mv6xniza5oeespbymq_152.0.7948.0/152.0.7948.0_chrome_installer_uncompressed.exe) |
+| **x64** | `152.0.7948.0` | 490.66 MB | `30f66922983eccb6...` | [Download](https://dl.google.com/release2/chrome/acpph6kd65envhx33askexfjszqq_152.0.7948.0/152.0.7948.0_chrome_installer_uncompressed.exe) |
+| **ARM64** | `152.0.7948.0` | 466.68 MB | `8227161407befbc4...` | [Download](https://dl.google.com/release2/chrome/ac5kmikz5e5a37nxv7chkmvfr5qa_152.0.7948.0/152.0.7948.0_chrome_installer_uncompressed.exe) |
 
 <details>
 <summary>Full SHA-256 (sha256sum -c)</summary>
 
 ```
-6aa2787371d27231dbeec9878c1c4172f17be1c8a22afdf1a9c9de8fc8b522ce  x86_152.0.7947.1_chrome_installer_uncompressed.exe
-fdf43f9b3a86e2e4f2a3aa8bc80126c7b02f98eb512499c46a0da22fcc87d3e4  x64_152.0.7947.0_chrome_installer_uncompressed.exe
-7c1e5a5598747ca7eb0d8fcfce90807d032d0e90c1ea2c2334860ba5c903497a  arm64_152.0.7947.0_chrome_installer_uncompressed.exe
+0aef1cfe52e11b16a85f165d68ddbf7be1d39c4348ef58072ff57dbcf10973b4  x86_152.0.7948.0_chrome_installer_uncompressed.exe
+30f66922983eccb6c9f82579c838ff20adce9a9d32d4f1f9befde9f9a945ecc9  x64_152.0.7948.0_chrome_installer_uncompressed.exe
+8227161407befbc4cf46584b67428842c6a9396804f3b2a16d2cf83781b4865c  arm64_152.0.7948.0_chrome_installer_uncompressed.exe
 ```
 
 </details>
