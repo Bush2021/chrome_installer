@@ -70,7 +70,7 @@ b56e4e601e61ebd232e06eb3099d9e0c419a3e7e988d595342cc53e69d2a6016  arm64_151.0.79
 | Architecture | Version | Size | SHA-256 | Download |
 |--------------|---------|------|---------|----------|
 | **x86** | `152.0.7953.1` | 624.52 MB | `f7a20c2f69eb65a8...` | [Download](https://dl.google.com/release2/chrome/ac2bjp6vezuxabp33amddhzhf6eq_152.0.7953.1/152.0.7953.1_chrome_installer_uncompressed.exe) |
-| **x64** | `152.0.7953.0` | 490.29 MB | `57c1afa35a94ddfe...` | [Download](https://dl.google.com/release2/chrome/ac7svc2ic7ea6ehfpckqyukt34gq_152.0.7953.0/152.0.7953.0_chrome_installer_uncompressed.exe) |
+| **x64** | `152.0.7953.1` | 750.39 MB | `5528b850cfde2a24...` | [Download](https://dl.google.com/release2/chrome/aczmwx72y32y3mxti5ad5gj2eaqq_152.0.7953.1/152.0.7953.1_chrome_installer_uncompressed.exe) |
 | **ARM64** | `152.0.7953.0` | 465.57 MB | `d0dcb62b8fbe0999...` | [Download](https://dl.google.com/release2/chrome/intynozzhsd5tovebgpkaeb6pm_152.0.7953.0/152.0.7953.0_chrome_installer_uncompressed.exe) |
 
 <details>
@@ -78,7 +78,7 @@ b56e4e601e61ebd232e06eb3099d9e0c419a3e7e988d595342cc53e69d2a6016  arm64_151.0.79
 
 ```
 f7a20c2f69eb65a86984522c64a0a12ada17d2d4adb67893fb245aece5d2c808  x86_152.0.7953.1_chrome_installer_uncompressed.exe
-57c1afa35a94ddfeb0b87892d4647aa6f7070f36394b536de8156c8b4467d5d3  x64_152.0.7953.0_chrome_installer_uncompressed.exe
+5528b850cfde2a248eabd2da34e5cc3ae1f82effff8fa624e0a3841548f42487  x64_152.0.7953.1_chrome_installer_uncompressed.exe
 d0dcb62b8fbe099968c7014aaaa2653c90dba227c66ceac58715803f3ab6dab2  arm64_152.0.7953.0_chrome_installer_uncompressed.exe
 ```
 
