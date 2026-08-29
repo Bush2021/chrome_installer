@@ -71,7 +71,7 @@ Stable release archive: https://github.com/Bush2021/chrome_installer/releases
 |--------------|---------|------|---------|----------|
 | **x86** | `154.0.8030.0` | 418.11 MB | `64e6b01720c6f34d...` | [Download](https://dl.google.com/release2/chrome/adfbyn5ya7aiynyddldlbfwl5lvq_154.0.8030.0/154.0.8030.0_chrome_installer_uncompressed.exe) |
 | **x64** | `154.0.8030.0` | 497.35 MB | `f33eeac481a8f4e3...` | [Download](https://dl.google.com/release2/chrome/dc2rvvql44kyvijs7dzywl65ta_154.0.8030.0/154.0.8030.0_chrome_installer_uncompressed.exe) |
-| **ARM64** | `154.0.8029.1` | 690.39 MB | `e1d08688187a58fa...` | [Download](https://dl.google.com/release2/chrome/om3cw7ecdi7s56nvp3qwuhegta_154.0.8029.1/154.0.8029.1_chrome_installer_uncompressed.exe) |
+| **ARM64** | `154.0.8030.0` | 475.31 MB | `80d19f62d963e378...` | [Download](https://dl.google.com/release2/chrome/cungodronz4cmtcnw362zwdkki_154.0.8030.0/154.0.8030.0_chrome_installer_uncompressed.exe) |
 
 <details>
 <summary>Full SHA-256 (sha256sum -c)</summary>
@@ -79,7 +79,7 @@ Stable release archive: https://github.com/Bush2021/chrome_installer/releases
 ```
 64e6b01720c6f34d3f9b3e9630b3e7fb384c89815c81538db5a6d38d2fa4a948  x86_154.0.8030.0_chrome_installer_uncompressed.exe
 f33eeac481a8f4e3efaef916a48dd5fbc5e58bf3d495544279141bc64f37a0d2  x64_154.0.8030.0_chrome_installer_uncompressed.exe
-e1d08688187a58fa634cadf032da48f1b33d875279e034f55d6a59246143f820  arm64_154.0.8029.1_chrome_installer_uncompressed.exe
+80d19f62d963e3784e0dcf685a90a8ecc4b372de865e5b8ddc4523e40000086d  arm64_154.0.8030.0_chrome_installer_uncompressed.exe
 ```
 
 </details>
