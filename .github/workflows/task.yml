@@ -15,11 +15,15 @@ jobs:
       with:
         fetch-depth: 0
 
+    - uses: actions/setup-go@v7
+      with:
+        go-version-file: go.mod
+
     - name: Check Update
-      run: python fetch.py
+      run: go run . fetch
 
     - name: Download Latest Stable Releases
-      run: python download.py --arch win_stable_x86 win_stable_x64 win_stable_arm64
+      run: go run . download win_stable_x86 win_stable_x64 win_stable_arm64
 
     - name: Check for EXE Files
       id: check_files
