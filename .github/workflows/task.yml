@@ -15,8 +15,27 @@ jobs:
       with:
         fetch-depth: 0
 
+    - uses: actions/setup-go@v7
+      continue-on-error: true
+      with:
+        go-version-file: go.mod
+
+    - name: Check Update with Go
+      continue-on-error: true
+      run: |
+        mkdir "$RUNNER_TEMP/go"
+        cp data.json "$RUNNER_TEMP/go/"
+        go build -o "$RUNNER_TEMP/chrome_installer" .
+        cd "$RUNNER_TEMP/go" && "$RUNNER_TEMP/chrome_installer" fetch
+
     - name: Check Update
       run: python fetch.py
+
+    - name: Compare with Go
+      run: |
+        for f in data.json readme.md; do
+          diff -u "$f" "$RUNNER_TEMP/go/$f" || echo "::warning::$f differs from the Go port's"
+        done
 
     - name: Download Latest Stable Releases
       run: python download.py --arch win_stable_x86 win_stable_x64 win_stable_arm64
