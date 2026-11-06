@@ -1,14 +1,9 @@
 // Command chrome_installer lists the newest Chrome installer of every
 // channel and architecture in data.json and readme.md, and downloads the
-// listed ones newer than the last release. It also writes the signed feed
-// Pitstop reads, with the key in FEED_SIGNING_KEY, and makes such keys:
+// listed ones newer than the last release:
 //
 //	go run . fetch
 //	go run . download win_stable_x86 win_stable_x64 win_stable_arm64
-//	go run . feed -previous old.json -curation curation.json -out feed.json
-//	go run . keygen
-//	go run . workflow-status
-//	go run . prepare-feed
 package main
 
 import (
@@ -53,16 +48,8 @@ func main() {
 		if last, err = lastTag(); err == nil {
 			err = download(ctx, results, last, os.Args[2:])
 		}
-	case len(os.Args) > 1 && os.Args[1] == "feed":
-		err = runFeed(ctx, &omaha.Client{}, os.Args[2:])
-	case len(os.Args) == 2 && os.Args[1] == "keygen":
-		err = keygen()
-	case len(os.Args) == 2 && os.Args[1] == "workflow-status":
-		err = workflowStatus(ctx)
-	case len(os.Args) == 2 && os.Args[1] == "prepare-feed":
-		err = prepareFeed(ctx, &omaha.Client{})
 	default:
-		fmt.Fprintln(os.Stderr, "usage: chrome_installer fetch | download <key>... | feed -out <file> | keygen | workflow-status | prepare-feed")
+		fmt.Fprintln(os.Stderr, "usage: chrome_installer fetch | download <key>...")
 		os.Exit(2)
 	}
 	if err != nil {
@@ -264,7 +251,7 @@ func lastTag() (string, error) {
 // compareVersions orders versions by their numbers; "" comes first.
 func compareVersions(a, b string) int {
 	numbers := func(v string) (n []int) {
-		for s := range strings.SplitSeq(v, ".") {
+		for _, s := range strings.Split(v, ".") {
 			i, _ := strconv.Atoi(s)
 			n = append(n, i)
 		}
