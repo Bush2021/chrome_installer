@@ -25,36 +25,22 @@ jobs:
     - name: Download Latest Stable Releases
       run: go run . download win_stable_x86 win_stable_x64 win_stable_arm64
 
-    - name: Check for EXE Files
-      id: check_files
-      run: |
-        if find . -name "*.exe" -print -quit | grep -q .; then
-          echo "exe_exists=true" >> $GITHUB_ENV
-        else
-          echo "exe_exists=false" >> $GITHUB_ENV
-        fi
+    - name: Check Workflow Status
+      run: go run . workflow-status
 
-    - name: Check if Tag Exists
-      id: check_tag
-      run: |
-        if git rev-parse "refs/tags/${{ env.latest_version }}" >/dev/null 2>&1; then
-          echo "tag_exists=true" >> $GITHUB_ENV
-        else
-          echo "tag_exists=false" >> $GITHUB_ENV
-        fi
-
-    - name: Commit Files
-      env:
-        TZ: America/New_York
+    - name: Configure Git
       run: |
         git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
-        git add .
-        git commit -m ":pencil: Auto update Chrome at $(date +'%Y-%m-%d %H:%M')" -a || echo "No changes to commit"
+
+    - name: Commit Files
+      if: env.metadata_changed == 'true'
+      run: |
+        git add -- data.json readme.md
+        git commit -m "${{ env.commit_message }}" --only -- data.json readme.md
 
     - name: Push Changes
-      run: |
-        git push origin main
+      run: git push origin main
 
     - name: Create Tag
       if: env.exe_exists == 'true' && env.tag_exists == 'false'
@@ -73,6 +59,32 @@ jobs:
       if: env.exe_exists == 'true' && env.tag_exists == 'false'
       run: |
         git checkout --orphan temp_branch
-        git add -A
         git commit -m "Init"
         git push --force origin temp_branch:main
+
+  # The signed feed Pitstop reads. It lives alone in the orphan branch feed,
+  # so main's resets leave it alone, and is served from there by
+  # raw.githubusercontent.com and jsDelivr. A separate job keeps the key away
+  # from the release action.
+  feed:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v6
+
+    - uses: actions/setup-go@v7
+      with:
+        go-version-file: go.mod
+
+    - name: Configure Git
+      run: |
+        git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+
+    - name: Prepare Feed
+      env:
+        FEED_SIGNING_KEY: ${{ secrets.FEED_SIGNING_KEY }}
+      run: go run . prepare-feed
+
+    - name: Publish Feed
+      if: env.feed_changed == 'true'
+      run: git push --force origin "${{ env.feed_commit }}:refs/heads/feed"
