@@ -251,7 +251,7 @@ func lastTag() (string, error) {
 // compareVersions orders versions by their numbers; "" comes first.
 func compareVersions(a, b string) int {
 	numbers := func(v string) (n []int) {
-		for _, s := range strings.Split(v, ".") {
+		for s := range strings.SplitSeq(v, ".") {
 			i, _ := strconv.Atoi(s)
 			n = append(n, i)
 		}
