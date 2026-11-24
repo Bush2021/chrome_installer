@@ -12,17 +12,17 @@ Stable release archive: https://github.com/Bush2021/chrome_installer/releases
 
 | Architecture | Version | Size | SHA-256 | Download |
 |--------------|---------|------|---------|----------|
-| **x86** | `158.0.8127.37` | 440.92 MB | `9f408365bb33b709...` | [Download](https://dl.google.com/release2/chrome/acnf45ma7wksgqr74ua6ecjqei3q_158.0.8127.37/158.0.8127.37_chrome_installer_uncompressed.exe) |
-| **x64** | `158.0.8127.37` | 511.63 MB | `e64285a90f7edb6e...` | [Download](https://dl.google.com/release2/chrome/ad42hbny6imw7va3w7vi2faooxba_158.0.8127.37/158.0.8127.37_chrome_installer_uncompressed.exe) |
-| **ARM64** | `158.0.8127.37` | 486.32 MB | `68a9ce30ded5b1f0...` | [Download](https://dl.google.com/release2/chrome/achmvkoodhx6n2pbdfwya7pv55qa_158.0.8127.37/158.0.8127.37_chrome_installer_uncompressed.exe) |
+| **x86** | `158.0.8127.89` | 440.93 MB | `587aaf6bc0be6a2e...` | [Download](https://dl.google.com/release2/chrome/ads3hjcdxv4d63a4tvmbe5agceea_158.0.8127.89/158.0.8127.89_chrome_installer_uncompressed.exe) |
+| **x64** | `158.0.8127.89` | 511.64 MB | `e94768730a55bfe6...` | [Download](https://dl.google.com/release2/chrome/cegotz2vlsfimli3uv34l7ztzm_158.0.8127.89/158.0.8127.89_chrome_installer_uncompressed.exe) |
+| **ARM64** | `158.0.8127.89` | 486.33 MB | `4b6ec8876015a3db...` | [Download](https://dl.google.com/release2/chrome/cgcjk4fxrbuisvbxh2kdzr7rg4_158.0.8127.89/158.0.8127.89_chrome_installer_uncompressed.exe) |
 
 <details>
 <summary>Full SHA-256 (sha256sum -c)</summary>
 
 ```
-9f408365bb33b709b79fae02ba156009e05a97f25db5801fa3340b7646b1376a  x86_158.0.8127.37_chrome_installer_uncompressed.exe
-e64285a90f7edb6e05b8178e6e5a0eca678a9fdd20e9f381416476829ba02a7a  x64_158.0.8127.37_chrome_installer_uncompressed.exe
-68a9ce30ded5b1f06d86c2d465e28c4be1e50689bbf9786daa18de41b60581e9  arm64_158.0.8127.37_chrome_installer_uncompressed.exe
+587aaf6bc0be6a2e481534537af43d591764b2704b2cf029a6f7535b7fa8e643  x86_158.0.8127.89_chrome_installer_uncompressed.exe
+e94768730a55bfe698d65899a9aa43d498a8816e7ce3b307bd9d07ac230a9371  x64_158.0.8127.89_chrome_installer_uncompressed.exe
+4b6ec8876015a3dbe8fc54d0e2917f1967de18efb97278f386a4ff82f59406b1  arm64_158.0.8127.89_chrome_installer_uncompressed.exe
 ```
 
 </details>
@@ -69,17 +69,17 @@ b6a13cc3317b131bfe1c47354b81adf4e983ed5f804063a25d47697a47b8b4d8  x86_160.0.8171
 
 | Architecture | Version | Size | SHA-256 | Download |
 |--------------|---------|------|---------|----------|
-| **x86** | `160.0.8179.0` | 423.05 MB | `00a42fc07c906df8...` | [Download](https://dl.google.com/release2/chrome/adygujiq7nd4zqhehn3a5o7iidfq_160.0.8179.0/160.0.8179.0_chrome_installer_uncompressed.exe) |
-| **x64** | `160.0.8179.0` | 515.46 MB | `b4e5244bf51dcdbf...` | [Download](https://dl.google.com/release2/chrome/mk2vt7mqvcmunevk7qa3vcr3cq_160.0.8179.0/160.0.8179.0_chrome_installer_uncompressed.exe) |
-| **ARM64** | `160.0.8179.0` | 487.03 MB | `dd0470684a908111...` | [Download](https://dl.google.com/release2/chrome/adq5mlmt6u6zrmukcsaqwj3fovgq_160.0.8179.0/160.0.8179.0_chrome_installer_uncompressed.exe) |
+| **x86** | `160.0.8180.0` | 423.6 MB | `b920246784851c9e...` | [Download](https://dl.google.com/release2/chrome/accnqnvaeghewi5p4iko5wu4z2ca_160.0.8180.0/160.0.8180.0_chrome_installer_uncompressed.exe) |
+| **x64** | `160.0.8180.0` | 514.46 MB | `1fcbc6eac65f4065...` | [Download](https://dl.google.com/release2/chrome/adab4pjj5b6wnwhuhslsy5z7vi2a_160.0.8180.0/160.0.8180.0_chrome_installer_uncompressed.exe) |
+| **ARM64** | `160.0.8180.0` | 487.34 MB | `3b088817557b3225...` | [Download](https://dl.google.com/release2/chrome/adtbpccx7nefi6bfxqiq6dud7fua_160.0.8180.0/160.0.8180.0_chrome_installer_uncompressed.exe) |
 
 <details>
 <summary>Full SHA-256 (sha256sum -c)</summary>
 
 ```
-00a42fc07c906df85e1eb6f17fd88c7cef1830e7f77f13e262abb8e2492c3474  x86_160.0.8179.0_chrome_installer_uncompressed.exe
-b4e5244bf51dcdbf81e498edf2f267d629fd08cafa2e81db06af0792b47f0cab  x64_160.0.8179.0_chrome_installer_uncompressed.exe
-dd0470684a908111a4e1c751fc275596b59cd83e59d25e321b30a872e4964c51  arm64_160.0.8179.0_chrome_installer_uncompressed.exe
+b920246784851c9e60046313f6377c9eab10eabc55cb9acfcdc6753f15e546bc  x86_160.0.8180.0_chrome_installer_uncompressed.exe
+1fcbc6eac65f4065d0b002092aa74e64ba09bcf2b995b71921f842a34dc3d086  x64_160.0.8180.0_chrome_installer_uncompressed.exe
+3b088817557b322575cbea1f5d495eab400a288d2cacafaa88427e3d6bfeebed  arm64_160.0.8180.0_chrome_installer_uncompressed.exe
 ```
 
 </details>
